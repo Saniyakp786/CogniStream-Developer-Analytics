@@ -1,0 +1,1001 @@
+developer_id,session_id,session_date,start_time,end_time,experience_level,task_type,task_complexity,coding_duration_minutes,focus_duration_minutes,interruption_count,context_switch_count,break_duration_minutes,cognitive_load_level,flow_state_duration_minutes,tasks_completed,bug_count,meeting_minutes,work_mode,productivity_score,session_duration_minutes,focus_ratio,flow_ratio,flag_overlapping_session,flag_low_focus_ratio,flag_zero_flow
+DEV003,S0001,2025-01-06,07:35:00,12:20:00,Senior,Feature Development,High,250.0,207.9,3,4,35.0,Medium,60.1,3,1,0.0,Hybrid,72.4,285.0,0.8316,0.2891,False,False,False
+DEV010,S0002,2025-01-06,12:45:00,15:35:00,Mid,Bug Fixing,High,155.0,129.3,0,1,15.0,Medium,53.6,3,1,0.0,Remote,72.4,170.0,0.8342,0.4145,False,False,False
+DEV008,S0003,2025-01-06,12:55:00,16:40:00,Senior,DevOps/Deployment,Medium,200.0,128.2,7,9,25.0,High,33.3,5,1,0.0,Office,50.9,225.0,0.641,0.2598,False,False,False
+DEV006,S0004,2025-01-06,13:45:00,17:10:00,Lead,Feature Development,Medium,155.0,116.1,3,3,35.0,Medium,46.5,4,0,15.0,Office,71.1,205.0,0.749,0.4005,False,False,False
+DEV032,S0005,2025-01-07,07:40:00,12:10:00,Lead,Documentation,Medium,240.0,190.5,3,2,30.0,Medium,66.9,5,0,0.0,Hybrid,79.4,270.0,0.7938,0.3512,False,False,False
+DEV033,S0006,2025-01-07,10:25:00,12:35:00,Mid,Refactoring,Medium,90.0,60.6,3,3,10.0,Medium,17.7,2,0,30.0,Hybrid,54.7,130.0,0.6733,0.2921,False,False,False
+DEV018,S0007,2025-01-07,11:30:00,15:10:00,Junior,Bug Fixing,Low,165.0,93.3,4,5,25.0,High,2.3,4,2,30.0,Remote,43.0,220.0,0.5655,0.0247,False,False,False
+DEV048,S0008,2025-01-07,13:35:00,15:55:00,Mid,Feature Development,High,90.0,63.4,2,4,5.0,High,21.8,3,2,45.0,Remote,63.8,140.0,0.7044,0.3438,False,False,False
+DEV037,S0009,2025-01-08,07:30:00,09:45:00,Junior,Feature Development,Medium,85.0,37.8,3,4,20.0,High,1.0,0,2,30.0,Hybrid,25.2,135.0,0.4447,0.0265,False,False,False
+DEV049,S0010,2025-01-08,08:15:00,10:30:00,Senior,Testing,Medium,120.0,57.3,6,8,15.0,High,2.7,4,4,0.0,Remote,32.7,135.0,0.4775,0.0471,False,False,False
+DEV026,S0011,2025-01-08,09:35:00,11:45:00,Junior,Documentation,Low,115.0,73.8,3,4,15.0,Medium,16.6,3,1,0.0,Remote,60.2,130.0,0.6417,0.2249,False,False,False
+DEV034,S0012,2025-01-08,09:50:00,13:35:00,Mid,Bug Fixing,Medium,150.0,97.8,2,5,30.0,High,28.8,3,2,45.0,Remote,55.4,225.0,0.652,0.2945,False,False,False
+DEV049,S0013,2025-01-08,11:40:00,13:50:00,Senior,Testing,Medium,65.0,33.3,2,5,20.0,High,18.2,1,2,45.0,Remote,43.3,130.0,0.5123,0.5465,False,False,False
+DEV008,S0014,2025-01-08,13:20:00,15:20:00,Senior,Documentation,Medium,75.0,37.3,4,4,15.0,High,0.3,1,0,30.0,Office,37.1,120.0,0.4973,0.008,False,False,False
+DEV027,S0015,2025-01-09,09:45:00,11:30:00,Mid,Bug Fixing,High,48.0,23.3,3,5,15.0,High,1.1,0,0,42.0,Remote,29.3,105.0,0.4854,0.0472,False,False,False
+DEV030,S0016,2025-01-09,09:50:00,11:55:00,Senior,Feature Development,Low,100.0,43.5,6,8,10.0,Medium,7.0,2,2,15.0,Office,28.1,125.0,0.435,0.1609,False,False,False
+DEV010,S0017,2025-01-09,11:35:00,14:40:00,Mid,Code Review,Low,86.0,35.9,4,6,25.0,High,4.1,1,0,74.0,Remote,40.8,185.0,0.4174,0.1142,False,False,False
+DEV034,S0018,2025-01-09,12:30:00,17:10:00,Mid,Bug Fixing,Low,200.0,142.8,2,3,35.0,Low,34.1,5,0,45.0,Remote,69.1,280.0,0.714,0.2388,False,False,False
+DEV003,S0019,2025-01-09,13:15:00,17:20:00,Senior,Feature Development,Low,215.0,173.6,1,1,30.0,Low,68.8,4,0,0.0,Hybrid,84.3,245.0,0.8074,0.3963,False,False,False
+DEV048,S0020,2025-01-10,08:15:00,11:50:00,Mid,Feature Development,Medium,155.0,119.4,2,3,30.0,Medium,37.5,2,2,30.0,Remote,60.5,215.0,0.7703,0.3141,True,False,False
+DEV048,S0021,2025-01-10,09:40:00,13:00:00,Mid,Bug Fixing,Medium,145.0,85.5,4,6,25.0,High,20.6,2,1,30.0,Remote,38.5,200.0,0.5897,0.2409,True,False,False
+DEV004,S0022,2025-01-10,10:35:00,14:30:00,Senior,Code Review,Medium,180.0,143.2,2,4,25.0,Medium,50.4,4,0,30.0,Hybrid,75.5,235.0,0.7956,0.352,False,False,False
+DEV034,S0023,2025-01-10,12:00:00,14:00:00,Mid,Testing,High,70.0,28.8,3,3,20.0,High,0.8,2,1,30.0,Remote,42.4,120.0,0.4114,0.0278,False,False,False
+DEV008,S0024,2025-01-10,12:15:00,14:05:00,Senior,Bug Fixing,Medium,95.0,49.7,7,9,15.0,High,3.0,3,3,0.0,Office,34.1,110.0,0.5232,0.0604,False,False,False
+DEV050,S0025,2025-01-10,12:30:00,17:25:00,Junior,Bug Fixing,Medium,245.0,197.0,0,1,35.0,Low,68.6,5,1,15.0,Remote,82.3,295.0,0.8041,0.3482,False,False,False
+DEV014,S0026,2025-01-13,08:55:00,10:45:00,Senior,Bug Fixing,Medium,46.0,5.0,7,8,20.0,High,0.0,0,1,44.0,Hybrid,5.0,110.0,0.1087,0.0,False,True,True
+DEV031,S0027,2025-01-13,09:45:00,14:30:00,Senior,Refactoring,High,255.0,182.8,7,7,30.0,High,28.7,5,4,0.0,Hybrid,51.4,285.0,0.7169,0.157,False,False,False
+DEV024,S0028,2025-01-13,10:05:00,12:45:00,Senior,Feature Development,High,130.0,95.1,3,4,30.0,High,36.3,0,0,0.0,Remote,59.9,160.0,0.7315,0.3817,False,False,False
+DEV044,S0029,2025-01-14,08:15:00,10:20:00,Mid,Refactoring,Medium,65.0,48.0,2,2,10.0,Medium,0.1,1,0,50.0,Remote,41.7,125.0,0.7385,0.0021,False,False,False
+DEV002,S0030,2025-01-14,11:05:00,13:35:00,Mid,DevOps/Deployment,High,85.0,44.7,4,5,20.0,High,3.1,2,1,45.0,Remote,39.4,150.0,0.5259,0.0694,False,False,False
+DEV026,S0031,2025-01-15,07:45:00,12:05:00,Junior,Feature Development,Low,215.0,153.4,2,3,30.0,High,45.5,3,0,15.0,Remote,63.4,260.0,0.7135,0.2966,False,False,False
+DEV011,S0032,2025-01-15,07:50:00,11:30:00,Mid,Feature Development,Medium,125.0,62.4,5,5,35.0,High,5.8,3,1,60.0,Hybrid,40.8,220.0,0.4992,0.0929,False,False,False
+DEV039,S0033,2025-01-15,09:20:00,12:35:00,Junior,Testing,Medium,140.0,95.4,2,5,25.0,High,30.6,3,2,30.0,Hybrid,57.0,195.0,0.6814,0.3208,False,False,False
+DEV009,S0034,2025-01-15,10:10:00,14:10:00,Junior,Refactoring,Medium,210.0,133.2,4,6,15.0,High,40.0,4,0,15.0,Remote,60.1,240.0,0.6343,0.3003,False,False,False
+DEV044,S0035,2025-01-15,12:50:00,16:25:00,Mid,Refactoring,Low,145.0,100.0,3,2,25.0,Medium,31.0,2,1,45.0,Remote,55.0,215.0,0.6897,0.31,False,False,False
+DEV012,S0036,2025-01-15,13:10:00,16:00:00,Lead,DevOps/Deployment,High,95.0,20.0,8,8,30.0,High,0.0,0,3,45.0,Office,5.0,170.0,0.2105,0.0,False,False,True
+DEV031,S0037,2025-01-16,09:30:00,13:40:00,Senior,Refactoring,High,235.0,190.3,3,5,15.0,High,57.5,4,2,0.0,Hybrid,62.7,250.0,0.8098,0.3022,False,False,False
+DEV039,S0038,2025-01-16,10:40:00,15:35:00,Junior,Code Review,Medium,230.0,185.2,0,2,35.0,Medium,72.1,4,0,30.0,Remote,80.6,295.0,0.8052,0.3893,False,False,False
+DEV012,S0039,2025-01-16,11:00:00,13:55:00,Lead,Feature Development,Low,110.0,72.0,4,4,20.0,Medium,22.9,3,1,45.0,Office,56.7,175.0,0.6545,0.3181,False,False,False
+DEV003,S0040,2025-01-16,12:10:00,13:55:00,Senior,Documentation,Low,53.0,21.1,3,3,10.0,Medium,0.6,1,0,42.0,Hybrid,26.1,105.0,0.3981,0.0284,False,False,False
+DEV032,S0041,2025-01-16,12:50:00,16:50:00,Lead,Refactoring,Medium,175.0,136.7,2,2,20.0,Medium,52.7,3,0,45.0,Hybrid,74.4,240.0,0.7811,0.3855,False,False,False
+DEV043,S0042,2025-01-17,08:50:00,13:20:00,Senior,Testing,Medium,200.0,125.4,3,7,25.0,High,38.2,2,4,45.0,Office,40.6,270.0,0.627,0.3046,False,False,False
+DEV046,S0043,2025-01-17,09:00:00,13:15:00,Senior,Testing,Medium,200.0,163.5,3,3,25.0,Medium,54.0,5,2,30.0,Office,72.9,255.0,0.8175,0.3303,False,False,False
+DEV031,S0044,2025-01-17,11:50:00,16:00:00,Senior,Bug Fixing,Low,205.0,177.4,1,5,30.0,Low,74.9,7,0,15.0,Hybrid,93.1,250.0,0.8654,0.4222,False,False,False
+DEV050,S0045,2025-01-20,07:55:00,12:30:00,Junior,Feature Development,Medium,230.0,181.5,3,3,45.0,High,41.3,2,1,0.0,Remote,57.5,275.0,0.7891,0.2275,False,False,False
+DEV012,S0046,2025-01-20,08:05:00,09:35:00,Lead,Feature Development,Medium,45.0,5.0,6,6,15.0,High,0.8,1,1,30.0,Office,14.4,90.0,0.1111,0.16,False,True,False
+DEV039,S0047,2025-01-20,08:35:00,12:55:00,Junior,Feature Development,High,165.0,94.5,5,6,35.0,High,6.6,1,3,60.0,Remote,34.8,260.0,0.5727,0.0698,False,False,False
+DEV036,S0048,2025-01-20,10:50:00,15:00:00,Junior,Code Review,Medium,200.0,147.9,0,4,35.0,High,61.1,5,2,15.0,Remote,72.2,250.0,0.7395,0.4131,False,False,False
+DEV018,S0049,2025-01-20,13:25:00,17:55:00,Junior,DevOps/Deployment,Low,230.0,174.2,1,2,40.0,Medium,43.0,6,0,0.0,Remote,74.3,270.0,0.7574,0.2468,False,False,False
+DEV019,S0050,2025-01-21,11:10:00,13:50:00,Senior,Feature Development,Medium,105.0,75.3,1,3,25.0,Medium,21.2,4,1,30.0,Remote,66.3,160.0,0.7171,0.2815,False,False,False
+DEV048,S0051,2025-01-22,08:35:00,11:35:00,Mid,Bug Fixing,Medium,125.0,51.6,5,9,25.0,High,15.4,2,1,30.0,Remote,39.2,180.0,0.4128,0.2984,False,False,False
+DEV041,S0052,2025-01-22,09:00:00,13:00:00,Mid,Code Review,High,195.0,152.5,2,4,30.0,High,43.3,3,0,15.0,Remote,65.5,240.0,0.7821,0.2839,False,False,False
+DEV035,S0053,2025-01-22,09:35:00,12:25:00,Mid,Code Review,Low,120.0,88.6,2,3,20.0,Medium,32.9,3,0,30.0,Remote,64.6,170.0,0.7383,0.3713,False,False,False
+DEV030,S0054,2025-01-22,10:15:00,14:35:00,Senior,Code Review,High,200.0,119.6,7,9,30.0,High,26.6,4,1,30.0,Hybrid,53.1,260.0,0.598,0.2224,True,False,False
+DEV024,S0055,2025-01-22,11:00:00,13:45:00,Senior,Bug Fixing,Medium,120.0,98.3,1,4,15.0,Medium,41.4,2,2,30.0,Remote,60.9,165.0,0.8192,0.4212,False,False,False
+DEV031,S0056,2025-01-22,11:30:00,13:10:00,Senior,Bug Fixing,High,50.0,5.0,7,11,10.0,High,0.2,1,4,40.0,Office,5.0,100.0,0.1,0.04,False,True,False
+DEV038,S0057,2025-01-22,11:35:00,13:15:00,Mid,Documentation,High,75.0,51.4,5,4,10.0,High,1.2,1,1,15.0,Office,38.9,100.0,0.6853,0.0233,False,False,False
+DEV008,S0058,2025-01-22,11:35:00,16:00:00,Senior,Feature Development,High,230.0,173.6,7,8,20.0,High,27.1,2,1,15.0,Office,45.8,265.0,0.7548,0.1561,False,False,False
+DEV030,S0059,2025-01-22,12:15:00,16:00:00,Senior,Code Review,High,195.0,116.3,6,9,30.0,High,22.6,4,1,0.0,Hybrid,50.7,225.0,0.5964,0.1943,True,False,False
+DEV002,S0060,2025-01-23,07:30:00,11:25:00,Mid,Feature Development,Medium,120.0,82.7,2,5,25.0,High,31.4,0,2,90.0,Remote,47.7,235.0,0.6892,0.3797,False,False,False
+DEV020,S0061,2025-01-23,07:40:00,12:35:00,Senior,Refactoring,Low,205.0,164.3,2,2,45.0,Low,56.6,7,1,45.0,Remote,78.3,295.0,0.8015,0.3445,False,False,False
+DEV048,S0062,2025-01-23,07:45:00,09:30:00,Mid,Code Review,High,55.0,16.0,5,6,20.0,High,0.5,2,0,30.0,Hybrid,32.7,105.0,0.2909,0.0312,False,False,False
+DEV003,S0063,2025-01-23,10:20:00,12:15:00,Senior,Bug Fixing,Medium,70.0,12.5,5,8,15.0,High,0.0,2,1,30.0,Hybrid,23.4,115.0,0.1786,0.0,False,True,True
+DEV009,S0064,2025-01-23,10:55:00,12:30:00,Junior,Documentation,High,35.0,11.4,3,3,30.0,High,0.3,1,3,30.0,Remote,17.4,95.0,0.3257,0.0263,False,False,False
+DEV015,S0065,2025-01-23,11:55:00,13:50:00,Mid,Feature Development,Low,105.0,68.6,4,7,10.0,Medium,16.7,2,0,0.0,Office,50.5,115.0,0.6533,0.2434,False,False,False
+DEV044,S0066,2025-01-23,13:25:00,18:25:00,Mid,Bug Fixing,Medium,275.0,230.7,1,2,25.0,Low,91.8,7,2,0.0,Remote,80.9,300.0,0.8389,0.3979,False,False,False
+DEV001,S0067,2025-01-24,08:10:00,13:10:00,Senior,Code Review,High,230.0,181.2,3,4,40.0,High,52.5,5,0,30.0,Remote,81.7,300.0,0.7878,0.2897,False,False,False
+DEV034,S0068,2025-01-24,11:15:00,15:35:00,Mid,Feature Development,Medium,145.0,54.2,7,8,25.0,High,4.3,3,4,90.0,Remote,26.0,260.0,0.3738,0.0793,False,False,False
+DEV050,S0069,2025-01-24,11:20:00,16:20:00,Junior,Feature Development,Medium,190.0,123.3,3,4,50.0,High,31.0,2,0,60.0,Hybrid,44.9,300.0,0.6489,0.2514,False,False,False
+DEV028,S0070,2025-01-27,10:10:00,14:35:00,Junior,DevOps/Deployment,High,225.0,179.8,2,2,25.0,High,42.0,2,1,15.0,Hybrid,55.8,265.0,0.7991,0.2336,False,False,False
+DEV049,S0071,2025-01-27,10:30:00,12:15:00,Senior,Bug Fixing,Medium,75.0,18.2,5,8,0.0,High,0.1,1,0,30.0,Remote,22.3,105.0,0.2427,0.0055,False,False,False
+DEV042,S0072,2025-01-27,11:20:00,14:45:00,Senior,Feature Development,Low,185.0,119.4,5,7,20.0,Medium,24.1,3,0,0.0,Hybrid,61.1,205.0,0.6454,0.2018,False,False,False
+DEV034,S0073,2025-01-28,10:40:00,13:45:00,Mid,Refactoring,Medium,110.0,55.7,6,6,30.0,High,1.0,2,1,45.0,Hybrid,34.6,185.0,0.5064,0.018,True,False,False
+DEV010,S0074,2025-01-28,11:05:00,13:10:00,Mid,Feature Development,Low,110.0,63.6,4,5,15.0,Medium,0.9,3,1,0.0,Remote,45.3,125.0,0.5782,0.0142,False,False,False
+DEV012,S0075,2025-01-28,11:35:00,14:25:00,Lead,Feature Development,Medium,95.0,21.9,8,10,15.0,High,6.6,2,1,60.0,Office,29.2,170.0,0.2305,0.3014,False,False,False
+DEV034,S0076,2025-01-28,12:25:00,16:35:00,Mid,DevOps/Deployment,Low,135.0,107.0,1,4,25.0,Medium,37.3,2,2,90.0,Remote,58.9,250.0,0.7926,0.3486,True,False,False
+DEV014,S0077,2025-01-28,13:35:00,18:25:00,Senior,Feature Development,Low,260.0,195.5,5,6,30.0,Medium,53.0,4,1,0.0,Hybrid,62.0,290.0,0.7519,0.2711,False,False,False
+DEV014,S0078,2025-01-29,07:40:00,09:10:00,Senior,Bug Fixing,Medium,39.0,5.0,3,4,15.0,High,0.0,2,0,36.0,Hybrid,27.7,90.0,0.1282,0.0,False,True,True
+DEV025,S0079,2025-01-29,09:45:00,11:45:00,Senior,Documentation,Low,80.0,42.3,5,4,10.0,Medium,4.1,2,0,30.0,Remote,46.5,120.0,0.5287,0.0969,False,False,False
+DEV034,S0080,2025-01-29,11:05:00,14:45:00,Mid,Refactoring,Low,205.0,180.6,0,0,15.0,Low,76.1,5,0,0.0,Remote,94.2,220.0,0.881,0.4214,False,False,False
+DEV008,S0081,2025-01-29,12:05:00,15:00:00,Senior,Code Review,Medium,90.0,63.4,2,5,25.0,High,28.4,3,1,60.0,Office,64.6,175.0,0.7044,0.4479,False,False,False
+DEV035,S0082,2025-01-29,12:50:00,15:40:00,Mid,Feature Development,High,92.0,48.4,4,6,10.0,High,1.1,1,0,68.0,Remote,43.2,170.0,0.5261,0.0227,False,False,False
+DEV032,S0083,2025-01-30,09:20:00,11:50:00,Lead,Refactoring,Medium,100.0,71.1,3,3,5.0,High,23.6,2,5,45.0,Office,43.9,150.0,0.711,0.3319,False,False,False
+DEV010,S0084,2025-01-30,09:35:00,11:50:00,Mid,Bug Fixing,Medium,85.0,52.5,1,2,20.0,Medium,30.0,3,0,30.0,Remote,63.8,135.0,0.6176,0.5714,False,False,False
+DEV011,S0085,2025-01-31,09:05:00,12:05:00,Mid,Refactoring,Medium,115.0,95.6,2,1,35.0,High,26.4,2,1,30.0,Remote,63.2,180.0,0.8313,0.2762,False,False,False
+DEV031,S0086,2025-01-31,10:05:00,13:25:00,Senior,Documentation,Low,90.0,34.0,5,4,30.0,High,5.4,2,0,80.0,Hybrid,34.2,200.0,0.3778,0.1588,False,False,False
+DEV023,S0087,2025-01-31,11:35:00,13:50:00,Lead,Bug Fixing,Medium,115.0,74.6,3,5,20.0,High,23.8,1,3,0.0,Remote,39.8,135.0,0.6487,0.319,False,False,False
+DEV024,S0088,2025-02-03,08:00:00,12:00:00,Senior,Feature Development,Medium,155.0,127.7,2,4,40.0,High,44.0,2,1,45.0,Remote,56.7,240.0,0.8239,0.3446,False,False,False
+DEV036,S0089,2025-02-03,10:30:00,13:15:00,Junior,Feature Development,Low,100.0,55.5,4,6,20.0,High,1.4,0,3,45.0,Office,22.9,165.0,0.555,0.0252,False,False,False
+DEV021,S0090,2025-02-03,11:30:00,15:40:00,Senior,Feature Development,Low,225.0,177.1,2,5,25.0,Medium,55.7,4,0,0.0,Hybrid,73.8,250.0,0.7871,0.3145,False,False,False
+DEV024,S0091,2025-02-04,07:30:00,10:55:00,Senior,Feature Development,Medium,180.0,157.0,1,2,25.0,Medium,74.7,4,2,0.0,Remote,74.9,205.0,0.8722,0.4758,False,False,False
+DEV022,S0092,2025-02-04,09:10:00,11:40:00,Mid,Code Review,High,115.0,42.8,6,9,5.0,High,3.3,2,0,30.0,Office,31.2,150.0,0.3722,0.0771,False,False,False
+DEV038,S0093,2025-02-04,09:40:00,13:10:00,Mid,Bug Fixing,Low,165.0,80.9,6,8,15.0,High,2.6,5,0,30.0,Office,45.8,210.0,0.4903,0.0321,False,False,False
+DEV018,S0094,2025-02-04,11:35:00,16:30:00,Junior,Bug Fixing,Medium,170.0,122.9,2,3,35.0,High,36.5,2,2,90.0,Remote,53.7,295.0,0.7229,0.297,False,False,False
+DEV027,S0095,2025-02-04,12:25:00,15:35:00,Mid,Refactoring,High,135.0,80.0,6,6,25.0,High,1.6,1,1,30.0,Hybrid,31.7,190.0,0.5926,0.02,False,False,False
+DEV048,S0096,2025-02-04,13:25:00,17:20:00,Mid,DevOps/Deployment,Low,165.0,99.6,5,6,25.0,High,22.9,5,0,45.0,Remote,65.0,235.0,0.6036,0.2299,False,False,False
+DEV009,S0097,2025-02-05,08:50:00,10:20:00,Junior,DevOps/Deployment,Medium,80.0,21.3,6,9,10.0,High,2.8,1,1,0.0,Remote,25.3,90.0,0.2662,0.1315,False,False,False
+DEV015,S0098,2025-02-05,13:10:00,17:40:00,Mid,DevOps/Deployment,Medium,190.0,126.7,3,3,35.0,Medium,33.9,5,1,45.0,Office,70.7,270.0,0.6668,0.2676,False,False,False
+DEV027,S0099,2025-02-05,13:15:00,15:15:00,Mid,DevOps/Deployment,Low,105.0,78.4,2,2,15.0,Low,30.3,1,1,0.0,Remote,65.5,120.0,0.7467,0.3865,False,False,False
+DEV046,S0100,2025-02-06,09:05:00,12:20:00,Senior,Bug Fixing,Medium,160.0,103.9,5,7,20.0,High,31.1,3,1,15.0,Office,60.1,195.0,0.6494,0.2993,False,False,False
+DEV025,S0101,2025-02-06,09:20:00,11:35:00,Senior,Feature Development,Medium,115.0,77.7,1,2,20.0,Medium,32.3,2,0,0.0,Remote,57.8,135.0,0.6757,0.4157,False,False,False
+DEV041,S0102,2025-02-06,11:40:00,16:15:00,Mid,Code Review,Low,205.0,142.2,5,8,40.0,High,27.5,6,0,30.0,Hybrid,63.9,275.0,0.6937,0.1934,False,False,False
+DEV014,S0103,2025-02-06,12:15:00,15:05:00,Senior,Feature Development,Low,120.0,81.8,2,6,20.0,Medium,37.7,2,0,30.0,Hybrid,58.1,170.0,0.6817,0.4609,False,False,False
+DEV036,S0104,2025-02-06,12:55:00,17:45:00,Junior,Feature Development,Medium,205.0,128.6,4,7,25.0,High,25.0,2,1,60.0,Remote,43.1,290.0,0.6273,0.1944,False,False,False
+DEV029,S0105,2025-02-06,13:35:00,16:50:00,Junior,DevOps/Deployment,Medium,170.0,93.2,5,6,25.0,High,15.0,3,3,0.0,Office,30.8,195.0,0.5482,0.1609,False,False,False
+DEV003,S0106,2025-02-06,13:45:00,17:55:00,Senior,Feature Development,High,220.0,171.6,2,4,30.0,High,50.8,3,1,0.0,Hybrid,67.3,250.0,0.78,0.296,False,False,False
+DEV030,S0107,2025-02-07,11:15:00,15:15:00,Senior,Bug Fixing,Low,205.0,156.5,2,3,35.0,Low,50.2,6,0,0.0,Hybrid,77.7,240.0,0.7634,0.3208,False,False,False
+DEV026,S0108,2025-02-07,11:55:00,16:05:00,Junior,Code Review,Medium,195.0,137.3,2,5,25.0,High,48.7,4,0,30.0,Remote,65.3,250.0,0.7041,0.3547,False,False,False
+DEV006,S0109,2025-02-07,12:25:00,15:55:00,Lead,Bug Fixing,Medium,155.0,113.4,3,6,25.0,Medium,37.5,3,2,30.0,Hybrid,58.0,210.0,0.7316,0.3307,False,False,False
+DEV040,S0110,2025-02-07,12:40:00,14:15:00,Senior,Bug Fixing,Medium,80.0,53.5,3,5,0.0,Medium,18.5,1,0,15.0,Office,53.6,95.0,0.6688,0.3458,False,False,False
+DEV048,S0111,2025-02-07,12:55:00,17:35:00,Mid,Feature Development,Low,170.0,49.0,13,13,35.0,High,1.0,2,0,75.0,Office,26.5,280.0,0.2882,0.0204,False,False,False
+DEV027,S0112,2025-02-10,09:05:00,12:40:00,Mid,Bug Fixing,Low,165.0,94.7,5,8,20.0,High,25.9,3,6,30.0,Remote,33.0,215.0,0.5739,0.2735,False,False,False
+DEV044,S0113,2025-02-10,09:30:00,12:55:00,Mid,Refactoring,Low,170.0,135.2,1,1,35.0,Low,56.9,3,1,0.0,Remote,77.2,205.0,0.7953,0.4209,False,False,False
+DEV017,S0114,2025-02-10,10:15:00,13:55:00,Mid,DevOps/Deployment,High,170.0,134.5,1,2,20.0,High,51.0,2,1,30.0,Office,60.7,220.0,0.7912,0.3792,False,False,False
+DEV005,S0115,2025-02-10,10:45:00,12:15:00,Junior,Code Review,Medium,45.0,18.2,2,4,15.0,High,1.3,1,0,30.0,Hybrid,32.7,90.0,0.4044,0.0714,False,False,False
+DEV004,S0116,2025-02-10,11:05:00,15:00:00,Senior,DevOps/Deployment,Medium,110.0,73.9,5,5,35.0,High,4.3,3,1,90.0,Hybrid,45.3,235.0,0.6718,0.0582,True,False,False
+DEV006,S0117,2025-02-10,11:10:00,15:55:00,Lead,Feature Development,Low,245.0,199.5,2,5,40.0,Medium,68.5,4,0,0.0,Hybrid,81.8,285.0,0.8143,0.3434,False,False,False
+DEV004,S0118,2025-02-10,11:45:00,14:15:00,Senior,Bug Fixing,High,65.0,9.4,4,7,25.0,High,0.0,0,0,60.0,Hybrid,14.8,150.0,0.1446,0.0,True,True,True
+DEV033,S0119,2025-02-10,13:50:00,18:15:00,Mid,Feature Development,Medium,225.0,169.8,3,4,40.0,Medium,49.1,3,1,0.0,Hybrid,60.1,265.0,0.7547,0.2892,False,False,False
+DEV049,S0120,2025-02-11,07:35:00,10:00:00,Senior,Bug Fixing,Low,125.0,76.0,5,7,20.0,High,15.7,6,3,0.0,Remote,57.9,145.0,0.608,0.2066,False,False,False
+DEV021,S0121,2025-02-11,07:55:00,12:00:00,Senior,DevOps/Deployment,Medium,130.0,61.0,6,7,25.0,High,6.1,3,4,90.0,Remote,34.8,245.0,0.4692,0.1,False,False,False
+DEV032,S0122,2025-02-11,08:55:00,12:10:00,Lead,Testing,Medium,140.0,91.4,6,6,25.0,High,3.9,3,3,30.0,Office,36.0,195.0,0.6529,0.0427,False,False,False
+DEV037,S0123,2025-02-12,09:20:00,11:10:00,Junior,Documentation,High,61.0,33.1,2,2,5.0,High,0.6,1,1,44.0,Hybrid,32.0,110.0,0.5426,0.0181,False,False,False
+DEV014,S0124,2025-02-12,10:05:00,13:50:00,Senior,Feature Development,High,150.0,74.4,7,8,30.0,High,15.6,0,3,45.0,Office,24.6,225.0,0.496,0.2097,False,False,False
+DEV044,S0125,2025-02-12,10:05:00,11:55:00,Mid,Documentation,Medium,70.0,47.3,3,2,10.0,High,16.5,1,1,30.0,Remote,44.4,110.0,0.6757,0.3488,False,False,False
+DEV019,S0126,2025-02-12,10:25:00,12:30:00,Senior,Testing,High,115.0,71.9,5,5,10.0,High,18.3,1,2,0.0,Remote,42.9,125.0,0.6252,0.2545,False,False,False
+DEV008,S0127,2025-02-12,10:45:00,15:15:00,Senior,Testing,High,205.0,138.6,3,5,35.0,High,40.5,4,4,30.0,Remote,60.3,270.0,0.6761,0.2922,False,False,False
+DEV036,S0128,2025-02-12,11:35:00,13:40:00,Junior,Testing,Medium,50.0,5.0,4,5,25.0,High,1.1,0,3,50.0,Remote,5.0,125.0,0.1,0.22,False,True,False
+DEV029,S0129,2025-02-12,12:40:00,17:20:00,Junior,Feature Development,Low,175.0,106.7,5,6,45.0,High,19.0,2,0,60.0,Office,42.4,280.0,0.6097,0.1781,True,False,False
+DEV029,S0130,2025-02-12,12:50:00,16:45:00,Junior,Bug Fixing,Medium,190.0,124.3,5,7,15.0,High,24.0,4,4,30.0,Office,41.5,235.0,0.6542,0.1931,True,False,False
+DEV020,S0131,2025-02-13,07:35:00,10:05:00,Senior,Testing,Medium,105.0,95.5,0,0,15.0,Low,41.6,3,0,30.0,Office,82.1,150.0,0.9095,0.4356,False,False,False
+DEV043,S0132,2025-02-13,09:20:00,13:30:00,Senior,Refactoring,Medium,185.0,135.9,3,3,35.0,Medium,47.5,5,0,30.0,Office,73.9,250.0,0.7346,0.3495,False,False,False
+DEV030,S0133,2025-02-13,12:10:00,15:40:00,Senior,DevOps/Deployment,Medium,160.0,131.4,2,3,35.0,Medium,45.7,3,1,15.0,Hybrid,65.4,210.0,0.8212,0.3478,False,False,False
+DEV019,S0134,2025-02-13,12:15:00,13:55:00,Senior,Feature Development,High,35.0,5.0,5,5,25.0,High,0.3,0,6,40.0,Remote,5.0,100.0,0.1429,0.06,False,True,False
+DEV041,S0135,2025-02-14,09:05:00,11:20:00,Mid,Bug Fixing,Medium,66.0,27.2,2,5,15.0,Medium,3.4,2,0,54.0,Remote,36.5,135.0,0.4121,0.125,False,False,False
+DEV005,S0136,2025-02-14,10:40:00,15:05:00,Junior,Feature Development,Medium,170.0,103.6,5,5,35.0,High,19.7,1,2,60.0,Hybrid,35.7,265.0,0.6094,0.1902,False,False,False
+DEV018,S0137,2025-02-14,11:55:00,16:15:00,Junior,Testing,Medium,230.0,169.9,2,2,30.0,High,47.4,4,0,0.0,Remote,65.6,260.0,0.7387,0.279,False,False,False
+DEV047,S0138,2025-02-17,08:15:00,10:15:00,Mid,Feature Development,Low,62.0,34.5,2,3,10.0,Medium,6.5,1,0,48.0,Remote,46.1,120.0,0.5565,0.1884,False,False,False
+DEV041,S0139,2025-02-17,08:40:00,13:15:00,Mid,Feature Development,Medium,190.0,150.0,2,2,40.0,Medium,47.1,2,0,45.0,Remote,65.6,275.0,0.7895,0.314,False,False,False
+DEV042,S0140,2025-02-17,10:20:00,11:55:00,Senior,Bug Fixing,High,75.0,29.0,5,8,5.0,High,2.4,2,4,15.0,Hybrid,32.5,95.0,0.3867,0.0828,False,False,False
+DEV017,S0141,2025-02-17,10:55:00,12:40:00,Mid,Feature Development,Low,43.0,12.3,5,6,20.0,High,0.0,1,2,42.0,Office,23.1,105.0,0.286,0.0,False,False,True
+DEV003,S0142,2025-02-17,12:05:00,16:20:00,Senior,Feature Development,Medium,135.0,77.9,5,7,30.0,High,20.4,3,0,90.0,Hybrid,54.7,255.0,0.577,0.2619,False,False,False
+DEV032,S0143,2025-02-17,12:05:00,14:55:00,Lead,Feature Development,Medium,100.0,27.4,7,7,25.0,High,1.4,2,2,45.0,Office,20.6,170.0,0.274,0.0511,False,False,False
+DEV031,S0144,2025-02-17,12:35:00,17:35:00,Senior,Testing,Low,240.0,183.0,2,3,30.0,Low,57.9,7,1,30.0,Hybrid,71.8,300.0,0.7625,0.3164,False,False,False
+DEV026,S0145,2025-02-17,13:00:00,16:00:00,Junior,Code Review,Low,160.0,117.0,2,3,20.0,Medium,28.5,4,0,0.0,Remote,65.2,180.0,0.7312,0.2436,False,False,False
+DEV015,S0146,2025-02-18,07:50:00,10:20:00,Mid,Testing,Low,70.0,22.4,5,5,20.0,Medium,0.1,1,0,60.0,Office,28.7,150.0,0.32,0.0045,False,False,False
+DEV032,S0147,2025-02-18,08:25:00,11:10:00,Lead,Feature Development,Medium,80.0,35.4,5,5,25.0,High,2.7,0,1,60.0,Office,32.5,165.0,0.4425,0.0763,False,False,False
+DEV044,S0148,2025-02-18,08:50:00,13:45:00,Mid,Bug Fixing,High,215.0,151.0,5,8,35.0,High,28.4,4,3,45.0,Remote,46.2,295.0,0.7023,0.1881,False,False,False
+DEV042,S0149,2025-02-18,09:55:00,12:20:00,Senior,Code Review,Medium,95.0,9.6,7,9,20.0,High,0.0,2,0,30.0,Hybrid,14.5,145.0,0.1011,0.0,False,True,True
+DEV048,S0150,2025-02-18,12:55:00,15:45:00,Mid,Refactoring,Medium,150.0,106.6,4,3,20.0,High,24.7,2,0,0.0,Remote,60.5,170.0,0.7107,0.2317,False,False,False
+DEV029,S0151,2025-02-19,07:40:00,09:40:00,Junior,Code Review,Low,80.0,5.0,9,13,10.0,High,0.0,2,2,30.0,Office,8.5,120.0,0.0625,0.0,False,True,True
+DEV037,S0152,2025-02-19,07:40:00,11:20:00,Junior,Testing,Low,165.0,97.0,4,9,25.0,High,19.1,5,2,30.0,Office,53.5,220.0,0.5879,0.1969,False,False,False
+DEV003,S0153,2025-02-19,08:00:00,12:50:00,Senior,Feature Development,Medium,155.0,105.4,3,5,45.0,High,27.2,3,2,90.0,Hybrid,55.3,290.0,0.68,0.2581,True,False,False
+DEV032,S0154,2025-02-19,08:25:00,12:00:00,Lead,Bug Fixing,High,180.0,127.9,3,4,20.0,High,37.5,3,1,15.0,Office,57.3,215.0,0.7106,0.2932,False,False,False
+DEV003,S0155,2025-02-19,10:30:00,12:10:00,Senior,Feature Development,Low,45.0,10.7,4,4,25.0,Medium,0.4,1,1,30.0,Remote,18.2,100.0,0.2378,0.0374,True,False,False
+DEV036,S0156,2025-02-19,11:00:00,14:25:00,Junior,Documentation,Low,155.0,91.6,5,6,20.0,High,7.8,3,0,30.0,Remote,46.6,205.0,0.591,0.0852,False,False,False
+DEV025,S0157,2025-02-19,12:40:00,14:35:00,Senior,DevOps/Deployment,High,60.0,29.7,3,5,10.0,High,1.1,2,0,45.0,Hybrid,37.3,115.0,0.495,0.037,False,False,False
+DEV019,S0158,2025-02-20,08:30:00,13:25:00,Senior,Refactoring,High,240.0,201.9,0,1,25.0,Low,90.6,5,0,30.0,Remote,86.2,295.0,0.8412,0.4487,False,False,False
+DEV049,S0159,2025-02-20,09:30:00,12:25:00,Senior,Bug Fixing,Medium,150.0,101.5,5,6,10.0,High,30.3,4,3,15.0,Remote,56.9,175.0,0.6767,0.2985,False,False,False
+DEV047,S0160,2025-02-21,08:00:00,11:30:00,Mid,Code Review,Medium,140.0,112.4,1,3,25.0,Medium,43.6,3,0,45.0,Remote,77.6,210.0,0.8029,0.3879,False,False,False
+DEV027,S0161,2025-02-21,08:35:00,10:45:00,Mid,Bug Fixing,High,73.0,54.2,0,1,5.0,Medium,20.5,2,2,52.0,Remote,60.7,130.0,0.7425,0.3782,False,False,False
+DEV042,S0162,2025-02-21,08:45:00,12:05:00,Senior,Bug Fixing,High,135.0,78.7,7,9,20.0,High,16.1,2,1,45.0,Hybrid,39.8,200.0,0.583,0.2046,False,False,False
+DEV020,S0163,2025-02-21,09:40:00,11:10:00,Senior,Bug Fixing,Medium,39.0,5.0,7,9,15.0,High,0.0,1,1,36.0,Office,9.6,90.0,0.1282,0.0,False,True,True
+DEV012,S0164,2025-02-21,10:20:00,12:50:00,Lead,Bug Fixing,Medium,60.0,54.8,0,3,30.0,Low,24.2,1,0,60.0,Hybrid,68.1,150.0,0.9133,0.4416,False,False,False
+DEV028,S0165,2025-02-21,11:05:00,15:20:00,Junior,Code Review,High,195.0,141.9,2,3,30.0,High,33.1,3,0,30.0,Hybrid,62.3,255.0,0.7277,0.2333,False,False,False
+DEV006,S0166,2025-02-24,07:30:00,09:10:00,Lead,Feature Development,Low,50.0,8.5,4,4,10.0,Medium,0.8,1,0,40.0,Hybrid,20.3,100.0,0.17,0.0941,False,True,False
+DEV042,S0167,2025-02-24,08:50:00,13:20:00,Senior,Feature Development,High,220.0,171.6,3,6,35.0,High,44.9,2,0,15.0,Remote,61.9,270.0,0.78,0.2617,True,False,False
+DEV042,S0168,2025-02-24,10:50:00,15:35:00,Senior,Documentation,Medium,185.0,148.6,3,2,40.0,High,46.5,4,0,60.0,Hybrid,68.9,285.0,0.8032,0.3129,True,False,False
+DEV022,S0169,2025-02-24,11:35:00,16:25:00,Mid,Feature Development,Low,165.0,107.7,4,6,35.0,Medium,22.8,3,0,90.0,Office,52.0,290.0,0.6527,0.2117,False,False,False
+DEV034,S0170,2025-02-24,13:00:00,14:50:00,Mid,Feature Development,High,90.0,65.4,2,3,20.0,High,22.3,0,1,0.0,Remote,47.9,110.0,0.7267,0.341,True,False,False
+DEV018,S0171,2025-02-24,13:00:00,16:40:00,Junior,DevOps/Deployment,Low,140.0,68.8,6,6,20.0,High,1.2,2,0,60.0,Office,31.5,220.0,0.4914,0.0174,False,False,False
+DEV034,S0172,2025-02-24,13:45:00,18:05:00,Mid,Testing,Medium,215.0,165.6,1,3,30.0,High,61.7,5,2,15.0,Remote,81.3,260.0,0.7702,0.3726,True,False,False
+DEV040,S0173,2025-02-25,07:30:00,12:30:00,Senior,Code Review,High,225.0,161.3,5,6,30.0,High,37.0,5,1,45.0,Office,68.5,300.0,0.7169,0.2294,False,False,False
+DEV033,S0174,2025-02-25,09:40:00,14:10:00,Mid,DevOps/Deployment,Low,225.0,168.9,4,4,15.0,High,39.3,6,2,30.0,Hybrid,66.0,270.0,0.7507,0.2327,False,False,False
+DEV008,S0175,2025-02-25,10:10:00,14:25:00,Senior,Feature Development,Medium,130.0,56.1,8,8,35.0,High,6.7,1,1,90.0,Office,21.2,255.0,0.4315,0.1194,False,False,False
+DEV031,S0176,2025-02-25,11:20:00,14:15:00,Senior,Bug Fixing,Medium,145.0,91.1,4,6,15.0,High,22.7,3,2,15.0,Office,54.2,175.0,0.6283,0.2492,False,False,False
+DEV045,S0177,2025-02-25,12:45:00,16:15:00,Senior,Documentation,Medium,125.0,96.2,2,2,25.0,Medium,40.6,3,0,60.0,Remote,69.6,210.0,0.7696,0.422,False,False,False
+DEV028,S0178,2025-02-25,13:10:00,14:45:00,Junior,Bug Fixing,Medium,85.0,35.1,3,5,10.0,High,1.3,0,0,0.0,Hybrid,28.5,95.0,0.4129,0.037,False,False,False
+DEV010,S0179,2025-02-25,13:45:00,18:15:00,Mid,Code Review,Medium,180.0,142.5,2,4,30.0,Medium,45.8,3,0,60.0,Remote,72.7,270.0,0.7917,0.3214,False,False,False
+DEV002,S0180,2025-02-26,07:50:00,12:30:00,Mid,Feature Development,Medium,250.0,208.2,2,2,30.0,Medium,69.9,5,2,0.0,Remote,75.8,280.0,0.8328,0.3357,False,False,False
+DEV010,S0181,2025-02-26,08:45:00,13:35:00,Mid,Feature Development,Medium,255.0,206.1,1,2,35.0,Medium,78.7,3,1,0.0,Remote,68.0,290.0,0.8082,0.3819,False,False,False
+DEV006,S0182,2025-02-26,11:50:00,15:00:00,Lead,Code Review,Medium,120.0,52.8,6,10,25.0,High,5.5,3,1,45.0,Hybrid,38.4,190.0,0.44,0.1042,False,False,False
+DEV050,S0183,2025-02-26,11:55:00,14:10:00,Junior,Feature Development,Low,85.0,55.0,2,3,20.0,High,20.2,1,2,30.0,Hybrid,44.6,135.0,0.6471,0.3673,False,False,False
+DEV028,S0184,2025-02-26,12:50:00,16:30:00,Junior,Feature Development,Low,102.0,70.6,2,2,30.0,High,18.0,0,3,88.0,Remote,33.5,220.0,0.6922,0.255,False,False,False
+DEV012,S0185,2025-02-26,13:15:00,14:55:00,Lead,Feature Development,Medium,55.0,19.3,4,5,5.0,High,1.0,3,1,40.0,Office,35.4,100.0,0.3509,0.0518,False,False,False
+DEV026,S0186,2025-02-26,13:55:00,17:10:00,Junior,Code Review,Low,82.0,55.4,2,3,35.0,Medium,18.9,0,1,78.0,Remote,43.9,195.0,0.6756,0.3412,False,False,False
+DEV029,S0187,2025-02-27,08:35:00,11:40:00,Junior,Feature Development,Medium,145.0,65.0,7,10,25.0,High,0.6,1,1,15.0,Office,30.6,185.0,0.4483,0.0092,False,False,False
+DEV030,S0188,2025-02-27,09:40:00,12:15:00,Senior,Testing,Low,75.0,37.0,3,5,20.0,Medium,3.4,2,0,60.0,Hybrid,43.7,155.0,0.4933,0.0919,False,False,False
+DEV003,S0189,2025-02-27,11:35:00,16:35:00,Senior,Code Review,Medium,235.0,168.6,7,10,35.0,High,36.1,4,0,30.0,Office,60.3,300.0,0.7174,0.2141,False,False,False
+DEV049,S0190,2025-02-27,13:50:00,15:50:00,Senior,Code Review,Medium,62.0,26.6,3,6,10.0,High,1.8,0,0,48.0,Hybrid,28.5,120.0,0.429,0.0677,False,False,False
+DEV007,S0191,2025-02-28,08:40:00,13:30:00,Senior,DevOps/Deployment,Medium,215.0,176.2,1,3,30.0,Medium,73.8,4,0,45.0,Office,87.5,290.0,0.8195,0.4188,False,False,False
+DEV002,S0192,2025-02-28,11:15:00,15:05:00,Mid,DevOps/Deployment,Low,115.0,61.0,5,6,25.0,High,0.5,4,0,90.0,Office,43.3,230.0,0.5304,0.0082,False,False,False
+DEV021,S0193,2025-02-28,12:15:00,17:10:00,Senior,Refactoring,Low,230.0,189.7,1,1,35.0,Low,77.4,7,0,30.0,Remote,83.3,295.0,0.8248,0.408,False,False,False
+DEV044,S0194,2025-02-28,12:25:00,17:10:00,Mid,Code Review,Medium,155.0,87.2,7,10,40.0,High,3.1,3,0,90.0,Office,41.3,285.0,0.5626,0.0356,False,False,False
+DEV050,S0195,2025-03-03,08:40:00,13:35:00,Junior,Code Review,Low,260.0,189.2,2,5,35.0,Medium,58.1,7,1,0.0,Hybrid,70.2,295.0,0.7277,0.3071,False,False,False
+DEV007,S0196,2025-03-03,10:35:00,13:00:00,Senior,Refactoring,Medium,72.0,35.3,5,5,15.0,Medium,4.1,1,1,58.0,Office,31.2,145.0,0.4903,0.1161,False,False,False
+DEV032,S0197,2025-03-03,11:10:00,15:55:00,Lead,Code Review,Medium,170.0,135.6,1,4,25.0,High,61.3,4,1,90.0,Office,73.3,285.0,0.7976,0.4521,False,False,False
+DEV041,S0198,2025-03-03,11:10:00,15:20:00,Mid,Refactoring,Medium,210.0,135.4,6,5,25.0,High,29.6,3,1,15.0,Remote,51.3,250.0,0.6448,0.2186,False,False,False
+DEV004,S0199,2025-03-03,13:00:00,16:15:00,Senior,Feature Development,Medium,105.0,47.0,8,9,30.0,High,4.2,1,2,60.0,Hybrid,26.0,195.0,0.4476,0.0894,False,False,False
+DEV008,S0200,2025-03-03,13:00:00,14:35:00,Senior,Bug Fixing,Medium,90.0,54.1,3,5,5.0,Medium,3.6,1,1,0.0,Office,39.7,95.0,0.6011,0.0665,False,False,False
+DEV040,S0201,2025-03-04,08:10:00,11:30:00,Senior,Feature Development,Medium,145.0,100.7,2,3,25.0,High,36.0,2,1,30.0,Office,62.7,200.0,0.6945,0.3575,False,False,False
+DEV021,S0202,2025-03-04,09:10:00,11:30:00,Senior,Bug Fixing,Low,64.0,33.0,3,5,20.0,Medium,5.7,2,2,56.0,Remote,32.6,140.0,0.5156,0.1727,False,False,False
+DEV041,S0203,2025-03-04,12:30:00,16:20:00,Mid,Feature Development,High,160.0,107.0,3,4,25.0,High,31.4,2,0,45.0,Remote,55.7,230.0,0.6688,0.2935,False,False,False
+DEV036,S0204,2025-03-05,08:20:00,12:35:00,Junior,Bug Fixing,Medium,195.0,146.4,1,2,30.0,High,45.5,5,2,30.0,Remote,62.3,255.0,0.7508,0.3108,False,False,False
+DEV030,S0205,2025-03-05,09:50:00,14:40:00,Senior,Code Review,Medium,175.0,118.9,5,7,25.0,High,32.1,4,1,90.0,Office,58.3,290.0,0.6794,0.27,False,False,False
+DEV045,S0206,2025-03-05,12:00:00,13:50:00,Senior,Bug Fixing,Medium,61.0,31.2,3,4,5.0,Medium,4.0,2,1,44.0,Remote,36.5,110.0,0.5115,0.1282,False,False,False
+DEV001,S0207,2025-03-05,12:05:00,15:10:00,Senior,Feature Development,High,130.0,57.5,6,8,25.0,High,17.5,2,0,30.0,Hybrid,35.5,185.0,0.4423,0.3043,False,False,False
+DEV006,S0208,2025-03-05,13:30:00,18:15:00,Lead,Code Review,Medium,245.0,184.1,7,9,40.0,High,39.0,5,1,0.0,Hybrid,64.5,285.0,0.7514,0.2118,False,False,False
+DEV028,S0209,2025-03-06,07:40:00,10:10:00,Junior,Testing,High,90.0,43.5,4,4,15.0,High,1.3,1,0,45.0,Office,40.7,150.0,0.4833,0.0299,True,False,False
+DEV025,S0210,2025-03-06,08:25:00,10:25:00,Senior,Bug Fixing,Low,52.0,20.6,3,5,20.0,Low,1.2,2,0,48.0,Remote,35.9,120.0,0.3962,0.0583,False,False,False
+DEV028,S0211,2025-03-06,08:35:00,10:15:00,Junior,Bug Fixing,Medium,75.0,43.4,2,5,10.0,High,4.2,3,2,15.0,Hybrid,47.1,100.0,0.5787,0.0968,True,False,False
+DEV041,S0212,2025-03-06,08:45:00,12:15:00,Mid,Documentation,Medium,175.0,109.3,5,5,20.0,High,23.4,3,0,15.0,Remote,52.5,210.0,0.6246,0.2141,False,False,False
+DEV020,S0213,2025-03-06,09:00:00,13:30:00,Senior,Feature Development,Low,235.0,210.3,1,1,20.0,Medium,81.5,4,1,15.0,Office,75.0,270.0,0.8949,0.3875,False,False,False
+DEV027,S0214,2025-03-06,09:55:00,13:50:00,Mid,Feature Development,Medium,185.0,111.4,4,7,20.0,High,29.1,4,4,30.0,Remote,42.8,235.0,0.6022,0.2612,False,False,False
+DEV036,S0215,2025-03-06,11:40:00,16:20:00,Junior,Bug Fixing,Low,220.0,158.1,1,4,45.0,High,40.5,5,0,15.0,Hybrid,65.1,280.0,0.7186,0.2562,False,False,False
+DEV050,S0216,2025-03-06,12:55:00,15:20:00,Junior,Feature Development,Medium,62.0,5.0,4,6,25.0,High,0.0,1,1,58.0,Hybrid,9.4,145.0,0.0806,0.0,False,True,True
+DEV049,S0217,2025-03-06,13:10:00,17:30:00,Senior,Feature Development,Low,200.0,170.4,1,3,30.0,Low,64.2,3,1,30.0,Remote,71.5,260.0,0.852,0.3768,False,False,False
+DEV012,S0218,2025-03-07,07:30:00,10:00:00,Lead,Feature Development,Medium,70.0,24.4,8,8,20.0,High,0.0,1,1,60.0,Office,24.8,150.0,0.3486,0.0,False,False,True
+DEV020,S0219,2025-03-07,08:00:00,11:40:00,Senior,Code Review,Medium,180.0,138.6,2,3,25.0,Medium,52.3,2,0,15.0,Office,67.6,220.0,0.77,0.3773,False,False,False
+DEV001,S0220,2025-03-07,08:05:00,11:00:00,Senior,Code Review,Medium,90.0,43.0,5,8,25.0,High,18.8,2,0,60.0,Remote,38.5,175.0,0.4778,0.4372,False,False,False
+DEV029,S0221,2025-03-07,11:55:00,13:55:00,Junior,DevOps/Deployment,Low,70.0,11.6,6,6,5.0,High,0.5,1,3,45.0,Office,15.5,120.0,0.1657,0.0431,False,True,False
+DEV035,S0222,2025-03-07,12:40:00,15:20:00,Mid,Feature Development,Medium,81.0,43.5,3,4,15.0,Medium,18.3,1,1,64.0,Remote,43.8,160.0,0.537,0.4207,False,False,False
+DEV046,S0223,2025-03-07,13:25:00,17:55:00,Senior,DevOps/Deployment,Medium,170.0,105.8,5,7,40.0,High,26.1,5,3,60.0,Office,50.6,270.0,0.6224,0.2467,False,False,False
+DEV050,S0224,2025-03-07,13:50:00,17:45:00,Junior,Feature Development,Medium,185.0,119.8,3,4,35.0,High,32.7,1,2,15.0,Hybrid,46.6,235.0,0.6476,0.273,False,False,False
+DEV023,S0225,2025-03-10,07:50:00,09:45:00,Lead,Feature Development,Medium,59.0,36.1,3,3,10.0,Medium,3.1,1,0,46.0,Hybrid,41.0,115.0,0.6119,0.0859,False,False,False
+DEV018,S0226,2025-03-10,12:20:00,13:50:00,Junior,Testing,Low,34.0,15.1,1,4,20.0,Medium,1.1,1,2,36.0,Remote,29.8,90.0,0.4441,0.0728,False,False,False
+DEV044,S0227,2025-03-10,13:45:00,15:40:00,Mid,Feature Development,Medium,95.0,72.3,1,4,20.0,High,32.2,1,1,0.0,Remote,60.6,115.0,0.7611,0.4454,False,False,False
+DEV050,S0228,2025-03-11,08:25:00,11:05:00,Junior,Code Review,High,130.0,76.9,3,4,15.0,High,15.6,1,1,15.0,Remote,44.2,160.0,0.5915,0.2029,False,False,False
+DEV031,S0229,2025-03-11,10:55:00,14:35:00,Senior,Feature Development,High,170.0,106.6,7,9,20.0,High,22.1,2,1,30.0,Office,49.8,220.0,0.6271,0.2073,False,False,False
+DEV029,S0230,2025-03-11,11:10:00,15:40:00,Junior,Bug Fixing,Low,190.0,111.2,4,8,35.0,High,16.9,4,4,45.0,Office,30.6,270.0,0.5853,0.152,False,False,False
+DEV022,S0231,2025-03-11,12:00:00,16:50:00,Mid,Feature Development,Low,190.0,122.4,8,9,25.0,High,16.4,4,1,75.0,Office,48.0,290.0,0.6442,0.134,False,False,False
+DEV044,S0232,2025-03-11,12:30:00,15:55:00,Mid,Feature Development,High,98.0,56.9,3,3,25.0,High,1.0,0,3,82.0,Remote,19.3,205.0,0.5806,0.0176,False,False,False
+DEV019,S0233,2025-03-11,13:50:00,16:40:00,Senior,Refactoring,Medium,90.0,33.8,7,6,20.0,High,0.5,2,3,60.0,Remote,24.2,170.0,0.3756,0.0148,False,False,False
+DEV026,S0234,2025-03-12,10:40:00,15:00:00,Junior,Bug Fixing,Medium,210.0,163.2,2,4,35.0,High,50.5,4,1,15.0,Remote,65.4,260.0,0.7771,0.3094,False,False,False
+DEV020,S0235,2025-03-12,10:55:00,13:15:00,Senior,Code Review,Medium,90.0,18.6,5,8,20.0,Medium,2.7,2,0,30.0,Office,26.2,140.0,0.2067,0.1452,False,False,False
+DEV013,S0236,2025-03-12,13:15:00,15:25:00,Senior,Bug Fixing,Medium,90.0,23.7,6,8,10.0,High,3.3,3,2,30.0,Office,29.6,130.0,0.2633,0.1392,False,False,False
+DEV018,S0237,2025-03-13,07:50:00,12:45:00,Junior,Feature Development,Low,220.0,167.0,2,3,30.0,Medium,43.8,3,0,45.0,Remote,68.6,295.0,0.7591,0.2623,False,False,False
+DEV040,S0238,2025-03-13,08:05:00,12:00:00,Senior,DevOps/Deployment,Medium,160.0,104.8,5,6,15.0,High,23.7,3,2,60.0,Office,47.2,235.0,0.655,0.2261,False,False,False
+DEV003,S0239,2025-03-13,08:55:00,13:35:00,Senior,Feature Development,Medium,210.0,106.7,10,13,40.0,High,5.1,2,2,30.0,Hybrid,31.2,280.0,0.5081,0.0478,False,False,False
+DEV038,S0240,2025-03-13,09:55:00,11:30:00,Mid,Feature Development,Low,65.0,27.8,3,4,0.0,High,0.4,1,1,30.0,Office,36.9,95.0,0.4277,0.0144,False,False,False
+DEV048,S0241,2025-03-13,10:15:00,14:05:00,Mid,Feature Development,Medium,170.0,115.3,4,5,30.0,High,25.1,1,0,30.0,Remote,51.4,230.0,0.6782,0.2177,False,False,False
+DEV004,S0242,2025-03-13,11:05:00,15:40:00,Senior,Bug Fixing,Medium,180.0,127.3,3,6,35.0,Medium,41.3,3,0,60.0,Hybrid,52.9,275.0,0.7072,0.3244,False,False,False
+DEV037,S0243,2025-03-13,11:50:00,15:55:00,Junior,Documentation,Low,185.0,113.5,4,6,30.0,High,26.1,3,0,30.0,Hybrid,54.3,245.0,0.6135,0.23,False,False,False
+DEV010,S0244,2025-03-13,11:55:00,15:25:00,Mid,Feature Development,High,180.0,135.6,4,4,30.0,High,27.7,1,2,0.0,Remote,47.0,210.0,0.7533,0.2043,False,False,False
+DEV021,S0245,2025-03-13,12:40:00,14:40:00,Senior,Feature Development,Medium,80.0,61.5,1,2,10.0,Medium,30.5,0,0,30.0,Remote,59.8,120.0,0.7688,0.4959,False,False,False
+DEV007,S0246,2025-03-13,12:45:00,15:15:00,Senior,DevOps/Deployment,Low,90.0,14.9,7,7,30.0,High,0.6,2,0,30.0,Office,21.2,150.0,0.1656,0.0403,False,True,False
+DEV024,S0247,2025-03-14,09:20:00,11:20:00,Senior,Code Review,Medium,75.0,44.6,3,5,15.0,Medium,26.2,2,0,30.0,Remote,66.5,120.0,0.5947,0.5874,False,False,False
+DEV013,S0248,2025-03-14,09:50:00,14:30:00,Senior,DevOps/Deployment,Low,240.0,179.4,4,4,40.0,Medium,48.9,7,0,0.0,Office,67.5,280.0,0.7475,0.2726,False,False,False
+DEV030,S0249,2025-03-14,11:10:00,14:00:00,Senior,Code Review,Low,115.0,86.8,4,5,10.0,Medium,25.4,4,0,45.0,Hybrid,64.9,170.0,0.7548,0.2926,False,False,False
+DEV032,S0250,2025-03-17,07:35:00,11:45:00,Lead,Code Review,Medium,155.0,110.8,4,5,35.0,High,28.7,4,0,60.0,Hybrid,60.1,250.0,0.7148,0.259,True,False,False
+DEV009,S0251,2025-03-17,07:45:00,09:15:00,Junior,Code Review,Medium,75.0,41.3,2,5,15.0,High,16.2,2,1,0.0,Remote,50.3,90.0,0.5507,0.3923,False,False,False
+DEV004,S0252,2025-03-17,08:00:00,10:00:00,Senior,DevOps/Deployment,High,85.0,40.3,5,6,20.0,High,5.3,1,2,15.0,Hybrid,28.9,120.0,0.4741,0.1315,False,False,False
+DEV032,S0253,2025-03-17,08:10:00,11:25:00,Lead,Testing,Medium,165.0,118.6,4,6,15.0,High,36.6,4,0,15.0,Office,68.7,195.0,0.7188,0.3086,True,False,False
+DEV043,S0254,2025-03-17,08:15:00,12:05:00,Senior,Feature Development,Low,215.0,164.1,5,6,15.0,Medium,40.9,4,1,0.0,Office,60.3,230.0,0.7633,0.2492,False,False,False
+DEV035,S0255,2025-03-17,12:00:00,16:35:00,Mid,Bug Fixing,Medium,235.0,173.1,3,4,40.0,Medium,48.7,5,0,0.0,Remote,76.7,275.0,0.7366,0.2813,False,False,False
+DEV050,S0256,2025-03-18,08:35:00,13:15:00,Junior,DevOps/Deployment,Low,200.0,124.2,5,5,35.0,High,25.0,5,0,45.0,Hybrid,65.7,280.0,0.621,0.2013,False,False,False
+DEV028,S0257,2025-03-18,09:50:00,14:00:00,Junior,Feature Development,High,225.0,168.4,1,2,25.0,High,49.3,3,4,0.0,Hybrid,55.6,250.0,0.7484,0.2928,False,False,False
+DEV047,S0258,2025-03-18,10:25:00,14:15:00,Mid,Feature Development,Medium,140.0,90.9,5,5,30.0,High,22.0,1,1,60.0,Remote,45.9,230.0,0.6493,0.242,False,False,False
+DEV014,S0259,2025-03-18,11:05:00,12:50:00,Senior,Feature Development,High,53.0,17.1,4,7,10.0,High,4.0,3,1,42.0,Hybrid,37.8,105.0,0.3226,0.2339,False,False,False
+DEV031,S0260,2025-03-18,11:55:00,15:10:00,Senior,Feature Development,Medium,175.0,113.6,4,5,20.0,High,35.4,5,3,0.0,Hybrid,59.5,195.0,0.6491,0.3116,False,False,False
+DEV033,S0261,2025-03-18,12:00:00,14:55:00,Mid,Feature Development,Medium,160.0,111.1,3,4,15.0,High,31.5,2,2,0.0,Hybrid,42.8,175.0,0.6944,0.2835,False,False,False
+DEV004,S0262,2025-03-18,13:20:00,17:30:00,Senior,DevOps/Deployment,High,120.0,70.0,5,5,40.0,High,8.6,2,1,90.0,Hybrid,39.1,250.0,0.5833,0.1229,False,False,False
+DEV004,S0263,2025-03-19,09:20:00,13:15:00,Senior,Bug Fixing,High,205.0,160.7,2,5,30.0,High,63.0,5,1,0.0,Remote,79.0,235.0,0.7839,0.392,False,False,False
+DEV018,S0264,2025-03-19,12:05:00,17:00:00,Junior,Code Review,Medium,230.0,133.6,6,9,35.0,High,22.0,3,1,30.0,Remote,46.0,295.0,0.5809,0.1647,False,False,False
+DEV035,S0265,2025-03-20,09:05:00,11:10:00,Mid,Bug Fixing,Medium,120.0,76.6,3,5,5.0,Medium,28.3,3,0,0.0,Remote,62.3,125.0,0.6383,0.3695,False,False,False
+DEV031,S0266,2025-03-20,10:25:00,12:30:00,Senior,Feature Development,Medium,105.0,76.4,2,2,20.0,High,26.7,1,0,0.0,Hybrid,57.8,125.0,0.7276,0.3495,False,False,False
+DEV011,S0267,2025-03-20,11:00:00,13:25:00,Mid,DevOps/Deployment,High,135.0,95.2,2,4,10.0,High,33.3,3,0,0.0,Hybrid,73.7,145.0,0.7052,0.3498,False,False,False
+DEV021,S0268,2025-03-20,12:05:00,14:30:00,Senior,DevOps/Deployment,High,72.0,44.6,2,2,15.0,Medium,18.0,2,0,58.0,Remote,52.0,145.0,0.6194,0.4036,False,False,False
+DEV033,S0269,2025-03-20,13:00:00,16:20:00,Mid,Code Review,Medium,150.0,116.5,2,3,20.0,High,32.0,4,0,30.0,Hybrid,63.3,200.0,0.7767,0.2747,False,False,False
+DEV032,S0270,2025-03-20,13:00:00,18:00:00,Lead,Bug Fixing,Low,200.0,123.0,6,7,40.0,High,24.4,7,2,60.0,Office,53.5,300.0,0.615,0.1984,False,False,False
+DEV016,S0271,2025-03-20,13:05:00,14:35:00,Junior,Feature Development,Low,54.0,5.0,5,9,0.0,High,2.0,2,2,36.0,Office,15.8,90.0,0.0926,0.4,False,True,False
+DEV020,S0272,2025-03-20,13:10:00,15:15:00,Senior,Refactoring,High,60.0,36.5,3,2,15.0,High,0.7,0,0,50.0,Office,33.4,125.0,0.6083,0.0192,False,False,False
+DEV009,S0273,2025-03-21,11:35:00,15:30:00,Junior,Feature Development,High,215.0,152.1,4,5,20.0,High,29.7,1,1,0.0,Remote,46.1,235.0,0.7074,0.1953,False,False,False
+DEV001,S0274,2025-03-21,13:40:00,17:35:00,Senior,Feature Development,Medium,205.0,167.9,1,4,30.0,Medium,69.6,3,0,0.0,Remote,69.0,235.0,0.819,0.4145,False,False,False
+DEV047,S0275,2025-03-24,08:10:00,12:00:00,Mid,Feature Development,Medium,175.0,114.5,5,6,40.0,High,25.6,3,1,15.0,Remote,52.6,230.0,0.6543,0.2236,False,False,False
+DEV013,S0276,2025-03-24,09:25:00,14:20:00,Senior,Testing,Low,185.0,130.0,4,5,35.0,Medium,33.4,6,0,75.0,Office,61.6,295.0,0.7027,0.2569,False,False,False
+DEV027,S0277,2025-03-24,10:15:00,12:40:00,Mid,Testing,Medium,62.0,22.7,5,6,25.0,High,1.4,1,2,58.0,Remote,18.4,145.0,0.3661,0.0617,False,False,False
+DEV020,S0278,2025-03-24,11:30:00,15:10:00,Senior,Feature Development,Low,135.0,97.9,5,6,25.0,High,30.2,1,3,60.0,Office,40.8,220.0,0.7252,0.3085,False,False,False
+DEV046,S0279,2025-03-25,11:45:00,15:40:00,Senior,Documentation,Medium,125.0,80.1,5,5,35.0,Medium,22.1,3,0,75.0,Office,48.0,235.0,0.6408,0.2759,False,False,False
+DEV048,S0280,2025-03-26,10:05:00,14:40:00,Mid,Bug Fixing,High,240.0,188.7,1,3,35.0,High,62.8,5,0,0.0,Remote,73.1,275.0,0.7862,0.3328,False,False,False
+DEV004,S0281,2025-03-26,11:45:00,14:50:00,Senior,Testing,High,160.0,121.4,3,4,25.0,High,32.6,3,0,0.0,Hybrid,64.0,185.0,0.7588,0.2685,False,False,False
+DEV047,S0282,2025-03-27,12:25:00,17:15:00,Mid,Bug Fixing,Medium,235.0,204.8,0,1,40.0,Medium,95.8,6,0,15.0,Remote,89.3,290.0,0.8715,0.4678,False,False,False
+DEV017,S0283,2025-03-27,13:20:00,17:55:00,Mid,Feature Development,Medium,185.0,122.7,5,5,30.0,High,28.1,2,0,60.0,Remote,52.8,275.0,0.6632,0.229,False,False,False
+DEV005,S0284,2025-03-27,13:35:00,15:55:00,Junior,Feature Development,High,115.0,79.2,1,3,25.0,High,21.8,1,1,0.0,Hybrid,55.1,140.0,0.6887,0.2753,False,False,False
+DEV040,S0285,2025-03-28,09:10:00,12:50:00,Senior,Feature Development,Low,175.0,127.4,3,5,30.0,Medium,40.6,3,2,15.0,Office,55.8,220.0,0.728,0.3187,False,False,False
+DEV005,S0286,2025-03-28,09:45:00,14:20:00,Junior,Testing,High,140.0,87.6,5,5,45.0,High,4.6,1,2,90.0,Remote,36.0,275.0,0.6257,0.0525,False,False,False
+DEV015,S0287,2025-03-28,09:45:00,11:50:00,Mid,Bug Fixing,Medium,70.0,8.7,6,9,10.0,High,0.0,3,4,45.0,Office,15.5,125.0,0.1243,0.0,False,True,True
+DEV018,S0288,2025-03-28,10:10:00,12:55:00,Junior,Feature Development,Medium,120.0,57.5,5,6,15.0,High,4.2,1,2,30.0,Remote,31.2,165.0,0.4792,0.073,False,False,False
+DEV046,S0289,2025-03-28,11:15:00,16:15:00,Senior,Bug Fixing,Medium,220.0,158.2,5,7,35.0,High,46.6,7,0,45.0,Remote,73.4,300.0,0.7191,0.2946,False,False,False
+DEV050,S0290,2025-03-28,11:35:00,13:50:00,Junior,Feature Development,Low,105.0,73.7,2,2,15.0,Medium,6.5,3,3,15.0,Hybrid,44.9,135.0,0.7019,0.0882,False,False,False
+DEV039,S0291,2025-03-28,12:25:00,15:00:00,Junior,Bug Fixing,Low,75.0,41.9,2,3,20.0,High,1.3,2,2,60.0,Remote,32.1,155.0,0.5587,0.031,False,False,False
+DEV029,S0292,2025-03-31,07:45:00,11:45:00,Junior,DevOps/Deployment,Medium,195.0,131.6,5,5,15.0,High,35.4,4,1,30.0,Office,59.7,240.0,0.6749,0.269,False,False,False
+DEV001,S0293,2025-03-31,08:50:00,13:20:00,Senior,Bug Fixing,Medium,210.0,156.6,3,5,30.0,High,55.5,4,0,30.0,Remote,70.3,270.0,0.7457,0.3544,False,False,False
+DEV020,S0294,2025-03-31,09:35:00,12:00:00,Senior,Testing,Low,95.0,48.7,4,5,20.0,Medium,15.1,3,1,30.0,Office,50.6,145.0,0.5126,0.3101,False,False,False
+DEV042,S0295,2025-03-31,10:50:00,15:05:00,Senior,Bug Fixing,Medium,200.0,125.0,4,7,25.0,Medium,41.8,4,0,30.0,Hybrid,61.1,255.0,0.625,0.3344,False,False,False
+DEV012,S0296,2025-03-31,11:00:00,12:55:00,Lead,Documentation,Low,95.0,42.7,5,5,5.0,Medium,4.8,3,0,15.0,Hybrid,42.0,115.0,0.4495,0.1124,False,False,False
+DEV019,S0297,2025-03-31,11:30:00,16:25:00,Senior,Bug Fixing,Medium,235.0,160.2,6,7,30.0,High,32.8,5,2,30.0,Remote,53.0,295.0,0.6817,0.2047,False,False,False
+DEV046,S0298,2025-03-31,13:50:00,17:30:00,Senior,DevOps/Deployment,Medium,180.0,118.4,5,6,25.0,High,29.6,4,3,15.0,Office,47.0,220.0,0.6578,0.25,False,False,False
+DEV007,S0299,2025-04-01,08:40:00,13:00:00,Senior,DevOps/Deployment,Low,190.0,136.8,3,3,40.0,Medium,39.4,5,0,30.0,Office,69.7,260.0,0.72,0.288,False,False,False
+DEV042,S0300,2025-04-01,09:30:00,12:50:00,Senior,Refactoring,Low,140.0,102.1,4,3,15.0,Medium,29.2,3,1,45.0,Hybrid,61.2,200.0,0.7293,0.286,False,False,False
+DEV013,S0301,2025-04-02,08:30:00,12:35:00,Senior,DevOps/Deployment,Medium,190.0,104.8,8,9,25.0,High,27.5,3,2,30.0,Office,43.5,245.0,0.5516,0.2624,False,False,False
+DEV007,S0302,2025-04-02,08:30:00,11:40:00,Senior,Documentation,Medium,155.0,116.7,3,2,5.0,Medium,47.0,2,0,30.0,Office,72.3,190.0,0.7529,0.4027,False,False,False
+DEV044,S0303,2025-04-02,11:10:00,14:50:00,Mid,Bug Fixing,High,130.0,95.4,1,4,30.0,High,36.9,2,2,60.0,Remote,57.4,220.0,0.7338,0.3868,False,False,False
+DEV026,S0304,2025-04-03,08:10:00,10:25:00,Junior,Code Review,High,110.0,56.9,4,7,10.0,High,4.3,3,1,15.0,Office,44.9,135.0,0.5173,0.0756,False,False,False
+DEV048,S0305,2025-04-03,08:40:00,11:35:00,Mid,Feature Development,Medium,160.0,122.6,4,4,15.0,Medium,36.2,4,1,0.0,Hybrid,63.9,175.0,0.7662,0.2953,False,False,False
+DEV009,S0306,2025-04-03,09:10:00,10:50:00,Junior,Bug Fixing,Medium,40.0,31.8,0,1,20.0,Medium,4.7,0,1,40.0,Remote,57.0,100.0,0.795,0.1478,False,False,False
+DEV050,S0307,2025-04-03,10:25:00,14:45:00,Junior,Code Review,Medium,205.0,129.4,3,5,25.0,High,30.2,4,1,30.0,Hybrid,61.5,260.0,0.6312,0.2334,False,False,False
+DEV042,S0308,2025-04-03,10:25:00,13:20:00,Senior,DevOps/Deployment,Medium,120.0,85.5,3,5,25.0,High,29.1,3,3,30.0,Remote,59.6,175.0,0.7125,0.3404,False,False,False
+DEV009,S0309,2025-04-03,11:55:00,15:45:00,Junior,Testing,Low,205.0,118.4,5,7,25.0,High,19.9,5,1,0.0,Remote,48.6,230.0,0.5776,0.1681,False,False,False
+DEV009,S0310,2025-04-04,08:35:00,10:15:00,Junior,Feature Development,Medium,50.0,21.7,2,3,10.0,High,1.1,1,0,40.0,Remote,32.2,100.0,0.434,0.0507,False,False,False
+DEV042,S0311,2025-04-04,09:35:00,13:00:00,Senior,Testing,Medium,125.0,77.4,4,4,20.0,High,21.2,3,2,60.0,Hybrid,44.6,205.0,0.6192,0.2739,False,False,False
+DEV050,S0312,2025-04-04,09:40:00,11:45:00,Junior,Code Review,Medium,120.0,63.5,2,5,5.0,High,6.7,3,1,0.0,Office,45.4,125.0,0.5292,0.1055,False,False,False
+DEV026,S0313,2025-04-04,10:50:00,14:10:00,Junior,DevOps/Deployment,Low,115.0,78.7,1,4,25.0,Medium,31.2,3,0,60.0,Remote,65.6,200.0,0.6843,0.3964,False,False,False
+DEV013,S0314,2025-04-04,13:05:00,14:55:00,Senior,Feature Development,Medium,65.0,30.5,4,6,15.0,High,1.2,1,0,30.0,Office,38.1,110.0,0.4692,0.0393,False,False,False
+DEV032,S0315,2025-04-07,09:40:00,13:35:00,Lead,Feature Development,Medium,195.0,119.8,7,10,25.0,High,24.4,3,1,15.0,Office,42.8,235.0,0.6144,0.2037,False,False,False
+DEV030,S0316,2025-04-07,12:05:00,15:10:00,Senior,Refactoring,Low,160.0,124.2,4,4,25.0,Medium,40.8,3,0,0.0,Hybrid,64.3,185.0,0.7762,0.3285,False,False,False
+DEV025,S0317,2025-04-08,12:15:00,14:30:00,Senior,Feature Development,Medium,70.0,5.5,5,7,20.0,High,0.0,1,1,45.0,Hybrid,19.9,135.0,0.0786,0.0,False,True,True
+DEV035,S0318,2025-04-08,13:15:00,15:40:00,Mid,Bug Fixing,Medium,120.0,68.4,3,6,25.0,High,22.9,2,1,0.0,Remote,47.1,145.0,0.57,0.3348,False,False,False
+DEV034,S0319,2025-04-08,13:55:00,17:55:00,Mid,Refactoring,High,205.0,160.7,2,3,20.0,High,43.5,3,0,15.0,Remote,63.1,240.0,0.7839,0.2707,False,False,False
+DEV041,S0320,2025-04-09,09:15:00,12:20:00,Mid,Bug Fixing,Low,130.0,69.7,5,7,25.0,Medium,20.9,3,1,30.0,Hybrid,48.3,185.0,0.5362,0.2999,False,False,False
+DEV008,S0321,2025-04-09,09:30:00,11:50:00,Senior,Code Review,Low,95.0,32.6,9,11,15.0,High,2.5,2,0,30.0,Office,30.6,140.0,0.3432,0.0767,False,False,False
+DEV043,S0322,2025-04-09,09:40:00,14:30:00,Senior,Feature Development,High,250.0,180.6,7,8,25.0,High,35.3,3,0,15.0,Office,59.4,290.0,0.7224,0.1955,False,False,False
+DEV019,S0323,2025-04-09,10:05:00,11:50:00,Senior,Documentation,Medium,75.0,49.6,2,1,15.0,Medium,2.0,0,0,15.0,Office,33.6,105.0,0.6613,0.0403,False,False,False
+DEV016,S0324,2025-04-09,10:25:00,12:40:00,Junior,Feature Development,Medium,90.0,5.0,13,14,15.0,High,1.4,0,3,30.0,Office,5.0,135.0,0.0556,0.28,False,True,False
+DEV023,S0325,2025-04-09,10:45:00,14:50:00,Lead,Documentation,Low,160.0,89.4,7,6,25.0,Medium,19.4,5,1,60.0,Hybrid,50.0,245.0,0.5588,0.217,False,False,False
+DEV025,S0326,2025-04-09,10:55:00,13:05:00,Senior,DevOps/Deployment,Medium,120.0,63.4,5,6,10.0,High,24.7,3,3,0.0,Remote,43.1,130.0,0.5283,0.3896,False,False,False
+DEV008,S0327,2025-04-09,12:00:00,15:55:00,Senior,DevOps/Deployment,Medium,210.0,151.7,4,4,25.0,High,51.2,6,1,0.0,Office,73.0,235.0,0.7224,0.3375,False,False,False
+DEV025,S0328,2025-04-09,13:50:00,18:15:00,Senior,Feature Development,Medium,140.0,97.3,5,5,35.0,High,25.4,2,2,90.0,Remote,42.8,265.0,0.695,0.261,False,False,False
+DEV041,S0329,2025-04-10,07:35:00,10:25:00,Mid,Testing,Low,110.0,50.6,5,5,15.0,High,1.2,3,4,45.0,Remote,27.5,170.0,0.46,0.0237,False,False,False
+DEV049,S0330,2025-04-10,07:55:00,12:25:00,Senior,DevOps/Deployment,High,150.0,106.4,4,4,30.0,High,23.1,3,3,90.0,Remote,45.5,270.0,0.7093,0.2171,True,False,False
+DEV049,S0331,2025-04-10,08:55:00,13:25:00,Senior,Feature Development,Low,150.0,117.0,2,3,30.0,Medium,40.4,1,1,90.0,Remote,63.2,270.0,0.78,0.3453,True,False,False
+DEV024,S0332,2025-04-10,10:40:00,14:50:00,Senior,Documentation,High,185.0,147.9,2,2,20.0,Medium,39.9,3,0,45.0,Remote,67.1,250.0,0.7995,0.2698,False,False,False
+DEV007,S0333,2025-04-10,12:20:00,16:15:00,Senior,Documentation,Medium,190.0,146.4,3,2,30.0,Medium,42.9,4,0,15.0,Office,66.1,235.0,0.7705,0.293,False,False,False
+DEV044,S0334,2025-04-10,12:25:00,15:10:00,Mid,Code Review,Low,145.0,113.3,1,3,20.0,Low,42.6,3,0,0.0,Remote,70.0,165.0,0.7814,0.376,False,False,False
+DEV021,S0335,2025-04-11,08:05:00,12:35:00,Senior,Bug Fixing,Medium,235.0,190.7,2,4,35.0,Medium,74.9,4,1,0.0,Remote,68.7,270.0,0.8115,0.3928,True,False,False
+DEV008,S0336,2025-04-11,10:10:00,12:35:00,Senior,Feature Development,Low,67.0,22.9,5,7,20.0,Medium,0.1,2,1,58.0,Office,24.9,145.0,0.3418,0.0044,False,False,False
+DEV033,S0337,2025-04-11,11:30:00,13:45:00,Mid,Refactoring,Low,61.0,26.8,4,4,20.0,Medium,5.9,2,0,54.0,Hybrid,40.5,135.0,0.4393,0.2201,False,False,False
+DEV021,S0338,2025-04-11,12:30:00,15:45:00,Senior,Testing,Low,150.0,112.9,3,4,30.0,Medium,36.6,4,2,15.0,Remote,61.9,195.0,0.7527,0.3242,True,False,False
+DEV046,S0339,2025-04-11,13:10:00,17:00:00,Senior,Refactoring,Low,155.0,101.1,5,4,30.0,Medium,22.1,4,0,45.0,Office,64.8,230.0,0.6523,0.2186,False,False,False
+DEV027,S0340,2025-04-11,13:15:00,15:50:00,Mid,Bug Fixing,High,120.0,76.8,3,5,5.0,High,20.6,3,5,30.0,Remote,40.9,155.0,0.64,0.2682,False,False,False
+DEV028,S0341,2025-04-14,08:15:00,10:30:00,Junior,Feature Development,Low,90.0,64.7,2,2,15.0,Medium,21.9,0,0,30.0,Hybrid,54.2,135.0,0.7189,0.3385,False,False,False
+DEV047,S0342,2025-04-14,09:35:00,11:15:00,Mid,Bug Fixing,Medium,65.0,27.0,3,5,5.0,High,1.1,2,1,30.0,Remote,30.1,100.0,0.4154,0.0407,False,False,False
+DEV025,S0343,2025-04-15,08:25:00,11:10:00,Senior,Feature Development,Medium,74.0,35.8,6,6,25.0,High,4.2,1,1,66.0,Remote,25.8,165.0,0.4838,0.1173,False,False,False
+DEV037,S0344,2025-04-16,07:30:00,11:00:00,Junior,Bug Fixing,Low,120.0,80.5,1,6,30.0,High,25.2,2,2,60.0,Hybrid,43.5,210.0,0.6708,0.313,False,False,False
+DEV019,S0345,2025-04-16,08:55:00,11:25:00,Senior,Documentation,Medium,105.0,72.0,3,4,15.0,High,27.0,2,0,30.0,Remote,56.1,150.0,0.6857,0.375,False,False,False
+DEV034,S0346,2025-04-16,09:00:00,13:10:00,Mid,Refactoring,High,230.0,175.2,4,5,20.0,High,33.7,3,4,0.0,Remote,51.7,250.0,0.7617,0.1924,False,False,False
+DEV024,S0347,2025-04-16,09:40:00,12:15:00,Senior,DevOps/Deployment,High,100.0,51.5,5,6,25.0,High,1.4,2,0,30.0,Remote,41.4,155.0,0.515,0.0272,False,False,False
+DEV035,S0348,2025-04-16,12:20:00,15:55:00,Mid,DevOps/Deployment,Low,109.0,46.2,7,7,20.0,High,4.3,3,1,86.0,Remote,31.7,215.0,0.4239,0.0931,False,False,False
+DEV044,S0349,2025-04-16,13:00:00,16:25:00,Mid,Testing,Medium,140.0,54.0,10,11,20.0,High,7.1,2,0,45.0,Office,25.1,205.0,0.3857,0.1315,False,False,False
+DEV019,S0350,2025-04-17,10:45:00,13:50:00,Senior,Code Review,High,101.0,60.7,3,6,10.0,High,5.3,2,0,74.0,Remote,40.0,185.0,0.601,0.0873,False,False,False
+DEV045,S0351,2025-04-17,12:25:00,15:55:00,Senior,Bug Fixing,Low,150.0,69.6,7,8,30.0,High,16.4,3,2,30.0,Office,47.0,210.0,0.464,0.2356,False,False,False
+DEV044,S0352,2025-04-17,12:35:00,15:45:00,Mid,Code Review,Low,140.0,99.3,2,4,20.0,Medium,30.2,4,0,30.0,Remote,61.9,190.0,0.7093,0.3041,False,False,False
+DEV001,S0353,2025-04-17,13:20:00,15:45:00,Senior,Feature Development,High,67.0,39.3,2,4,20.0,High,3.1,1,2,58.0,Remote,29.8,145.0,0.5866,0.0789,False,False,False
+DEV022,S0354,2025-04-18,09:40:00,11:45:00,Mid,Testing,Low,95.0,77.1,0,0,15.0,Low,28.5,2,0,15.0,Office,71.4,125.0,0.8116,0.3696,False,False,False
+DEV034,S0355,2025-04-18,10:20:00,11:50:00,Mid,Documentation,High,70.0,58.6,0,0,5.0,Medium,21.7,1,0,15.0,Remote,61.5,90.0,0.8371,0.3703,False,False,False
+DEV027,S0356,2025-04-18,11:00:00,14:00:00,Mid,Testing,Medium,100.0,68.1,2,3,20.0,Medium,28.5,2,1,60.0,Remote,60.2,180.0,0.681,0.4185,False,False,False
+DEV033,S0357,2025-04-18,12:05:00,14:05:00,Mid,Documentation,Medium,90.0,52.2,3,4,15.0,High,5.6,3,0,15.0,Hybrid,56.1,120.0,0.58,0.1073,False,False,False
+DEV016,S0358,2025-04-18,12:20:00,14:55:00,Junior,Code Review,Medium,125.0,88.5,1,3,15.0,High,29.6,3,1,15.0,Office,62.8,155.0,0.708,0.3345,False,False,False
+DEV047,S0359,2025-04-18,13:20:00,15:00:00,Mid,Refactoring,Medium,90.0,61.4,2,2,10.0,Medium,21.5,2,2,0.0,Remote,57.7,100.0,0.6822,0.3502,True,False,False
+DEV047,S0360,2025-04-18,13:40:00,18:05:00,Mid,Code Review,High,210.0,149.0,3,6,25.0,High,38.2,4,1,30.0,Remote,71.6,265.0,0.7095,0.2564,True,False,False
+DEV002,S0361,2025-04-21,07:55:00,09:35:00,Mid,Feature Development,High,70.0,33.1,4,5,15.0,High,0.3,1,2,15.0,Remote,31.9,100.0,0.4729,0.0091,False,False,False
+DEV039,S0362,2025-04-21,08:15:00,09:55:00,Junior,Feature Development,Low,40.0,14.7,2,3,20.0,High,0.0,1,4,40.0,Office,16.5,100.0,0.3675,0.0,False,False,True
+DEV040,S0363,2025-04-22,07:40:00,09:30:00,Senior,Bug Fixing,High,56.0,5.0,8,9,10.0,High,0.6,0,1,44.0,Office,7.8,110.0,0.0893,0.12,False,True,False
+DEV013,S0364,2025-04-22,08:15:00,11:35:00,Senior,Bug Fixing,Medium,140.0,95.0,4,5,30.0,High,30.1,3,1,30.0,Office,56.3,200.0,0.6786,0.3168,False,False,False
+DEV016,S0365,2025-04-22,08:25:00,11:55:00,Junior,Refactoring,Low,145.0,75.2,8,7,35.0,High,2.7,3,0,30.0,Office,45.6,210.0,0.5186,0.0359,False,False,False
+DEV045,S0366,2025-04-22,09:35:00,13:25:00,Senior,Feature Development,Medium,170.0,118.4,3,3,30.0,Medium,43.8,2,1,30.0,Remote,57.0,230.0,0.6965,0.3699,False,False,False
+DEV025,S0367,2025-04-22,09:45:00,11:25:00,Senior,DevOps/Deployment,Medium,35.0,13.1,1,2,25.0,Low,2.2,0,0,40.0,Remote,29.2,100.0,0.3743,0.1679,False,False,False
+DEV036,S0368,2025-04-23,07:35:00,11:10:00,Junior,DevOps/Deployment,Medium,145.0,108.9,1,3,25.0,Medium,36.9,3,1,45.0,Remote,72.9,215.0,0.751,0.3388,False,False,False
+DEV048,S0369,2025-04-23,08:15:00,10:35:00,Mid,Testing,Low,130.0,80.2,3,5,10.0,Medium,21.8,2,2,0.0,Remote,46.0,140.0,0.6169,0.2718,False,False,False
+DEV015,S0370,2025-04-23,08:35:00,13:30:00,Mid,Code Review,High,225.0,146.3,6,8,25.0,High,29.5,3,1,45.0,Office,49.1,295.0,0.6502,0.2016,False,False,False
+DEV002,S0371,2025-04-23,09:25:00,12:30:00,Mid,Code Review,Medium,160.0,139.1,0,1,25.0,Low,61.4,3,0,0.0,Remote,83.4,185.0,0.8694,0.4414,False,False,False
+DEV029,S0372,2025-04-23,12:45:00,14:15:00,Junior,Feature Development,Medium,49.0,8.7,4,4,5.0,High,0.0,1,0,36.0,Office,18.3,90.0,0.1776,0.0,False,True,True
+DEV032,S0373,2025-04-24,08:30:00,10:00:00,Lead,Code Review,Low,40.0,5.0,6,9,20.0,High,1.2,1,1,30.0,Office,13.6,90.0,0.125,0.24,False,True,False
+DEV025,S0374,2025-04-24,08:40:00,11:50:00,Senior,Feature Development,Low,170.0,154.7,0,1,20.0,Medium,73.5,4,0,0.0,Remote,85.3,190.0,0.91,0.4751,False,False,False
+DEV049,S0375,2025-04-24,13:25:00,16:15:00,Senior,Code Review,Medium,140.0,99.4,2,4,30.0,High,47.7,3,0,0.0,Remote,65.9,170.0,0.71,0.4799,False,False,False
+DEV027,S0376,2025-04-25,07:40:00,10:40:00,Mid,Bug Fixing,Low,125.0,39.0,6,9,25.0,High,0.6,1,3,30.0,Remote,15.0,180.0,0.312,0.0154,False,False,False
+DEV020,S0377,2025-04-25,10:50:00,12:25:00,Senior,Feature Development,High,50.0,19.7,4,5,15.0,High,0.4,0,1,30.0,Office,19.5,95.0,0.394,0.0203,False,False,False
+DEV035,S0378,2025-04-25,13:40:00,17:10:00,Mid,Refactoring,High,155.0,114.5,3,3,25.0,High,28.1,3,2,30.0,Remote,60.3,210.0,0.7387,0.2454,False,False,False
+DEV042,S0379,2025-04-28,08:05:00,12:45:00,Senior,Feature Development,Medium,245.0,203.8,2,3,35.0,Medium,68.0,2,1,0.0,Remote,69.6,280.0,0.8318,0.3337,False,False,False
+DEV049,S0380,2025-04-28,09:15:00,13:05:00,Senior,DevOps/Deployment,Low,200.0,175.2,0,1,30.0,Low,78.2,7,0,0.0,Remote,94.2,230.0,0.876,0.4463,False,False,False
+DEV001,S0381,2025-04-28,09:15:00,10:50:00,Senior,Feature Development,Medium,80.0,64.5,1,2,15.0,Low,34.3,3,1,0.0,Remote,79.6,95.0,0.8062,0.5318,False,False,False
+DEV005,S0382,2025-04-28,12:45:00,17:00:00,Junior,Feature Development,Medium,180.0,87.7,7,10,45.0,High,3.9,3,2,30.0,Office,37.4,255.0,0.4872,0.0445,False,False,False
+DEV013,S0383,2025-04-29,07:30:00,10:10:00,Senior,DevOps/Deployment,Medium,105.0,77.2,2,4,25.0,Medium,31.7,2,1,30.0,Office,53.6,160.0,0.7352,0.4106,False,False,False
+DEV016,S0384,2025-04-29,08:25:00,10:05:00,Junior,Feature Development,Low,65.0,5.0,6,8,5.0,High,1.4,0,3,30.0,Office,5.0,100.0,0.0769,0.28,False,True,False
+DEV047,S0385,2025-04-30,07:45:00,10:30:00,Mid,Bug Fixing,Low,80.0,30.9,3,6,25.0,Medium,3.3,0,1,60.0,Hybrid,19.1,165.0,0.3862,0.1068,False,False,False
+DEV004,S0386,2025-04-30,08:00:00,12:30:00,Senior,Bug Fixing,High,185.0,134.4,3,5,40.0,High,42.8,2,2,45.0,Hybrid,57.5,270.0,0.7265,0.3185,False,False,False
+DEV049,S0387,2025-04-30,08:05:00,10:35:00,Senior,Documentation,Medium,120.0,97.8,2,1,30.0,Medium,35.8,4,0,0.0,Remote,73.1,150.0,0.815,0.3661,False,False,False
+DEV016,S0388,2025-04-30,08:10:00,10:15:00,Junior,Testing,Medium,70.0,15.7,5,7,10.0,High,1.3,1,4,45.0,Office,5.0,125.0,0.2243,0.0828,False,False,False
+DEV046,S0389,2025-04-30,10:10:00,14:40:00,Senior,Bug Fixing,Medium,210.0,169.7,2,3,30.0,Medium,67.6,5,0,30.0,Office,82.6,270.0,0.8081,0.3984,False,False,False
+DEV028,S0390,2025-04-30,10:55:00,15:30:00,Junior,Bug Fixing,Low,215.0,142.2,3,5,30.0,High,34.1,4,1,30.0,Hybrid,50.5,275.0,0.6614,0.2398,False,False,False
+DEV030,S0391,2025-04-30,12:25:00,15:20:00,Senior,Documentation,Medium,165.0,100.5,6,5,10.0,High,23.7,4,0,0.0,Hybrid,54.4,175.0,0.6091,0.2358,False,False,False
+DEV021,S0392,2025-04-30,13:55:00,17:55:00,Senior,Bug Fixing,Medium,120.0,85.1,2,4,30.0,Medium,31.4,3,2,90.0,Remote,56.2,240.0,0.7092,0.369,False,False,False
+DEV004,S0393,2025-05-01,07:45:00,10:55:00,Senior,Bug Fixing,Medium,130.0,69.8,7,9,15.0,High,3.7,3,0,45.0,Hybrid,42.1,190.0,0.5369,0.053,False,False,False
+DEV025,S0394,2025-05-01,07:50:00,12:25:00,Senior,Documentation,Medium,205.0,168.3,1,3,40.0,Medium,77.0,7,0,30.0,Remote,86.4,275.0,0.821,0.4575,False,False,False
+DEV045,S0395,2025-05-01,07:55:00,11:55:00,Senior,Code Review,Medium,215.0,187.4,0,2,25.0,Medium,95.7,4,0,0.0,Remote,83.3,240.0,0.8716,0.5107,False,False,False
+DEV036,S0396,2025-05-01,07:55:00,10:20:00,Junior,Documentation,Medium,80.0,41.6,2,3,35.0,High,6.1,1,0,30.0,Remote,41.6,145.0,0.52,0.1466,False,False,False
+DEV006,S0397,2025-05-01,10:10:00,12:40:00,Lead,Bug Fixing,High,120.0,74.1,4,6,30.0,High,7.3,2,1,0.0,Hybrid,43.3,150.0,0.6175,0.0985,False,False,False
+DEV009,S0398,2025-05-01,10:15:00,14:05:00,Junior,Testing,High,150.0,85.5,5,6,35.0,High,3.1,1,2,45.0,Remote,30.6,230.0,0.57,0.0363,False,False,False
+DEV022,S0399,2025-05-01,10:30:00,15:10:00,Mid,Testing,Medium,175.0,73.3,9,9,45.0,High,4.5,4,0,60.0,Office,41.1,280.0,0.4189,0.0614,False,False,False
+DEV002,S0400,2025-05-01,11:00:00,14:25:00,Mid,Bug Fixing,Medium,160.0,111.7,4,5,15.0,High,24.4,2,2,30.0,Remote,55.0,205.0,0.6981,0.2184,False,False,False
+DEV010,S0401,2025-05-01,11:15:00,16:00:00,Mid,Feature Development,Low,235.0,167.9,3,5,35.0,Medium,51.1,4,2,15.0,Remote,58.9,285.0,0.7145,0.3043,False,False,False
+DEV034,S0402,2025-05-01,12:25:00,16:25:00,Mid,Code Review,Medium,210.0,143.2,5,6,30.0,High,30.3,4,0,0.0,Remote,64.1,240.0,0.6819,0.2116,False,False,False
+DEV040,S0403,2025-05-01,12:40:00,17:20:00,Senior,DevOps/Deployment,Low,235.0,179.6,3,4,30.0,Medium,57.0,7,0,15.0,Office,76.4,280.0,0.7643,0.3174,False,False,False
+DEV025,S0404,2025-05-01,13:00:00,17:00:00,Senior,Testing,Medium,185.0,153.9,2,2,25.0,Medium,66.8,4,0,30.0,Remote,82.7,240.0,0.8319,0.434,False,False,False
+DEV003,S0405,2025-05-01,13:00:00,17:00:00,Senior,DevOps/Deployment,High,210.0,159.9,3,6,30.0,High,53.0,4,0,0.0,Hybrid,72.9,240.0,0.7614,0.3315,False,False,False
+DEV001,S0406,2025-05-01,13:15:00,15:50:00,Senior,Refactoring,Medium,110.0,84.6,1,1,30.0,Medium,35.1,2,1,15.0,Remote,61.7,155.0,0.7691,0.4149,False,False,False
+DEV015,S0407,2025-05-02,09:00:00,12:35:00,Mid,Code Review,Low,170.0,93.3,8,10,30.0,High,0.2,4,1,15.0,Office,32.5,215.0,0.5488,0.0021,False,False,False
+DEV039,S0408,2025-05-02,11:45:00,15:25:00,Junior,DevOps/Deployment,Low,165.0,97.3,4,6,25.0,High,18.7,2,3,30.0,Hybrid,36.6,220.0,0.5897,0.1922,False,False,False
+DEV012,S0409,2025-05-02,13:00:00,14:50:00,Lead,Bug Fixing,Low,56.0,17.3,4,6,10.0,Medium,0.3,3,1,44.0,Office,33.7,110.0,0.3089,0.0173,False,False,False
+DEV014,S0410,2025-05-05,07:30:00,10:35:00,Senior,Bug Fixing,Low,155.0,96.4,5,7,30.0,High,27.0,6,1,0.0,Hybrid,55.5,185.0,0.6219,0.2801,False,False,False
+DEV048,S0411,2025-05-05,08:10:00,11:00:00,Mid,Refactoring,Medium,125.0,64.4,6,6,15.0,High,1.9,4,2,30.0,Remote,41.5,170.0,0.5152,0.0295,False,False,False
+DEV033,S0412,2025-05-05,09:00:00,11:15:00,Mid,DevOps/Deployment,High,115.0,54.1,5,6,20.0,High,1.1,1,3,0.0,Remote,23.6,135.0,0.4704,0.0203,False,False,False
+DEV032,S0413,2025-05-05,12:00:00,15:05:00,Lead,Code Review,Medium,91.0,48.9,4,6,20.0,High,15.9,3,1,74.0,Office,42.9,185.0,0.5374,0.3252,False,False,False
+DEV033,S0414,2025-05-05,12:25:00,14:10:00,Mid,Feature Development,Low,58.0,16.7,4,5,5.0,Medium,3.0,0,0,42.0,Hybrid,22.9,105.0,0.2879,0.1796,False,False,False
+DEV012,S0415,2025-05-06,08:50:00,13:05:00,Lead,Feature Development,High,220.0,167.9,5,7,20.0,High,38.9,2,1,15.0,Office,49.3,255.0,0.7632,0.2317,False,False,False
+DEV047,S0416,2025-05-06,08:50:00,12:50:00,Mid,Bug Fixing,Medium,200.0,167.7,0,3,25.0,Medium,79.8,4,1,15.0,Remote,87.0,240.0,0.8385,0.4758,False,False,False
+DEV010,S0417,2025-05-06,08:55:00,13:30:00,Mid,DevOps/Deployment,High,150.0,135.5,1,1,35.0,Medium,37.5,2,0,90.0,Remote,73.7,275.0,0.9033,0.2768,False,False,False
+DEV050,S0418,2025-05-06,11:15:00,14:05:00,Junior,Testing,Medium,110.0,87.7,0,2,15.0,Medium,30.7,1,0,45.0,Hybrid,67.1,170.0,0.7973,0.3501,False,False,False
+DEV027,S0419,2025-05-06,11:45:00,14:50:00,Mid,Bug Fixing,Medium,120.0,78.9,2,4,20.0,High,35.7,3,2,45.0,Remote,64.6,185.0,0.6575,0.4525,False,False,False
+DEV009,S0420,2025-05-06,12:05:00,16:55:00,Junior,Refactoring,Low,200.0,141.8,5,5,30.0,High,25.1,6,3,60.0,Remote,56.5,290.0,0.709,0.177,False,False,False
+DEV033,S0421,2025-05-06,12:15:00,14:00:00,Mid,Testing,Low,60.0,5.0,6,7,15.0,High,0.0,3,0,30.0,Hybrid,22.6,105.0,0.0833,0.0,False,True,True
+DEV006,S0422,2025-05-06,12:35:00,15:35:00,Lead,Code Review,High,105.0,53.2,5,8,15.0,High,16.6,0,0,60.0,Hybrid,34.9,180.0,0.5067,0.312,False,False,False
+DEV038,S0423,2025-05-06,13:50:00,16:45:00,Mid,Feature Development,Medium,155.0,103.5,4,4,20.0,High,25.1,2,1,0.0,Office,51.2,175.0,0.6677,0.2425,False,False,False
+DEV010,S0424,2025-05-06,13:55:00,17:15:00,Mid,DevOps/Deployment,Low,130.0,101.9,1,1,25.0,Low,32.1,2,0,45.0,Remote,60.8,200.0,0.7838,0.315,False,False,False
+DEV043,S0425,2025-05-07,08:35:00,11:00:00,Senior,Testing,Low,95.0,63.3,4,5,20.0,Medium,6.1,4,1,30.0,Office,50.2,145.0,0.6663,0.0964,False,False,False
+DEV017,S0426,2025-05-07,10:10:00,14:55:00,Mid,Code Review,Low,255.0,188.3,5,6,30.0,Medium,35.3,4,0,0.0,Office,61.1,285.0,0.7384,0.1875,False,False,False
+DEV044,S0427,2025-05-07,11:10:00,12:50:00,Mid,Bug Fixing,High,55.0,23.1,4,5,5.0,High,0.1,0,1,40.0,Remote,25.3,100.0,0.42,0.0043,False,False,False
+DEV012,S0428,2025-05-07,11:15:00,12:50:00,Lead,Code Review,Medium,45.0,5.0,6,7,20.0,High,1.8,1,0,30.0,Office,21.3,95.0,0.1111,0.36,False,True,False
+DEV020,S0429,2025-05-07,11:15:00,15:35:00,Senior,Bug Fixing,Medium,180.0,87.8,9,10,35.0,High,16.6,5,3,45.0,Office,44.8,260.0,0.4878,0.1891,False,False,False
+DEV031,S0430,2025-05-07,11:45:00,14:25:00,Senior,Bug Fixing,Medium,80.0,6.9,8,10,20.0,High,0.1,1,0,60.0,Hybrid,14.6,160.0,0.0863,0.0145,True,True,False
+DEV031,S0431,2025-05-07,12:20:00,15:55:00,Senior,Feature Development,Medium,155.0,112.1,4,4,30.0,Medium,31.4,3,1,30.0,Hybrid,51.6,215.0,0.7232,0.2801,True,False,False
+DEV008,S0432,2025-05-07,13:25:00,17:30:00,Senior,Feature Development,Medium,225.0,150.1,7,8,20.0,High,37.2,3,0,0.0,Office,54.3,245.0,0.6671,0.2478,False,False,False
+DEV050,S0433,2025-05-08,08:00:00,12:15:00,Junior,Bug Fixing,High,235.0,160.0,3,4,20.0,High,31.1,4,1,0.0,Hybrid,64.7,255.0,0.6809,0.1944,False,False,False
+DEV009,S0434,2025-05-08,11:05:00,14:50:00,Junior,Code Review,Low,160.0,93.1,3,5,35.0,High,24.2,3,0,30.0,Office,53.7,225.0,0.5819,0.2599,False,False,False
+DEV002,S0435,2025-05-08,11:50:00,15:35:00,Mid,Bug Fixing,Medium,155.0,129.6,1,2,25.0,Medium,47.7,2,0,45.0,Remote,72.4,225.0,0.8361,0.3681,False,False,False
+DEV024,S0436,2025-05-08,13:30:00,15:10:00,Senior,Testing,Low,70.0,38.5,2,6,15.0,Medium,4.1,2,2,15.0,Remote,34.4,100.0,0.55,0.1065,False,False,False
+DEV030,S0437,2025-05-08,13:30:00,17:05:00,Senior,Testing,Medium,125.0,95.4,2,3,30.0,Medium,41.0,2,0,60.0,Hybrid,70.7,215.0,0.7632,0.4298,False,False,False
+DEV030,S0438,2025-05-09,08:15:00,13:10:00,Senior,Testing,Low,170.0,137.3,1,2,35.0,Medium,46.8,5,1,90.0,Hybrid,78.1,295.0,0.8076,0.3409,False,False,False
+DEV010,S0439,2025-05-09,09:30:00,13:50:00,Mid,Feature Development,Medium,180.0,147.5,0,2,35.0,Medium,63.2,2,0,45.0,Remote,74.4,260.0,0.8194,0.4285,False,False,False
+DEV029,S0440,2025-05-09,10:55:00,13:25:00,Junior,DevOps/Deployment,Low,65.0,11.0,7,10,25.0,High,1.5,1,2,60.0,Office,14.9,150.0,0.1692,0.1364,False,True,False
+DEV027,S0441,2025-05-09,12:40:00,16:05:00,Mid,Feature Development,Low,150.0,120.0,1,2,25.0,Low,31.5,3,0,30.0,Remote,73.0,205.0,0.8,0.2625,False,False,False
+DEV039,S0442,2025-05-09,13:00:00,15:35:00,Junior,Refactoring,Low,70.0,48.3,3,4,25.0,Medium,16.1,1,2,60.0,Remote,42.7,155.0,0.69,0.3333,False,False,False
+DEV014,S0443,2025-05-12,07:55:00,09:25:00,Senior,DevOps/Deployment,High,39.0,8.5,4,4,15.0,High,0.0,1,2,36.0,Hybrid,18.8,90.0,0.2179,0.0,False,False,True
+DEV028,S0444,2025-05-12,08:25:00,12:20:00,Junior,Feature Development,High,215.0,142.5,5,7,20.0,High,15.6,3,2,0.0,Hybrid,43.9,235.0,0.6628,0.1095,False,False,False
+DEV033,S0445,2025-05-12,08:55:00,12:20:00,Mid,Feature Development,High,185.0,132.5,2,3,20.0,High,30.6,2,5,0.0,Hybrid,37.2,205.0,0.7162,0.2309,False,False,False
+DEV023,S0446,2025-05-13,09:25:00,14:25:00,Lead,Code Review,Medium,220.0,173.8,2,4,35.0,High,61.4,5,0,45.0,Hybrid,77.4,300.0,0.79,0.3533,False,False,False
+DEV028,S0447,2025-05-13,09:35:00,14:05:00,Junior,Feature Development,Medium,200.0,161.6,0,1,40.0,High,56.4,3,1,30.0,Remote,72.8,270.0,0.808,0.349,False,False,False
+DEV013,S0448,2025-05-13,10:20:00,14:50:00,Senior,Feature Development,High,225.0,154.2,5,8,30.0,High,38.7,2,3,15.0,Office,44.4,270.0,0.6853,0.251,False,False,False
+DEV016,S0449,2025-05-14,08:00:00,13:00:00,Junior,Code Review,Medium,265.0,162.9,6,11,35.0,High,31.6,6,0,0.0,Remote,59.3,300.0,0.6147,0.194,False,False,False
+DEV036,S0450,2025-05-14,08:15:00,10:45:00,Junior,Feature Development,Low,95.0,59.4,2,5,10.0,Medium,0.7,2,4,45.0,Remote,34.7,150.0,0.6253,0.0118,False,False,False
+DEV008,S0451,2025-05-14,09:45:00,12:05:00,Senior,Code Review,Medium,95.0,57.7,2,4,15.0,Medium,24.4,2,0,30.0,Office,53.0,140.0,0.6074,0.4229,False,False,False
+DEV011,S0452,2025-05-14,10:35:00,15:30:00,Mid,Bug Fixing,Medium,195.0,138.0,5,8,40.0,High,35.6,4,6,60.0,Hybrid,37.6,295.0,0.7077,0.258,False,False,False
+DEV028,S0453,2025-05-14,10:50:00,13:30:00,Junior,DevOps/Deployment,Low,125.0,81.8,2,4,20.0,High,24.3,3,1,15.0,Hybrid,58.2,160.0,0.6544,0.2971,False,False,False
+DEV041,S0454,2025-05-14,12:40:00,15:50:00,Mid,Bug Fixing,High,125.0,54.9,4,7,5.0,High,0.3,2,2,60.0,Remote,31.5,190.0,0.4392,0.0055,False,False,False
+DEV040,S0455,2025-05-14,13:35:00,16:45:00,Senior,Code Review,High,140.0,115.2,1,2,20.0,High,48.3,3,0,30.0,Office,70.1,190.0,0.8229,0.4193,False,False,False
+DEV005,S0456,2025-05-14,13:45:00,15:15:00,Junior,Feature Development,Low,80.0,20.3,6,7,10.0,High,0.0,1,3,0.0,Hybrid,19.7,90.0,0.2538,0.0,False,False,True
+DEV021,S0457,2025-05-15,07:40:00,11:55:00,Senior,Code Review,Low,165.0,118.7,3,4,45.0,Medium,33.9,4,1,45.0,Remote,67.5,255.0,0.7194,0.2856,False,False,False
+DEV007,S0458,2025-05-15,09:45:00,12:00:00,Senior,Feature Development,Medium,60.0,32.9,3,3,30.0,Medium,4.3,1,0,45.0,Office,37.8,135.0,0.5483,0.1307,False,False,False
+DEV020,S0459,2025-05-15,10:40:00,13:50:00,Senior,Bug Fixing,Medium,145.0,78.4,6,7,30.0,High,19.3,2,4,15.0,Office,37.7,190.0,0.5407,0.2462,False,False,False
+DEV005,S0460,2025-05-15,11:30:00,13:35:00,Junior,Feature Development,High,80.0,37.5,4,4,15.0,High,0.0,1,3,30.0,Hybrid,18.3,125.0,0.4688,0.0,False,False,True
+DEV040,S0461,2025-05-15,13:10:00,14:45:00,Senior,Feature Development,Low,75.0,51.1,4,4,5.0,High,4.4,1,1,15.0,Office,37.5,95.0,0.6813,0.0861,False,False,False
+DEV010,S0462,2025-05-16,10:15:00,14:10:00,Mid,DevOps/Deployment,Low,120.0,66.9,6,6,25.0,High,0.0,2,2,90.0,Remote,34.6,235.0,0.5575,0.0,False,False,True
+DEV042,S0463,2025-05-16,11:15:00,15:55:00,Senior,Refactoring,Low,255.0,226.3,2,2,25.0,Medium,78.7,7,2,0.0,Hybrid,73.5,280.0,0.8875,0.3478,False,False,False
+DEV015,S0464,2025-05-19,07:45:00,10:35:00,Mid,Code Review,High,150.0,90.1,7,9,20.0,High,19.6,3,0,0.0,Office,51.3,170.0,0.6007,0.2175,False,False,False
+DEV022,S0465,2025-05-19,09:55:00,14:25:00,Mid,DevOps/Deployment,Low,130.0,61.3,6,7,35.0,High,18.9,5,1,105.0,Office,49.1,270.0,0.4715,0.3083,False,False,False
+DEV011,S0466,2025-05-19,10:20:00,13:55:00,Mid,Feature Development,Medium,94.0,70.1,1,1,35.0,Medium,24.6,0,1,86.0,Hybrid,52.4,215.0,0.7457,0.3509,True,False,False
+DEV045,S0467,2025-05-19,10:40:00,13:20:00,Senior,Bug Fixing,High,110.0,66.0,3,4,20.0,High,17.0,2,5,30.0,Remote,35.3,160.0,0.6,0.2576,False,False,False
+DEV004,S0468,2025-05-19,11:05:00,12:55:00,Senior,Code Review,Medium,51.0,7.9,5,6,15.0,High,1.5,2,1,44.0,Hybrid,19.8,110.0,0.1549,0.1899,False,True,False
+DEV026,S0469,2025-05-19,11:35:00,14:00:00,Junior,Refactoring,Low,62.0,38.5,1,0,25.0,Low,3.4,2,1,58.0,Remote,44.8,145.0,0.621,0.0883,False,False,False
+DEV031,S0470,2025-05-19,11:45:00,13:15:00,Senior,DevOps/Deployment,Low,80.0,22.1,5,8,10.0,High,5.1,2,1,0.0,Hybrid,25.6,90.0,0.2762,0.2308,False,False,False
+DEV011,S0471,2025-05-19,12:35:00,16:40:00,Mid,Documentation,High,210.0,154.5,4,5,35.0,High,36.3,3,1,0.0,Hybrid,55.4,245.0,0.7357,0.235,True,False,False
+DEV018,S0472,2025-05-20,10:30:00,12:05:00,Junior,Refactoring,Low,47.0,25.1,3,4,10.0,High,3.0,2,0,38.0,Remote,44.2,95.0,0.534,0.1195,False,False,False
+DEV018,S0473,2025-05-20,12:10:00,16:45:00,Junior,DevOps/Deployment,Medium,205.0,145.0,3,3,40.0,Medium,36.6,4,3,30.0,Remote,48.2,275.0,0.7073,0.2524,False,False,False
+DEV001,S0474,2025-05-20,12:25:00,15:45:00,Senior,Bug Fixing,High,190.0,153.9,2,4,10.0,Medium,51.2,4,1,0.0,Remote,76.7,200.0,0.81,0.3327,False,False,False
+DEV033,S0475,2025-05-20,13:35:00,15:40:00,Mid,Feature Development,Medium,105.0,77.4,3,4,20.0,Medium,22.5,2,1,0.0,Hybrid,59.8,125.0,0.7371,0.2907,False,False,False
+DEV037,S0476,2025-05-21,07:35:00,11:25:00,Junior,Refactoring,Medium,145.0,93.0,5,5,40.0,High,19.0,3,2,45.0,Remote,43.9,230.0,0.6414,0.2043,False,False,False
+DEV022,S0477,2025-05-21,08:00:00,12:30:00,Mid,DevOps/Deployment,Medium,230.0,162.5,5,5,25.0,High,38.0,4,1,15.0,Office,64.3,270.0,0.7065,0.2338,False,False,False
+DEV001,S0478,2025-05-21,09:00:00,11:50:00,Senior,Bug Fixing,Medium,77.0,27.7,5,8,25.0,High,5.4,1,1,68.0,Remote,31.0,170.0,0.3597,0.1949,False,False,False
+DEV029,S0479,2025-05-21,09:40:00,13:55:00,Junior,Bug Fixing,Medium,225.0,169.9,2,3,30.0,High,42.6,4,1,0.0,Office,68.2,255.0,0.7551,0.2507,False,False,False
+DEV016,S0480,2025-05-21,09:40:00,14:25:00,Junior,Feature Development,Low,235.0,157.8,4,5,35.0,High,25.6,1,1,15.0,Office,47.9,285.0,0.6715,0.1622,False,False,False
+DEV045,S0481,2025-05-21,12:00:00,16:15:00,Senior,Testing,Low,195.0,151.7,2,3,30.0,Medium,51.3,6,2,30.0,Remote,64.8,255.0,0.7779,0.3382,False,False,False
+DEV015,S0482,2025-05-22,07:40:00,12:15:00,Mid,Refactoring,Low,215.0,114.1,9,9,30.0,High,15.8,4,0,30.0,Office,40.4,275.0,0.5307,0.1385,False,False,False
+DEV038,S0483,2025-05-23,07:45:00,09:20:00,Mid,Bug Fixing,Medium,90.0,42.8,4,6,5.0,High,4.4,0,2,0.0,Office,30.3,95.0,0.4756,0.1028,False,False,False
+DEV008,S0484,2025-05-23,08:45:00,10:30:00,Senior,Feature Development,Medium,53.0,31.6,3,3,10.0,High,3.9,0,0,42.0,Office,36.8,105.0,0.5962,0.1234,False,False,False
+DEV017,S0485,2025-05-23,08:45:00,13:45:00,Mid,Refactoring,Medium,205.0,92.3,10,10,35.0,High,16.4,3,1,60.0,Office,34.2,300.0,0.4502,0.1777,False,False,False
+DEV018,S0486,2025-05-23,09:55:00,14:45:00,Junior,Bug Fixing,Medium,165.0,88.3,5,6,35.0,High,21.9,4,3,90.0,Remote,52.4,290.0,0.5352,0.248,False,False,False
+DEV034,S0487,2025-05-23,10:40:00,15:05:00,Mid,Refactoring,High,190.0,123.8,6,5,30.0,High,18.0,2,0,45.0,Remote,52.7,265.0,0.6516,0.1454,False,False,False
+DEV035,S0488,2025-05-23,11:10:00,15:15:00,Mid,Bug Fixing,Low,130.0,86.7,4,7,25.0,High,21.0,3,0,90.0,Office,51.5,245.0,0.6669,0.2422,False,False,False
+DEV018,S0489,2025-05-26,08:05:00,12:10:00,Junior,Bug Fixing,Medium,215.0,151.2,3,5,30.0,High,35.8,3,2,0.0,Remote,62.1,245.0,0.7033,0.2368,False,False,False
+DEV019,S0490,2025-05-26,08:10:00,11:15:00,Senior,Code Review,High,160.0,96.2,5,7,25.0,High,27.5,2,0,0.0,Remote,45.7,185.0,0.6013,0.2859,False,False,False
+DEV036,S0491,2025-05-26,08:10:00,12:30:00,Junior,Bug Fixing,Medium,190.0,116.1,4,9,25.0,High,20.5,3,1,45.0,Remote,44.6,260.0,0.6111,0.1766,False,False,False
+DEV007,S0492,2025-05-26,09:30:00,12:35:00,Senior,Feature Development,Medium,76.0,54.8,2,2,35.0,Medium,19.6,2,1,74.0,Office,54.0,185.0,0.7211,0.3577,False,False,False
+DEV001,S0493,2025-05-26,12:10:00,15:00:00,Senior,DevOps/Deployment,Medium,145.0,122.6,0,1,25.0,Low,66.9,4,0,0.0,Remote,87.3,170.0,0.8455,0.5457,False,False,False
+DEV019,S0494,2025-05-26,12:35:00,16:05:00,Senior,Feature Development,Low,150.0,92.8,4,4,30.0,Medium,31.2,3,0,30.0,Remote,57.6,210.0,0.6187,0.3362,False,False,False
+DEV025,S0495,2025-05-27,07:50:00,10:20:00,Senior,Feature Development,Medium,70.0,40.0,3,5,20.0,High,17.5,2,0,60.0,Remote,60.1,150.0,0.5714,0.4375,False,False,False
+DEV014,S0496,2025-05-27,09:10:00,12:10:00,Senior,Refactoring,Medium,130.0,49.5,9,12,20.0,High,2.1,2,2,30.0,Hybrid,15.6,180.0,0.3808,0.0424,False,False,False
+DEV011,S0497,2025-05-27,11:10:00,12:45:00,Mid,Code Review,Low,37.0,15.6,2,5,20.0,Medium,0.5,2,0,38.0,Hybrid,33.6,95.0,0.4216,0.0321,False,False,False
+DEV001,S0498,2025-05-28,09:25:00,13:25:00,Senior,Feature Development,High,140.0,103.7,1,2,40.0,High,41.4,2,1,60.0,Remote,64.7,240.0,0.7407,0.3992,False,False,False
+DEV026,S0499,2025-05-28,09:45:00,12:05:00,Junior,Bug Fixing,Low,80.0,40.1,3,4,15.0,High,1.2,3,1,45.0,Remote,42.4,140.0,0.5012,0.0299,False,False,False
+DEV043,S0500,2025-05-28,12:45:00,15:25:00,Senior,Feature Development,Medium,110.0,47.1,6,9,20.0,High,0.4,1,3,30.0,Office,23.9,160.0,0.4282,0.0085,False,False,False
+DEV015,S0501,2025-05-29,10:50:00,14:45:00,Mid,Code Review,Medium,165.0,126.9,2,4,40.0,Medium,42.7,3,1,30.0,Office,65.3,235.0,0.7691,0.3365,False,False,False
+DEV033,S0502,2025-05-29,12:10:00,16:40:00,Mid,Bug Fixing,Medium,185.0,110.5,5,8,25.0,High,24.6,3,0,60.0,Hybrid,45.8,270.0,0.5973,0.2226,False,False,False
+DEV029,S0503,2025-05-30,09:40:00,14:20:00,Junior,Bug Fixing,High,150.0,77.1,5,9,40.0,High,5.0,2,6,90.0,Office,23.9,280.0,0.514,0.0649,False,False,False
+DEV008,S0504,2025-05-30,10:55:00,12:50:00,Senior,Bug Fixing,Low,59.0,23.9,4,5,10.0,Low,1.5,2,1,46.0,Office,31.4,115.0,0.4051,0.0628,False,False,False
+DEV016,S0505,2025-05-30,13:50:00,15:20:00,Junior,Feature Development,Medium,90.0,66.2,1,1,0.0,High,20.7,1,1,0.0,Office,53.0,90.0,0.7356,0.3127,False,False,False
+DEV040,S0506,2025-06-02,08:25:00,12:50:00,Senior,Feature Development,High,170.0,117.0,3,6,35.0,High,33.0,1,1,60.0,Office,51.5,265.0,0.6882,0.2821,True,False,False
+DEV025,S0507,2025-06-02,08:25:00,11:15:00,Senior,Feature Development,High,85.0,63.2,2,3,25.0,Medium,27.4,3,0,60.0,Remote,70.4,170.0,0.7435,0.4335,False,False,False
+DEV040,S0508,2025-06-02,08:45:00,10:20:00,Senior,Documentation,High,42.0,17.3,2,2,15.0,High,2.5,1,1,38.0,Office,28.9,95.0,0.4119,0.1445,True,False,False
+DEV024,S0509,2025-06-02,10:15:00,13:20:00,Senior,Bug Fixing,Medium,125.0,80.6,3,5,30.0,High,23.5,3,2,30.0,Remote,48.0,185.0,0.6448,0.2916,False,False,False
+DEV033,S0510,2025-06-02,10:15:00,13:15:00,Mid,Code Review,Low,120.0,105.2,0,1,15.0,Low,52.7,3,0,45.0,Hybrid,83.6,180.0,0.8767,0.501,False,False,False
+DEV043,S0511,2025-06-02,13:30:00,18:25:00,Senior,Bug Fixing,Medium,190.0,133.7,5,6,45.0,High,36.7,5,1,60.0,Office,63.5,295.0,0.7037,0.2745,False,False,False
+DEV022,S0512,2025-06-02,13:30:00,15:30:00,Mid,DevOps/Deployment,Low,80.0,40.1,2,4,10.0,Low,2.3,1,3,30.0,Hybrid,25.2,120.0,0.5012,0.0574,False,False,False
+DEV050,S0513,2025-06-03,09:40:00,13:50:00,Junior,Bug Fixing,Medium,195.0,116.8,5,9,25.0,High,2.1,3,7,30.0,Hybrid,23.1,250.0,0.599,0.018,False,False,False
+DEV039,S0514,2025-06-03,11:45:00,15:40:00,Junior,Bug Fixing,Low,160.0,102.2,4,5,30.0,High,20.8,4,2,45.0,Remote,52.1,235.0,0.6388,0.2035,False,False,False
+DEV005,S0515,2025-06-03,12:55:00,17:00:00,Junior,Testing,Medium,200.0,146.8,4,4,30.0,High,31.9,4,2,15.0,Hybrid,59.0,245.0,0.734,0.2173,False,False,False
+DEV014,S0516,2025-06-03,13:55:00,17:05:00,Senior,Bug Fixing,Medium,105.0,76.3,2,4,25.0,Medium,24.1,2,2,60.0,Hybrid,57.4,190.0,0.7267,0.3159,False,False,False
+DEV040,S0517,2025-06-03,13:55:00,18:05:00,Senior,Testing,High,200.0,153.6,3,3,35.0,High,44.3,3,0,15.0,Hybrid,63.6,250.0,0.768,0.2884,False,False,False
+DEV019,S0518,2025-06-04,08:05:00,12:20:00,Senior,Documentation,Low,225.0,185.3,2,1,30.0,Low,60.8,7,0,0.0,Hybrid,77.6,255.0,0.8236,0.3281,False,False,False
+DEV042,S0519,2025-06-04,10:55:00,12:55:00,Senior,Documentation,Medium,100.0,51.7,5,5,20.0,High,6.3,1,0,0.0,Hybrid,44.7,120.0,0.517,0.1219,False,False,False
+DEV017,S0520,2025-06-04,12:00:00,15:05:00,Mid,DevOps/Deployment,Low,120.0,85.9,2,3,35.0,Low,22.2,1,0,30.0,Office,51.9,185.0,0.7158,0.2584,False,False,False
+DEV047,S0521,2025-06-04,13:00:00,15:25:00,Mid,Bug Fixing,High,130.0,105.1,1,2,15.0,High,27.8,1,1,0.0,Remote,63.5,145.0,0.8085,0.2645,False,False,False
+DEV015,S0522,2025-06-04,13:05:00,15:35:00,Mid,Bug Fixing,Medium,70.0,16.3,5,7,20.0,High,0.0,2,1,60.0,Office,16.9,150.0,0.2329,0.0,False,False,True
+DEV030,S0523,2025-06-05,07:40:00,11:30:00,Senior,Documentation,Medium,175.0,133.9,5,6,25.0,High,33.2,4,0,30.0,Hybrid,61.1,230.0,0.7651,0.2479,False,False,False
+DEV031,S0524,2025-06-05,10:20:00,13:15:00,Senior,Bug Fixing,Low,100.0,46.1,5,7,15.0,High,4.1,3,3,60.0,Hybrid,24.6,175.0,0.461,0.0889,False,False,False
+DEV019,S0525,2025-06-05,11:35:00,15:15:00,Senior,Bug Fixing,High,145.0,105.9,3,5,45.0,High,29.3,3,2,30.0,Remote,53.6,220.0,0.7303,0.2767,False,False,False
+DEV046,S0526,2025-06-06,07:40:00,09:15:00,Senior,Feature Development,Low,52.0,18.9,3,5,5.0,Medium,0.7,2,2,38.0,Office,25.2,95.0,0.3635,0.037,False,False,False
+DEV004,S0527,2025-06-06,08:45:00,13:35:00,Senior,Testing,Medium,210.0,160.5,2,5,35.0,Medium,66.3,5,0,45.0,Office,79.4,290.0,0.7643,0.4131,False,False,False
+DEV016,S0528,2025-06-06,10:20:00,14:20:00,Junior,Documentation,High,150.0,96.1,3,5,30.0,High,27.7,2,2,60.0,Office,45.7,240.0,0.6407,0.2882,False,False,False
+DEV030,S0529,2025-06-06,12:35:00,14:20:00,Senior,Documentation,Medium,65.0,15.3,7,7,10.0,High,1.8,2,0,30.0,Hybrid,27.6,105.0,0.2354,0.1176,True,False,False
+DEV030,S0530,2025-06-06,13:25:00,15:50:00,Senior,Feature Development,Medium,115.0,74.9,3,6,30.0,High,27.3,4,3,0.0,Hybrid,51.0,145.0,0.6513,0.3645,True,False,False
+DEV021,S0531,2025-06-09,08:00:00,09:30:00,Senior,Code Review,Medium,34.0,5.0,2,5,20.0,Medium,0.8,2,0,36.0,Remote,30.8,90.0,0.1471,0.16,False,True,False
+DEV004,S0532,2025-06-09,10:05:00,15:00:00,Senior,Documentation,Medium,175.0,126.9,4,3,30.0,Medium,34.4,5,0,90.0,Remote,65.9,295.0,0.7251,0.2711,False,False,False
+DEV025,S0533,2025-06-09,10:15:00,14:30:00,Senior,Feature Development,Medium,215.0,173.3,2,4,25.0,Medium,56.5,3,2,15.0,Remote,66.5,255.0,0.806,0.326,False,False,False
+DEV034,S0534,2025-06-09,10:25:00,13:05:00,Mid,Code Review,Medium,75.0,24.2,5,6,25.0,High,2.1,1,0,60.0,Remote,29.2,160.0,0.3227,0.0868,False,False,False
+DEV048,S0535,2025-06-09,10:40:00,14:25:00,Mid,DevOps/Deployment,Medium,200.0,149.6,2,3,25.0,Medium,44.1,4,0,0.0,Remote,71.3,225.0,0.748,0.2948,False,False,False
+DEV013,S0536,2025-06-10,09:55:00,13:15:00,Senior,Refactoring,Medium,95.0,29.4,7,6,25.0,High,5.1,0,5,80.0,Office,5.0,200.0,0.3095,0.1735,False,False,False
+DEV045,S0537,2025-06-10,12:50:00,16:25:00,Senior,Feature Development,Medium,160.0,125.7,1,1,25.0,Medium,58.6,2,0,30.0,Remote,69.7,215.0,0.7856,0.4662,False,False,False
+DEV048,S0538,2025-06-11,09:25:00,11:55:00,Mid,Feature Development,Medium,110.0,52.8,5,5,25.0,High,0.4,0,0,15.0,Hybrid,28.4,150.0,0.48,0.0076,False,False,False
+DEV002,S0539,2025-06-11,10:10:00,13:10:00,Mid,DevOps/Deployment,Low,88.0,47.4,4,5,20.0,High,1.5,2,2,72.0,Remote,33.4,180.0,0.5386,0.0316,False,False,False
+DEV021,S0540,2025-06-11,10:40:00,13:35:00,Senior,Feature Development,Low,90.0,69.6,4,5,15.0,High,17.2,2,2,70.0,Remote,45.8,175.0,0.7733,0.2471,False,False,False
+DEV008,S0541,2025-06-11,11:20:00,14:55:00,Senior,Bug Fixing,Low,155.0,84.0,8,9,30.0,High,6.6,4,2,30.0,Office,41.1,215.0,0.5419,0.0786,False,False,False
+DEV047,S0542,2025-06-11,12:45:00,16:15:00,Mid,Feature Development,Medium,150.0,95.6,3,4,15.0,High,31.0,2,1,45.0,Remote,48.1,210.0,0.6373,0.3243,False,False,False
+DEV044,S0543,2025-06-11,13:00:00,18:00:00,Mid,Code Review,Low,200.0,143.6,3,6,40.0,Medium,37.2,6,0,60.0,Remote,70.6,300.0,0.718,0.2591,False,False,False
+DEV006,S0544,2025-06-12,08:10:00,11:35:00,Lead,Feature Development,Medium,155.0,114.8,4,5,20.0,High,39.0,2,1,30.0,Hybrid,58.9,205.0,0.7406,0.3397,False,False,False
+DEV010,S0545,2025-06-12,08:50:00,11:50:00,Mid,Code Review,Low,155.0,113.3,2,5,25.0,High,32.4,4,0,0.0,Remote,67.0,180.0,0.731,0.286,False,False,False
+DEV003,S0546,2025-06-12,12:30:00,16:50:00,Senior,Bug Fixing,High,145.0,60.0,10,11,40.0,High,17.1,3,2,75.0,Office,31.7,260.0,0.4138,0.285,False,False,False
+DEV045,S0547,2025-06-12,13:40:00,17:10:00,Senior,Feature Development,Medium,185.0,112.0,6,6,25.0,High,25.6,3,1,0.0,Hybrid,50.2,210.0,0.6054,0.2286,False,False,False
+DEV042,S0548,2025-06-12,13:45:00,16:05:00,Senior,Refactoring,Medium,110.0,89.1,1,2,15.0,Medium,40.4,2,1,15.0,Hybrid,71.6,140.0,0.81,0.4534,False,False,False
+DEV023,S0549,2025-06-13,08:30:00,12:05:00,Lead,Refactoring,Low,190.0,123.2,5,4,25.0,Medium,29.6,4,1,0.0,Hybrid,54.2,215.0,0.6484,0.2403,False,False,False
+DEV025,S0550,2025-06-13,09:15:00,11:50:00,Senior,Bug Fixing,High,75.0,34.3,4,7,20.0,High,6.0,1,4,60.0,Remote,23.4,155.0,0.4573,0.1749,False,False,False
+DEV005,S0551,2025-06-13,12:10:00,14:45:00,Junior,Feature Development,Medium,75.0,5.0,6,8,20.0,High,0.0,1,2,60.0,Hybrid,5.0,155.0,0.0667,0.0,False,True,True
+DEV002,S0552,2025-06-13,13:55:00,17:25:00,Mid,Code Review,High,185.0,133.5,3,7,25.0,High,36.7,3,0,0.0,Remote,63.2,210.0,0.7216,0.2749,False,False,False
+DEV033,S0553,2025-06-16,08:55:00,11:50:00,Mid,Feature Development,Low,90.0,52.1,4,4,15.0,Medium,5.3,1,0,70.0,Hybrid,36.1,175.0,0.5789,0.1017,False,False,False
+DEV040,S0554,2025-06-16,11:35:00,15:45:00,Senior,Bug Fixing,Low,175.0,114.7,6,7,30.0,High,23.3,4,3,45.0,Office,46.2,250.0,0.6554,0.2031,False,False,False
+DEV027,S0555,2025-06-16,12:10:00,13:50:00,Mid,Refactoring,Low,60.0,38.5,1,3,25.0,Low,4.4,2,2,15.0,Remote,37.5,100.0,0.6417,0.1143,False,False,False
+DEV006,S0556,2025-06-17,07:35:00,10:50:00,Lead,Feature Development,Medium,150.0,127.3,0,2,15.0,Low,63.1,3,1,30.0,Hybrid,74.5,195.0,0.8487,0.4957,False,False,False
+DEV045,S0557,2025-06-17,07:50:00,11:10:00,Senior,Feature Development,Medium,160.0,132.3,2,3,25.0,Medium,53.9,3,0,15.0,Remote,82.6,200.0,0.8269,0.4074,False,False,False
+DEV004,S0558,2025-06-17,08:05:00,13:00:00,Senior,Bug Fixing,Medium,175.0,71.9,10,11,30.0,High,16.0,3,0,90.0,Office,36.0,295.0,0.4109,0.2225,False,False,False
+DEV021,S0559,2025-06-17,08:30:00,13:00:00,Senior,Refactoring,Medium,170.0,135.1,3,2,40.0,Medium,46.4,4,2,60.0,Remote,76.3,270.0,0.7947,0.3434,False,False,False
+DEV038,S0560,2025-06-17,08:35:00,13:05:00,Mid,Documentation,Medium,215.0,117.6,7,7,40.0,High,28.5,4,0,15.0,Office,60.1,270.0,0.547,0.2423,False,False,False
+DEV039,S0561,2025-06-17,09:15:00,11:35:00,Junior,Bug Fixing,Medium,105.0,66.0,4,5,20.0,High,0.9,1,5,15.0,Hybrid,24.5,140.0,0.6286,0.0136,False,False,False
+DEV012,S0562,2025-06-17,09:50:00,12:40:00,Lead,Bug Fixing,Medium,72.0,5.0,10,12,30.0,High,0.5,2,2,68.0,Office,8.3,170.0,0.0694,0.1,False,True,False
+DEV020,S0563,2025-06-17,12:35:00,15:55:00,Senior,Testing,High,130.0,67.6,8,9,25.0,High,3.4,3,1,45.0,Office,34.1,200.0,0.52,0.0503,False,False,False
+DEV022,S0564,2025-06-17,13:25:00,17:25:00,Mid,Feature Development,Medium,210.0,160.7,2,3,30.0,High,61.2,4,0,0.0,Office,73.9,240.0,0.7652,0.3808,False,False,False
+DEV017,S0565,2025-06-18,10:50:00,15:15:00,Mid,Testing,Low,235.0,173.8,3,4,30.0,Medium,45.8,6,3,0.0,Office,61.1,265.0,0.7396,0.2635,False,False,False
+DEV043,S0566,2025-06-18,12:00:00,16:15:00,Senior,Testing,Low,205.0,164.9,2,2,35.0,Medium,57.1,7,0,15.0,Office,84.0,255.0,0.8044,0.3463,False,False,False
+DEV027,S0567,2025-06-18,12:30:00,15:20:00,Mid,Code Review,Medium,85.0,6.2,6,9,25.0,High,0.1,2,1,60.0,Remote,14.8,170.0,0.0729,0.0161,False,True,False
+DEV035,S0568,2025-06-19,08:20:00,09:55:00,Mid,Feature Development,High,95.0,67.8,2,4,0.0,High,18.8,1,1,0.0,Remote,50.1,95.0,0.7137,0.2773,False,False,False
+DEV040,S0569,2025-06-20,08:15:00,10:30:00,Senior,Bug Fixing,Medium,70.0,45.7,3,4,20.0,High,18.4,1,0,45.0,Hybrid,48.8,135.0,0.6529,0.4026,False,False,False
+DEV015,S0570,2025-06-20,09:50:00,14:50:00,Mid,Feature Development,Medium,250.0,164.4,7,8,35.0,High,32.0,3,0,15.0,Office,55.8,300.0,0.6576,0.1946,False,False,False
+DEV014,S0571,2025-06-20,12:45:00,15:50:00,Senior,Testing,Medium,130.0,73.5,5,7,25.0,High,18.3,1,2,30.0,Hybrid,35.2,185.0,0.5654,0.249,False,False,False
+DEV039,S0572,2025-06-20,12:45:00,17:00:00,Junior,Testing,Medium,145.0,76.1,6,7,20.0,High,0.1,2,2,90.0,Hybrid,31.8,255.0,0.5248,0.0013,False,False,False
+DEV040,S0573,2025-06-20,12:50:00,14:20:00,Senior,Refactoring,High,39.0,5.0,6,5,15.0,High,0.0,1,2,36.0,Office,14.2,90.0,0.1282,0.0,False,True,True
+DEV034,S0574,2025-06-23,08:05:00,11:15:00,Mid,Documentation,Low,125.0,65.6,4,4,20.0,Medium,5.7,2,1,45.0,Remote,37.6,190.0,0.5248,0.0869,False,False,False
+DEV017,S0575,2025-06-23,09:40:00,13:45:00,Mid,Feature Development,Medium,200.0,152.9,2,2,30.0,Medium,54.2,2,1,15.0,Office,62.3,245.0,0.7645,0.3545,False,False,False
+DEV032,S0576,2025-06-23,11:10:00,14:15:00,Lead,Feature Development,Low,155.0,104.9,3,5,15.0,Medium,28.6,3,2,15.0,Office,51.9,185.0,0.6768,0.2726,False,False,False
+DEV012,S0577,2025-06-23,12:45:00,17:25:00,Lead,Refactoring,Medium,160.0,89.0,7,7,30.0,High,23.9,3,3,90.0,Office,38.4,280.0,0.5562,0.2685,False,False,False
+DEV019,S0578,2025-06-23,13:55:00,16:00:00,Senior,Code Review,Medium,95.0,60.2,1,5,15.0,Medium,23.7,3,0,15.0,Remote,63.1,125.0,0.6337,0.3937,False,False,False
+DEV022,S0579,2025-06-23,13:55:00,15:45:00,Mid,Refactoring,High,105.0,69.7,2,3,5.0,High,27.0,2,2,0.0,Office,54.6,110.0,0.6638,0.3874,False,False,False
+DEV042,S0580,2025-06-24,09:40:00,11:55:00,Senior,Code Review,Medium,110.0,51.2,5,7,10.0,High,1.3,1,0,15.0,Office,36.4,135.0,0.4655,0.0254,False,False,False
+DEV029,S0581,2025-06-24,10:05:00,12:50:00,Junior,Code Review,Medium,120.0,53.0,5,6,15.0,High,1.6,2,0,30.0,Office,36.3,165.0,0.4417,0.0302,False,False,False
+DEV003,S0582,2025-06-24,11:35:00,13:20:00,Senior,Feature Development,Low,105.0,55.5,3,4,0.0,Medium,2.2,2,0,0.0,Hybrid,49.7,105.0,0.5286,0.0396,False,False,False
+DEV027,S0583,2025-06-24,12:25:00,16:30:00,Mid,Documentation,Low,195.0,158.1,1,1,20.0,Low,54.8,5,0,30.0,Remote,79.1,245.0,0.8108,0.3466,False,False,False
+DEV028,S0584,2025-06-25,07:35:00,11:00:00,Junior,Bug Fixing,Low,120.0,61.8,4,7,25.0,High,0.8,3,1,60.0,Hybrid,39.9,205.0,0.515,0.0129,True,False,False
+DEV028,S0585,2025-06-25,08:25:00,11:45:00,Junior,Bug Fixing,Medium,85.0,33.2,4,8,35.0,High,2.2,2,3,80.0,Hybrid,21.5,200.0,0.3906,0.0663,True,False,False
+DEV036,S0586,2025-06-25,08:35:00,10:35:00,Junior,Code Review,Medium,85.0,47.0,3,4,20.0,High,3.9,2,0,15.0,Remote,45.2,120.0,0.5529,0.083,False,False,False
+DEV006,S0587,2025-06-25,10:00:00,13:05:00,Lead,Feature Development,High,81.0,38.7,4,4,30.0,High,3.1,2,2,74.0,Hybrid,25.0,185.0,0.4778,0.0801,False,False,False
+DEV004,S0588,2025-06-25,13:30:00,17:35:00,Senior,Bug Fixing,High,120.0,112.7,0,1,35.0,Medium,48.6,3,0,90.0,Hybrid,82.0,245.0,0.9392,0.4312,False,False,False
+DEV017,S0589,2025-06-25,13:45:00,15:25:00,Mid,Testing,High,80.0,34.4,5,6,5.0,High,0.6,1,0,15.0,Office,40.1,100.0,0.43,0.0174,False,False,False
+DEV005,S0590,2025-06-26,10:40:00,15:40:00,Junior,Code Review,Medium,215.0,143.7,7,8,40.0,High,23.1,3,1,45.0,Hybrid,45.1,300.0,0.6684,0.1608,False,False,False
+DEV017,S0591,2025-06-26,12:30:00,14:55:00,Mid,Bug Fixing,High,85.0,39.6,5,6,15.0,High,1.2,0,0,45.0,Office,20.7,145.0,0.4659,0.0303,False,False,False
+DEV048,S0592,2025-06-26,13:05:00,15:45:00,Mid,Bug Fixing,High,90.0,63.5,3,4,10.0,High,15.9,2,1,60.0,Remote,51.4,160.0,0.7056,0.2504,False,False,False
+DEV026,S0593,2025-06-26,13:10:00,16:50:00,Junior,Testing,Low,107.0,52.4,5,5,25.0,High,0.5,2,0,88.0,Remote,35.2,220.0,0.4897,0.0095,False,False,False
+DEV033,S0594,2025-06-27,09:40:00,12:20:00,Mid,Testing,Medium,120.0,94.1,2,3,25.0,Medium,25.9,1,1,15.0,Hybrid,54.2,160.0,0.7842,0.2752,False,False,False
+DEV036,S0595,2025-06-27,11:10:00,16:00:00,Junior,Testing,Medium,195.0,129.1,3,4,35.0,High,32.3,3,1,60.0,Remote,59.0,290.0,0.6621,0.2502,True,False,False
+DEV022,S0596,2025-06-27,11:10:00,15:55:00,Mid,Testing,Medium,200.0,156.7,3,5,40.0,High,46.4,4,0,45.0,Remote,66.1,285.0,0.7835,0.2961,False,False,False
+DEV008,S0597,2025-06-27,11:15:00,15:05:00,Senior,Documentation,Medium,170.0,107.4,5,7,30.0,High,25.7,3,2,30.0,Office,42.7,230.0,0.6318,0.2393,False,False,False
+DEV036,S0598,2025-06-27,11:45:00,14:35:00,Junior,DevOps/Deployment,Low,120.0,29.4,8,10,20.0,High,1.2,2,0,30.0,Office,27.0,170.0,0.245,0.0408,True,False,False
+DEV022,S0599,2025-06-30,08:30:00,11:30:00,Mid,DevOps/Deployment,Medium,145.0,55.0,7,8,20.0,High,1.7,2,0,15.0,Office,31.4,180.0,0.3793,0.0309,False,False,False
+DEV043,S0600,2025-06-30,11:40:00,13:15:00,Senior,Feature Development,Medium,37.0,5.0,6,7,20.0,High,0.1,0,1,38.0,Remote,11.8,95.0,0.1351,0.02,False,True,False
+DEV050,S0601,2025-06-30,12:10:00,13:40:00,Junior,DevOps/Deployment,Low,75.0,53.0,2,2,15.0,Medium,7.5,2,3,0.0,Hybrid,50.4,90.0,0.7067,0.1415,False,False,False
+DEV048,S0602,2025-06-30,12:10:00,13:55:00,Mid,Code Review,High,70.0,35.9,5,6,20.0,High,1.1,0,1,15.0,Remote,23.7,105.0,0.5129,0.0306,False,False,False
+DEV044,S0603,2025-06-30,13:50:00,17:00:00,Mid,Testing,Medium,110.0,60.7,3,4,20.0,High,5.9,2,1,60.0,Remote,35.8,190.0,0.5518,0.0972,False,False,False
+DEV036,S0604,2025-07-01,08:15:00,11:35:00,Junior,Documentation,High,175.0,108.7,4,8,25.0,High,20.0,4,0,0.0,Remote,56.7,200.0,0.6211,0.184,False,False,False
+DEV042,S0605,2025-07-01,08:25:00,12:50:00,Senior,Refactoring,High,225.0,192.0,1,0,40.0,Medium,68.5,4,0,0.0,Hybrid,80.8,265.0,0.8533,0.3568,False,False,False
+DEV041,S0606,2025-07-01,11:25:00,15:40:00,Mid,Bug Fixing,High,215.0,124.4,7,9,25.0,High,24.0,4,1,15.0,Remote,50.7,255.0,0.5786,0.1929,False,False,False
+DEV019,S0607,2025-07-01,13:25:00,17:20:00,Senior,DevOps/Deployment,Low,210.0,167.5,3,3,25.0,Medium,48.9,6,0,0.0,Remote,84.3,235.0,0.7976,0.2919,False,False,False
+DEV007,S0608,2025-07-01,13:45:00,15:15:00,Senior,Bug Fixing,Low,65.0,23.9,4,6,10.0,Medium,2.8,2,2,15.0,Office,29.9,90.0,0.3677,0.1172,False,False,False
+DEV031,S0609,2025-07-02,08:00:00,10:55:00,Senior,Feature Development,High,110.0,66.1,5,5,20.0,High,2.9,2,3,45.0,Hybrid,34.8,175.0,0.6009,0.0439,False,False,False
+DEV009,S0610,2025-07-02,10:45:00,12:40:00,Junior,Testing,Low,75.0,21.5,5,5,25.0,High,0.1,1,2,15.0,Remote,19.3,115.0,0.2867,0.0047,False,False,False
+DEV027,S0611,2025-07-02,10:55:00,15:45:00,Mid,DevOps/Deployment,High,190.0,164.0,1,1,40.0,High,48.7,3,0,60.0,Remote,70.1,290.0,0.8632,0.297,False,False,False
+DEV021,S0612,2025-07-02,11:10:00,15:10:00,Senior,Refactoring,Low,180.0,128.1,5,4,15.0,Medium,36.6,6,0,45.0,Remote,63.9,240.0,0.7117,0.2857,False,False,False
+DEV016,S0613,2025-07-02,12:00:00,14:40:00,Junior,Refactoring,Medium,130.0,85.4,2,2,15.0,High,25.3,3,2,15.0,Office,54.0,160.0,0.6569,0.2963,False,False,False
+DEV046,S0614,2025-07-02,13:05:00,15:10:00,Senior,Code Review,Medium,75.0,5.0,9,12,20.0,High,0.0,1,0,30.0,Office,5.0,125.0,0.0667,0.0,False,True,True
+DEV017,S0615,2025-07-03,08:20:00,12:35:00,Mid,Bug Fixing,Medium,180.0,131.0,4,5,30.0,High,30.2,4,3,45.0,Office,46.6,255.0,0.7278,0.2305,False,False,False
+DEV032,S0616,2025-07-03,08:25:00,12:20:00,Lead,Refactoring,High,110.0,82.4,3,2,35.0,Medium,20.8,1,1,90.0,Office,50.2,235.0,0.7491,0.2524,False,False,False
+DEV050,S0617,2025-07-03,11:10:00,14:25:00,Junior,Bug Fixing,Low,140.0,99.7,2,4,25.0,High,25.8,2,2,30.0,Hybrid,46.1,195.0,0.7121,0.2588,False,False,False
+DEV026,S0618,2025-07-03,13:05:00,15:05:00,Junior,DevOps/Deployment,Low,67.0,21.7,3,5,5.0,High,0.2,1,0,48.0,Remote,25.0,120.0,0.3239,0.0092,False,False,False
+DEV012,S0619,2025-07-03,13:40:00,16:50:00,Lead,Bug Fixing,Low,115.0,44.3,6,8,30.0,High,1.3,3,0,45.0,Office,36.5,190.0,0.3852,0.0293,False,False,False
+DEV013,S0620,2025-07-03,13:55:00,18:55:00,Senior,Bug Fixing,High,230.0,202.1,0,1,40.0,High,87.8,5,0,30.0,Remote,82.9,300.0,0.8787,0.4344,False,False,False
+DEV008,S0621,2025-07-04,07:40:00,09:45:00,Senior,Feature Development,High,55.0,14.8,5,6,20.0,High,3.5,1,3,50.0,Office,14.9,125.0,0.2691,0.2365,False,False,False
+DEV033,S0622,2025-07-04,07:50:00,12:40:00,Mid,Feature Development,Low,195.0,163.0,0,0,35.0,Medium,62.2,3,0,60.0,Hybrid,69.9,290.0,0.8359,0.3816,False,False,False
+DEV038,S0623,2025-07-04,11:30:00,15:40:00,Mid,Feature Development,Medium,120.0,64.3,5,7,40.0,High,19.4,3,0,90.0,Office,44.7,250.0,0.5358,0.3017,False,False,False
+DEV015,S0624,2025-07-07,07:55:00,10:55:00,Mid,Code Review,High,78.0,51.1,3,4,30.0,High,16.2,0,0,72.0,Office,44.1,180.0,0.6551,0.317,False,False,False
+DEV010,S0625,2025-07-07,08:30:00,10:10:00,Mid,Bug Fixing,Medium,95.0,67.8,1,4,5.0,Medium,30.6,4,0,0.0,Remote,74.6,100.0,0.7137,0.4513,False,False,False
+DEV004,S0626,2025-07-07,08:30:00,10:45:00,Senior,Feature Development,Medium,85.0,59.1,3,4,20.0,Medium,15.9,0,1,30.0,Hybrid,41.6,135.0,0.6953,0.269,False,False,False
+DEV026,S0627,2025-07-07,11:55:00,14:55:00,Junior,Refactoring,Medium,155.0,122.3,1,1,25.0,High,35.5,3,0,0.0,Remote,69.2,180.0,0.789,0.2903,False,False,False
+DEV018,S0628,2025-07-07,13:30:00,15:55:00,Junior,DevOps/Deployment,Low,85.0,51.3,1,4,15.0,Medium,4.3,1,2,45.0,Remote,38.4,145.0,0.6035,0.0838,False,False,False
+DEV029,S0629,2025-07-08,07:55:00,10:35:00,Junior,Code Review,Low,130.0,62.6,6,8,30.0,High,4.4,3,1,0.0,Office,35.5,160.0,0.4815,0.0703,False,False,False
+DEV021,S0630,2025-07-08,08:00:00,09:45:00,Senior,Feature Development,High,53.0,25.5,2,2,10.0,Medium,5.4,0,1,42.0,Remote,35.5,105.0,0.4811,0.2118,False,False,False
+DEV022,S0631,2025-07-08,09:10:00,11:30:00,Mid,Bug Fixing,Low,64.0,15.1,5,10,20.0,High,0.9,2,0,56.0,Remote,17.2,140.0,0.2359,0.0596,False,False,False
+DEV017,S0632,2025-07-08,12:05:00,14:40:00,Mid,Testing,Medium,95.0,58.9,4,5,30.0,High,7.6,2,1,30.0,Office,45.0,155.0,0.62,0.129,False,False,False
+DEV004,S0633,2025-07-08,12:35:00,16:15:00,Senior,Refactoring,Medium,195.0,151.4,6,5,25.0,High,39.8,4,0,0.0,Hybrid,65.9,220.0,0.7764,0.2629,False,False,False
+DEV040,S0634,2025-07-08,13:10:00,16:20:00,Senior,Refactoring,Low,175.0,145.0,2,3,15.0,Medium,55.2,7,2,0.0,Office,82.2,190.0,0.8286,0.3807,False,False,False
+DEV015,S0635,2025-07-08,13:10:00,15:50:00,Mid,Refactoring,Medium,95.0,24.9,6,6,20.0,High,0.5,3,0,45.0,Office,31.4,160.0,0.2621,0.0201,False,False,False
+DEV023,S0636,2025-07-08,13:10:00,14:45:00,Lead,Documentation,Medium,45.0,23.6,2,2,20.0,Low,15.2,2,0,30.0,Hybrid,49.1,95.0,0.5244,0.6441,False,False,False
+DEV018,S0637,2025-07-08,13:25:00,17:00:00,Junior,Code Review,High,150.0,106.8,1,4,35.0,High,30.8,3,1,30.0,Remote,66.8,215.0,0.712,0.2884,False,False,False
+DEV039,S0638,2025-07-08,13:25:00,15:40:00,Junior,Feature Development,Low,71.0,38.9,3,4,10.0,High,2.0,1,3,54.0,Remote,27.6,135.0,0.5479,0.0514,False,False,False
+DEV009,S0639,2025-07-09,09:20:00,13:45:00,Junior,Testing,Low,195.0,122.9,4,4,40.0,High,21.0,4,1,30.0,Remote,59.6,265.0,0.6303,0.1709,False,False,False
+DEV040,S0640,2025-07-09,10:20:00,15:00:00,Senior,Code Review,Medium,245.0,196.1,3,5,35.0,High,70.4,6,0,0.0,Office,70.2,280.0,0.8004,0.359,False,False,False
+DEV007,S0641,2025-07-09,11:45:00,14:45:00,Senior,Documentation,Medium,140.0,96.5,4,6,25.0,High,34.7,4,0,15.0,Hybrid,64.9,180.0,0.6893,0.3596,False,False,False
+DEV042,S0642,2025-07-10,08:00:00,09:35:00,Senior,Feature Development,High,65.0,42.4,2,4,15.0,Medium,7.8,1,0,15.0,Remote,47.8,95.0,0.6523,0.184,False,False,False
+DEV018,S0643,2025-07-10,08:50:00,11:35:00,Junior,Refactoring,Medium,84.0,5.0,11,11,15.0,High,0.0,0,1,66.0,Remote,5.7,165.0,0.0595,0.0,False,True,True
+DEV019,S0644,2025-07-10,09:35:00,12:10:00,Senior,Feature Development,Low,73.0,38.4,5,6,20.0,High,3.0,1,2,62.0,Remote,25.0,155.0,0.526,0.0781,False,False,False
+DEV038,S0645,2025-07-10,12:50:00,15:55:00,Mid,Bug Fixing,High,86.0,41.5,6,8,25.0,High,0.4,1,1,74.0,Office,28.6,185.0,0.4826,0.0096,False,False,False
+DEV007,S0646,2025-07-11,10:10:00,13:45:00,Senior,Code Review,Medium,165.0,100.6,6,7,20.0,High,22.9,4,0,30.0,Office,59.2,215.0,0.6097,0.2276,True,False,False
+DEV020,S0647,2025-07-11,12:20:00,15:30:00,Senior,Bug Fixing,Medium,175.0,119.9,6,9,15.0,High,30.1,4,1,0.0,Office,62.8,190.0,0.6851,0.251,False,False,False
+DEV046,S0648,2025-07-11,13:00:00,16:25:00,Senior,Bug Fixing,High,103.0,48.4,5,6,20.0,High,0.8,3,2,82.0,Office,30.5,205.0,0.4699,0.0165,False,False,False
+DEV007,S0649,2025-07-11,13:00:00,15:10:00,Senior,Testing,Medium,68.0,30.3,5,5,10.0,High,0.6,2,2,52.0,Office,27.0,130.0,0.4456,0.0198,True,False,False
+DEV030,S0650,2025-07-14,07:40:00,10:50:00,Senior,Feature Development,Low,125.0,68.0,5,7,20.0,High,18.7,3,2,45.0,Hybrid,40.4,190.0,0.544,0.275,False,False,False
+DEV006,S0651,2025-07-14,08:25:00,11:50:00,Lead,Code Review,Medium,155.0,111.7,2,5,20.0,Medium,47.5,4,0,30.0,Remote,71.9,205.0,0.7206,0.4252,False,False,False
+DEV028,S0652,2025-07-14,09:30:00,13:45:00,Junior,Bug Fixing,High,225.0,144.9,4,5,30.0,High,32.6,3,5,0.0,Hybrid,41.7,255.0,0.644,0.225,False,False,False
+DEV035,S0653,2025-07-14,11:55:00,15:35:00,Mid,Feature Development,Medium,107.0,55.3,2,6,25.0,High,21.2,2,2,88.0,Remote,44.1,220.0,0.5168,0.3834,False,False,False
+DEV019,S0654,2025-07-14,13:45:00,18:45:00,Senior,Feature Development,High,260.0,219.6,1,2,40.0,Medium,77.2,5,1,0.0,Remote,72.2,300.0,0.8446,0.3515,False,False,False
+DEV037,S0655,2025-07-14,13:45:00,15:45:00,Junior,Feature Development,Low,95.0,45.0,4,5,25.0,High,2.2,1,0,0.0,Hybrid,45.4,120.0,0.4737,0.0489,False,False,False
+DEV044,S0656,2025-07-14,13:50:00,16:35:00,Mid,Feature Development,High,140.0,91.1,4,5,25.0,High,23.8,1,1,0.0,Remote,43.8,165.0,0.6507,0.2613,False,False,False
+DEV003,S0657,2025-07-15,07:55:00,10:00:00,Senior,Code Review,Medium,70.0,33.8,4,8,5.0,High,15.1,2,0,50.0,Hybrid,52.2,125.0,0.4829,0.4467,False,False,False
+DEV021,S0658,2025-07-15,09:05:00,13:55:00,Senior,Code Review,Low,220.0,154.8,4,6,40.0,High,50.0,7,0,30.0,Remote,62.0,290.0,0.7036,0.323,False,False,False
+DEV043,S0659,2025-07-15,10:05:00,14:30:00,Senior,Refactoring,Medium,190.0,116.6,7,9,30.0,High,24.6,5,2,45.0,Office,53.4,265.0,0.6137,0.211,False,False,False
+DEV003,S0660,2025-07-15,11:40:00,14:20:00,Senior,Documentation,High,85.0,67.0,1,1,30.0,Medium,22.3,2,0,45.0,Hybrid,63.0,160.0,0.7882,0.3328,False,False,False
+DEV025,S0661,2025-07-15,13:00:00,14:40:00,Senior,Bug Fixing,Low,65.0,40.1,2,6,5.0,Medium,0.9,2,2,30.0,Remote,34.2,100.0,0.6169,0.0224,False,False,False
+DEV029,S0662,2025-07-16,08:25:00,10:50:00,Junior,DevOps/Deployment,Medium,62.0,29.9,3,3,25.0,High,3.5,1,2,58.0,Office,29.9,145.0,0.4823,0.1171,False,False,False
+DEV012,S0663,2025-07-16,10:00:00,12:40:00,Lead,Bug Fixing,Medium,95.0,50.7,5,7,20.0,High,3.8,2,4,45.0,Office,16.4,160.0,0.5337,0.075,True,False,False
+DEV047,S0664,2025-07-16,10:40:00,14:10:00,Mid,Documentation,Low,96.0,72.5,2,1,30.0,Low,20.9,4,0,84.0,Remote,66.8,210.0,0.7552,0.2883,False,False,False
+DEV012,S0665,2025-07-16,11:00:00,15:25:00,Lead,DevOps/Deployment,Medium,195.0,129.6,8,9,25.0,High,31.7,4,2,45.0,Office,48.3,265.0,0.6646,0.2446,True,False,False
+DEV017,S0666,2025-07-16,11:00:00,13:20:00,Mid,Bug Fixing,Medium,100.0,67.7,2,4,10.0,Medium,25.9,2,1,30.0,Office,57.8,140.0,0.677,0.3826,False,False,False
+DEV039,S0667,2025-07-16,12:45:00,17:10:00,Junior,Feature Development,Medium,215.0,153.1,2,2,35.0,High,49.2,2,1,15.0,Remote,56.5,265.0,0.7121,0.3214,False,False,False
+DEV050,S0668,2025-07-17,07:35:00,10:40:00,Junior,Testing,Low,130.0,59.5,5,6,25.0,High,17.5,3,4,30.0,Hybrid,29.3,185.0,0.4577,0.2941,False,False,False
+DEV002,S0669,2025-07-17,09:50:00,14:15:00,Mid,Feature Development,Low,205.0,152.0,3,9,30.0,Medium,44.9,4,3,30.0,Remote,55.3,265.0,0.7415,0.2954,False,False,False
+DEV032,S0670,2025-07-17,10:00:00,11:50:00,Lead,Testing,Low,51.0,5.0,6,9,15.0,High,0.9,2,3,44.0,Remote,12.2,110.0,0.098,0.18,False,True,False
+DEV017,S0671,2025-07-17,10:55:00,13:20:00,Mid,Bug Fixing,Medium,72.0,5.8,6,8,15.0,High,0.0,1,2,58.0,Office,9.6,145.0,0.0806,0.0,False,True,True
+DEV024,S0672,2025-07-17,11:10:00,13:10:00,Senior,Feature Development,Medium,85.0,53.0,1,2,20.0,Medium,29.7,2,0,15.0,Remote,57.6,120.0,0.6235,0.5604,False,False,False
+DEV005,S0673,2025-07-17,13:25:00,17:05:00,Junior,Testing,High,107.0,74.5,2,2,25.0,High,22.2,2,0,88.0,Hybrid,52.1,220.0,0.6963,0.298,False,False,False
+DEV041,S0674,2025-07-18,08:25:00,10:40:00,Mid,DevOps/Deployment,Medium,90.0,37.7,3,5,15.0,High,4.0,2,0,30.0,Remote,39.5,135.0,0.4189,0.1061,False,False,False
+DEV035,S0675,2025-07-18,08:55:00,11:10:00,Mid,Feature Development,Medium,66.0,32.7,5,5,15.0,High,0.5,1,0,54.0,Remote,38.7,135.0,0.4955,0.0153,False,False,False
+DEV021,S0676,2025-07-18,12:50:00,14:25:00,Senior,Feature Development,Medium,47.0,5.0,4,6,10.0,High,2.1,2,5,38.0,Remote,15.1,95.0,0.1064,0.42,False,True,False
+DEV030,S0677,2025-07-21,09:45:00,13:10:00,Senior,Testing,Low,180.0,136.5,3,4,25.0,High,39.4,5,3,0.0,Hybrid,66.6,205.0,0.7583,0.2886,False,False,False
+DEV016,S0678,2025-07-21,09:55:00,14:20:00,Junior,Feature Development,High,175.0,136.2,1,2,30.0,Medium,36.0,3,2,60.0,Hybrid,56.4,265.0,0.7783,0.2643,False,False,False
+DEV044,S0679,2025-07-21,11:40:00,15:50:00,Mid,Feature Development,Medium,185.0,134.6,4,5,35.0,High,36.1,2,1,30.0,Remote,54.4,250.0,0.7276,0.2682,False,False,False
+DEV019,S0680,2025-07-21,12:05:00,17:05:00,Senior,Refactoring,Medium,200.0,131.1,5,6,40.0,High,37.6,5,0,60.0,Remote,66.7,300.0,0.6555,0.2868,False,False,False
+DEV004,S0681,2025-07-21,12:10:00,16:20:00,Senior,Code Review,Medium,165.0,96.5,6,10,25.0,High,20.0,4,1,60.0,Hybrid,51.7,250.0,0.5848,0.2073,False,False,False
+DEV030,S0682,2025-07-21,13:30:00,18:25:00,Senior,Code Review,Low,210.0,140.0,7,9,40.0,High,28.3,6,1,45.0,Hybrid,48.1,295.0,0.6667,0.2021,False,False,False
+DEV035,S0683,2025-07-22,07:50:00,10:30:00,Mid,Feature Development,High,145.0,124.6,0,2,15.0,High,42.2,3,0,0.0,Remote,79.6,160.0,0.8593,0.3387,False,False,False
+DEV026,S0684,2025-07-22,08:10:00,12:05:00,Junior,Feature Development,Low,200.0,128.6,5,6,35.0,High,27.7,2,0,0.0,Remote,40.8,235.0,0.643,0.2154,False,False,False
+DEV007,S0685,2025-07-22,11:15:00,15:00:00,Senior,Feature Development,Low,105.0,42.9,8,11,30.0,High,3.3,3,3,90.0,Office,18.8,225.0,0.4086,0.0769,False,False,False
+DEV008,S0686,2025-07-22,11:15:00,15:25:00,Senior,Feature Development,Medium,170.0,51.9,11,11,35.0,High,2.9,3,2,45.0,Office,26.3,250.0,0.3053,0.0559,False,False,False
+DEV044,S0687,2025-07-22,12:35:00,15:10:00,Mid,Bug Fixing,Low,110.0,53.5,6,9,15.0,High,2.2,1,1,30.0,Remote,32.5,155.0,0.4864,0.0411,False,False,False
+DEV037,S0688,2025-07-23,09:00:00,10:40:00,Junior,Bug Fixing,Low,60.0,5.0,5,6,10.0,High,0.0,2,2,30.0,Hybrid,19.7,100.0,0.0833,0.0,False,True,True
+DEV045,S0689,2025-07-23,09:05:00,10:35:00,Senior,Feature Development,Low,60.0,21.6,4,4,15.0,Medium,1.4,1,0,15.0,Office,29.4,90.0,0.36,0.0648,False,False,False
+DEV004,S0690,2025-07-23,10:25:00,15:15:00,Senior,Bug Fixing,Medium,235.0,174.0,4,7,40.0,High,58.4,7,1,15.0,Hybrid,67.5,290.0,0.7404,0.3356,False,False,False
+DEV005,S0691,2025-07-23,12:00:00,14:25:00,Junior,Refactoring,Medium,120.0,68.5,5,6,25.0,High,20.8,2,5,0.0,Hybrid,32.9,145.0,0.5708,0.3036,False,False,False
+DEV015,S0692,2025-07-23,12:50:00,16:30:00,Mid,Testing,Medium,165.0,98.4,5,7,25.0,High,24.2,4,1,30.0,Office,48.1,220.0,0.5964,0.2459,False,False,False
+DEV048,S0693,2025-07-24,07:55:00,10:25:00,Mid,DevOps/Deployment,Medium,95.0,55.0,3,6,25.0,High,19.8,2,2,30.0,Remote,41.4,150.0,0.5789,0.36,False,False,False
+DEV043,S0694,2025-07-24,09:05:00,13:40:00,Senior,Refactoring,Low,230.0,178.0,4,6,30.0,Medium,49.0,7,1,15.0,Hybrid,72.8,275.0,0.7739,0.2753,False,False,False
+DEV047,S0695,2025-07-24,09:35:00,12:10:00,Mid,Refactoring,High,73.0,58.4,1,2,20.0,High,27.9,1,2,62.0,Remote,59.3,155.0,0.8,0.4777,False,False,False
+DEV045,S0696,2025-07-24,10:20:00,12:30:00,Senior,Feature Development,Low,115.0,105.1,1,1,15.0,Medium,43.6,3,0,0.0,Remote,92.9,130.0,0.9139,0.4148,False,False,False
+DEV013,S0697,2025-07-24,10:55:00,13:00:00,Senior,Code Review,Medium,65.0,29.1,7,9,10.0,High,0.4,1,3,50.0,Office,12.9,125.0,0.4477,0.0137,False,False,False
+DEV010,S0698,2025-07-24,11:40:00,13:50:00,Mid,Bug Fixing,Medium,63.0,12.4,5,9,15.0,High,2.8,1,1,52.0,Remote,12.6,130.0,0.1968,0.2258,False,True,False
+DEV026,S0699,2025-07-24,13:05:00,17:15:00,Junior,DevOps/Deployment,High,185.0,119.6,6,6,35.0,High,2.1,2,2,30.0,Office,38.8,250.0,0.6465,0.0176,False,False,False
+DEV027,S0700,2025-07-24,13:50:00,16:00:00,Mid,Testing,Low,90.0,60.9,1,3,10.0,Low,23.0,2,0,30.0,Remote,56.5,130.0,0.6767,0.3777,False,False,False
+DEV007,S0701,2025-07-25,08:05:00,11:30:00,Senior,Feature Development,Medium,170.0,115.7,5,6,20.0,High,31.8,3,3,15.0,Office,54.5,205.0,0.6806,0.2748,False,False,False
+DEV041,S0702,2025-07-25,08:40:00,12:15:00,Mid,DevOps/Deployment,Medium,145.0,99.5,3,4,25.0,High,31.2,3,0,45.0,Remote,59.8,215.0,0.6862,0.3136,False,False,False
+DEV042,S0703,2025-07-25,09:10:00,12:30:00,Senior,Feature Development,High,185.0,136.5,3,6,15.0,High,36.6,2,0,0.0,Hybrid,67.9,200.0,0.7378,0.2681,False,False,False
+DEV020,S0704,2025-07-25,09:35:00,11:15:00,Senior,Bug Fixing,Low,95.0,47.4,3,7,5.0,Medium,4.9,1,2,0.0,Office,37.5,100.0,0.4989,0.1034,False,False,False
+DEV047,S0705,2025-07-25,10:20:00,14:30:00,Mid,Bug Fixing,Low,170.0,102.9,5,8,35.0,High,18.8,4,0,45.0,Hybrid,54.9,250.0,0.6053,0.1827,True,False,False
+DEV049,S0706,2025-07-25,10:30:00,12:55:00,Senior,Feature Development,Medium,115.0,92.3,1,3,15.0,Low,39.0,3,0,15.0,Remote,72.0,145.0,0.8026,0.4225,False,False,False
+DEV047,S0707,2025-07-25,11:05:00,15:10:00,Mid,DevOps/Deployment,High,145.0,93.8,3,4,25.0,High,17.5,3,3,75.0,Office,56.7,245.0,0.6469,0.1866,True,False,False
+DEV026,S0708,2025-07-25,12:25:00,16:35:00,Junior,Feature Development,Medium,195.0,150.4,3,6,25.0,High,38.8,3,3,30.0,Remote,55.3,250.0,0.7713,0.258,False,False,False
+DEV030,S0709,2025-07-25,12:40:00,16:50:00,Senior,Bug Fixing,Medium,155.0,106.6,4,10,35.0,High,29.2,3,1,60.0,Hybrid,58.8,250.0,0.6877,0.2739,False,False,False
+DEV020,S0710,2025-07-28,10:10:00,11:50:00,Senior,Code Review,Medium,45.0,5.0,5,11,15.0,High,0.0,0,1,40.0,Office,7.1,100.0,0.1111,0.0,False,True,True
+DEV022,S0711,2025-07-28,10:15:00,11:50:00,Mid,Feature Development,Low,55.0,23.8,3,5,10.0,Medium,1.8,0,0,30.0,Office,30.9,95.0,0.4327,0.0756,False,False,False
+DEV038,S0712,2025-07-28,11:45:00,15:50:00,Mid,Refactoring,Medium,190.0,129.9,7,6,25.0,High,31.3,4,2,30.0,Office,57.4,245.0,0.6837,0.241,False,False,False
+DEV024,S0713,2025-07-28,11:50:00,15:45:00,Senior,Refactoring,High,215.0,173.7,3,3,20.0,High,54.7,4,1,0.0,Remote,72.3,235.0,0.8079,0.3149,False,False,False
+DEV049,S0714,2025-07-28,13:05:00,14:45:00,Senior,Feature Development,Medium,100.0,85.4,0,1,0.0,Low,39.0,4,1,0.0,Remote,81.4,100.0,0.854,0.4567,False,False,False
+DEV026,S0715,2025-07-28,13:55:00,18:30:00,Junior,Refactoring,Low,200.0,159.7,0,0,30.0,Low,56.5,6,0,45.0,Remote,86.5,275.0,0.7985,0.3538,False,False,False
+DEV024,S0716,2025-07-29,08:40:00,11:45:00,Senior,Feature Development,Medium,140.0,105.3,2,2,15.0,Low,31.5,2,0,30.0,Remote,63.7,185.0,0.7521,0.2991,False,False,False
+DEV003,S0717,2025-07-29,10:10:00,14:05:00,Senior,Code Review,Low,205.0,174.0,2,4,30.0,Low,63.8,7,0,0.0,Hybrid,77.7,235.0,0.8488,0.3667,False,False,False
+DEV014,S0718,2025-07-29,10:25:00,12:40:00,Senior,Bug Fixing,Medium,81.0,41.1,3,5,0.0,Medium,2.9,0,2,54.0,Hybrid,19.4,135.0,0.5074,0.0706,True,False,False
+DEV039,S0719,2025-07-29,11:15:00,12:50:00,Junior,Testing,Low,75.0,50.9,2,2,5.0,High,3.0,2,2,15.0,Remote,52.0,95.0,0.6787,0.0589,False,False,False
+DEV050,S0720,2025-07-29,11:55:00,15:30:00,Junior,Feature Development,High,180.0,120.9,2,3,35.0,High,29.4,2,0,0.0,Hybrid,52.0,215.0,0.6717,0.2432,False,False,False
+DEV014,S0721,2025-07-29,12:20:00,15:30:00,Senior,Code Review,Medium,165.0,97.9,4,9,10.0,High,24.5,5,0,15.0,Hybrid,61.0,190.0,0.5933,0.2503,True,False,False
+DEV030,S0722,2025-07-29,13:20:00,17:10:00,Senior,Bug Fixing,High,195.0,155.6,2,3,35.0,High,51.0,4,1,0.0,Office,70.4,230.0,0.7979,0.3278,False,False,False
+DEV024,S0723,2025-07-30,09:00:00,13:55:00,Senior,Bug Fixing,Medium,255.0,188.8,4,7,40.0,High,60.2,6,1,0.0,Remote,71.6,295.0,0.7404,0.3189,False,False,False
+DEV038,S0724,2025-07-30,09:25:00,11:00:00,Mid,Bug Fixing,High,47.0,13.4,3,5,10.0,High,3.7,1,1,38.0,Office,25.7,95.0,0.2851,0.2761,False,False,False
+DEV005,S0725,2025-07-30,09:25:00,12:15:00,Junior,Testing,High,125.0,99.5,1,2,30.0,High,31.3,1,2,15.0,Hybrid,49.3,170.0,0.796,0.3146,False,False,False
+DEV025,S0726,2025-07-30,11:45:00,14:25:00,Senior,Bug Fixing,Medium,100.0,58.2,4,7,30.0,High,7.4,2,1,30.0,Remote,39.0,160.0,0.582,0.1271,False,False,False
+DEV014,S0727,2025-07-30,12:30:00,16:25:00,Senior,DevOps/Deployment,High,190.0,147.1,4,5,30.0,High,40.9,4,0,15.0,Hybrid,67.8,235.0,0.7742,0.278,False,False,False
+DEV035,S0728,2025-07-31,07:40:00,10:40:00,Mid,Code Review,Medium,100.0,55.6,4,6,20.0,High,17.2,2,0,60.0,Remote,43.7,180.0,0.556,0.3094,False,False,False
+DEV042,S0729,2025-07-31,09:00:00,11:30:00,Senior,Refactoring,High,105.0,56.7,3,4,15.0,Medium,18.8,2,0,30.0,Office,48.3,150.0,0.54,0.3316,False,False,False
+DEV010,S0730,2025-07-31,10:15:00,13:50:00,Mid,Code Review,Medium,185.0,132.0,4,5,30.0,High,34.4,3,1,0.0,Remote,62.2,215.0,0.7135,0.2606,False,False,False
+DEV041,S0731,2025-07-31,10:40:00,13:30:00,Mid,Feature Development,Medium,155.0,95.9,4,6,15.0,High,19.5,2,1,0.0,Remote,53.8,170.0,0.6187,0.2033,False,False,False
+DEV049,S0732,2025-07-31,10:45:00,13:35:00,Senior,Refactoring,Medium,135.0,104.9,2,3,20.0,Medium,40.2,4,3,15.0,Remote,61.1,170.0,0.777,0.3832,False,False,False
+DEV031,S0733,2025-07-31,10:45:00,14:05:00,Senior,Feature Development,Medium,140.0,88.9,4,4,15.0,High,16.7,0,0,45.0,Remote,40.4,200.0,0.635,0.1879,False,False,False
+DEV023,S0734,2025-07-31,10:55:00,13:40:00,Lead,DevOps/Deployment,High,85.0,54.6,2,3,20.0,High,15.3,0,4,60.0,Hybrid,35.7,165.0,0.6424,0.2802,False,False,False
+DEV004,S0735,2025-07-31,11:25:00,15:05:00,Senior,Feature Development,High,140.0,102.4,4,4,20.0,High,25.9,1,3,60.0,Hybrid,39.3,220.0,0.7314,0.2529,False,False,False
+DEV028,S0736,2025-07-31,12:10:00,16:15:00,Junior,Bug Fixing,Medium,165.0,107.6,4,5,35.0,High,20.0,4,1,45.0,Hybrid,57.1,245.0,0.6521,0.1859,False,False,False
+DEV035,S0737,2025-07-31,12:45:00,17:25:00,Mid,Feature Development,High,195.0,114.1,5,6,40.0,High,24.0,1,1,45.0,Hybrid,37.0,280.0,0.5851,0.2103,False,False,False
+DEV028,S0738,2025-08-01,09:20:00,14:05:00,Junior,Refactoring,Medium,220.0,171.5,2,2,35.0,Medium,44.9,4,1,30.0,Hybrid,69.6,285.0,0.7795,0.2618,False,False,False
+DEV009,S0739,2025-08-01,09:30:00,12:45:00,Junior,Feature Development,Low,120.0,52.5,5,6,30.0,High,5.9,1,2,45.0,Remote,27.8,195.0,0.4375,0.1124,False,False,False
+DEV044,S0740,2025-08-01,09:40:00,13:20:00,Mid,Refactoring,Medium,185.0,122.0,3,3,20.0,High,42.8,4,1,15.0,Remote,67.7,220.0,0.6595,0.3508,False,False,False
+DEV012,S0741,2025-08-01,09:55:00,11:45:00,Lead,Feature Development,Low,105.0,67.4,5,6,5.0,Medium,15.7,2,0,0.0,Hybrid,50.2,110.0,0.6419,0.2329,False,False,False
+DEV021,S0742,2025-08-01,10:40:00,15:20:00,Senior,Testing,Low,160.0,98.2,5,6,30.0,High,3.3,4,2,90.0,Remote,48.0,280.0,0.6138,0.0336,False,False,False
+DEV034,S0743,2025-08-01,12:50:00,17:10:00,Mid,Documentation,Medium,200.0,183.7,0,0,30.0,Low,86.1,5,0,30.0,Remote,87.9,260.0,0.9185,0.4687,False,False,False
+DEV038,S0744,2025-08-04,08:15:00,12:35:00,Mid,DevOps/Deployment,Medium,165.0,116.2,4,5,35.0,High,27.1,4,0,60.0,Remote,55.9,260.0,0.7042,0.2332,False,False,False
+DEV027,S0745,2025-08-04,08:50:00,11:00:00,Mid,Bug Fixing,Low,85.0,64.6,0,3,15.0,Medium,19.2,2,1,30.0,Remote,59.4,130.0,0.76,0.2972,False,False,False
+DEV001,S0746,2025-08-04,10:25:00,14:50:00,Senior,Bug Fixing,Medium,205.0,125.4,8,9,30.0,High,30.4,4,2,30.0,Remote,45.6,265.0,0.6117,0.2424,False,False,False
+DEV046,S0747,2025-08-04,11:15:00,14:50:00,Senior,Documentation,Medium,175.0,142.4,3,3,25.0,High,49.5,4,0,15.0,Office,70.7,215.0,0.8137,0.3476,False,False,False
+DEV005,S0748,2025-08-04,11:30:00,15:05:00,Junior,Code Review,Low,145.0,105.9,2,4,25.0,Medium,27.8,3,0,45.0,Hybrid,63.0,215.0,0.7303,0.2625,False,False,False
+DEV026,S0749,2025-08-04,12:15:00,16:05:00,Junior,Feature Development,Low,145.0,80.4,4,6,40.0,High,7.4,1,1,45.0,Remote,34.2,230.0,0.5545,0.092,False,False,False
+DEV010,S0750,2025-08-04,13:25:00,17:00:00,Mid,Bug Fixing,Low,104.0,39.2,6,8,25.0,High,0.6,3,1,86.0,Remote,31.2,215.0,0.3769,0.0153,False,False,False
+DEV035,S0751,2025-08-04,13:45:00,16:20:00,Mid,Bug Fixing,Medium,130.0,89.9,3,4,25.0,Medium,26.7,3,0,0.0,Remote,69.2,155.0,0.6915,0.297,False,False,False
+DEV032,S0752,2025-08-05,08:10:00,11:05:00,Lead,Code Review,Medium,105.0,64.3,4,6,25.0,High,23.4,2,0,45.0,Remote,52.3,175.0,0.6124,0.3639,False,False,False
+DEV046,S0753,2025-08-05,09:50:00,12:35:00,Senior,Feature Development,High,145.0,103.5,2,5,20.0,High,31.9,3,2,0.0,Office,60.9,165.0,0.7138,0.3082,False,False,False
+DEV026,S0754,2025-08-05,09:50:00,12:35:00,Junior,Feature Development,Low,100.0,62.4,4,5,20.0,High,7.5,2,1,45.0,Remote,48.4,165.0,0.624,0.1202,False,False,False
+DEV002,S0755,2025-08-05,10:10:00,14:00:00,Mid,Bug Fixing,Medium,195.0,136.8,3,5,35.0,High,41.2,6,3,0.0,Remote,62.8,230.0,0.7015,0.3012,False,False,False
+DEV012,S0756,2025-08-06,10:45:00,13:50:00,Lead,Documentation,High,160.0,121.5,3,6,25.0,High,32.7,4,3,0.0,Office,58.8,185.0,0.7594,0.2691,False,False,False
+DEV040,S0757,2025-08-06,11:35:00,16:15:00,Senior,Testing,High,175.0,106.6,4,6,45.0,High,26.3,4,1,60.0,Office,57.5,280.0,0.6091,0.2467,False,False,False
+DEV037,S0758,2025-08-06,13:55:00,18:15:00,Junior,Feature Development,High,170.0,93.4,5,6,30.0,High,17.5,0,4,60.0,Hybrid,21.1,260.0,0.5494,0.1874,False,False,False
+DEV039,S0759,2025-08-07,10:50:00,13:00:00,Junior,Feature Development,Low,68.0,40.0,2,3,10.0,Medium,6.4,0,4,52.0,Remote,32.0,130.0,0.5882,0.16,False,False,False
+DEV027,S0760,2025-08-07,12:20:00,15:05:00,Mid,Refactoring,Low,85.0,50.8,3,3,20.0,Medium,6.9,2,1,60.0,Remote,44.1,165.0,0.5976,0.1358,False,False,False
+DEV034,S0761,2025-08-07,13:00:00,14:40:00,Mid,Bug Fixing,High,70.0,5.0,9,11,15.0,High,0.3,1,5,15.0,Office,5.0,100.0,0.0714,0.06,False,True,False
+DEV005,S0762,2025-08-07,13:35:00,16:30:00,Junior,Bug Fixing,Low,140.0,85.1,3,4,5.0,Medium,20.2,3,0,30.0,Hybrid,61.7,175.0,0.6079,0.2374,False,False,False
+DEV044,S0763,2025-08-08,08:10:00,10:00:00,Mid,Bug Fixing,High,65.0,24.6,4,6,15.0,High,0.0,2,5,30.0,Remote,20.4,110.0,0.3785,0.0,True,False,True
+DEV044,S0764,2025-08-08,08:35:00,11:50:00,Mid,Code Review,High,87.0,45.1,4,6,30.0,High,4.4,1,1,78.0,Remote,30.5,195.0,0.5184,0.0976,True,False,False
+DEV007,S0765,2025-08-08,08:55:00,12:55:00,Senior,Bug Fixing,Medium,185.0,150.4,2,5,25.0,Medium,61.1,4,0,30.0,Office,75.9,240.0,0.813,0.4062,False,False,False
+DEV037,S0766,2025-08-08,09:55:00,11:50:00,Junior,Bug Fixing,High,100.0,65.2,2,4,15.0,High,6.5,2,2,0.0,Remote,42.3,115.0,0.652,0.0997,False,False,False
+DEV043,S0767,2025-08-08,12:20:00,15:05:00,Senior,DevOps/Deployment,High,115.0,61.2,6,7,20.0,High,21.2,3,0,30.0,Office,52.4,165.0,0.5322,0.3464,True,False,False
+DEV043,S0768,2025-08-08,12:30:00,15:30:00,Senior,Bug Fixing,High,130.0,43.7,8,10,20.0,High,0.8,3,0,30.0,Office,27.6,180.0,0.3362,0.0183,True,False,False
+DEV017,S0769,2025-08-08,13:35:00,15:30:00,Mid,Documentation,High,80.0,28.4,3,5,20.0,High,4.5,1,0,15.0,Remote,30.2,115.0,0.355,0.1585,False,False,False
+DEV029,S0770,2025-08-11,07:50:00,11:05:00,Junior,Feature Development,Low,140.0,97.3,2,3,25.0,Medium,20.5,3,0,30.0,Office,53.7,195.0,0.695,0.2107,False,False,False
+DEV002,S0771,2025-08-11,09:50:00,12:00:00,Mid,Code Review,Medium,100.0,70.1,4,5,15.0,High,23.5,2,0,15.0,Remote,59.4,130.0,0.701,0.3352,False,False,False
+DEV001,S0772,2025-08-11,12:00:00,14:10:00,Senior,Code Review,Medium,100.0,68.6,1,5,15.0,Medium,35.5,2,0,15.0,Remote,74.2,130.0,0.686,0.5175,False,False,False
+DEV034,S0773,2025-08-11,13:00:00,16:10:00,Mid,Testing,Medium,94.0,71.7,1,3,20.0,High,22.3,3,1,76.0,Remote,61.6,190.0,0.7628,0.311,False,False,False
+DEV003,S0774,2025-08-11,13:35:00,15:25:00,Senior,Feature Development,Low,75.0,39.4,4,6,20.0,Medium,17.7,1,0,15.0,Office,44.5,110.0,0.5253,0.4492,False,False,False
+DEV004,S0775,2025-08-12,10:35:00,13:15:00,Senior,Feature Development,Medium,115.0,73.7,6,6,15.0,High,3.9,1,1,30.0,Hybrid,33.0,160.0,0.6409,0.0529,False,False,False
+DEV007,S0776,2025-08-12,11:15:00,15:50:00,Senior,Bug Fixing,Medium,250.0,193.3,3,5,25.0,Medium,70.6,7,0,0.0,Office,75.7,275.0,0.7732,0.3652,False,False,False
+DEV020,S0777,2025-08-12,11:30:00,14:20:00,Senior,Bug Fixing,High,90.0,5.0,11,14,20.0,High,0.0,2,3,60.0,Office,5.0,170.0,0.0556,0.0,False,True,True
+DEV035,S0778,2025-08-13,10:20:00,12:50:00,Mid,Code Review,High,105.0,90.3,0,1,30.0,Medium,36.3,2,0,15.0,Remote,75.4,150.0,0.86,0.402,False,False,False
+DEV040,S0779,2025-08-13,10:45:00,14:50:00,Senior,Bug Fixing,High,185.0,130.8,6,8,30.0,High,30.6,4,1,30.0,Office,60.5,245.0,0.707,0.2339,False,False,False
+DEV041,S0780,2025-08-13,11:00:00,15:15:00,Mid,Testing,High,220.0,157.6,3,5,35.0,High,38.9,3,0,0.0,Remote,66.1,255.0,0.7164,0.2468,False,False,False
+DEV048,S0781,2025-08-13,11:15:00,14:35:00,Mid,Bug Fixing,High,145.0,87.5,4,5,25.0,High,15.2,3,2,30.0,Remote,45.4,200.0,0.6034,0.1737,False,False,False
+DEV033,S0782,2025-08-13,13:20:00,15:15:00,Mid,Bug Fixing,Medium,44.0,5.0,10,11,25.0,High,0.7,0,3,46.0,Hybrid,5.0,115.0,0.1136,0.14,False,True,False
+DEV008,S0783,2025-08-14,09:05:00,13:20:00,Senior,Documentation,High,190.0,94.3,9,8,35.0,High,16.5,4,1,30.0,Office,48.3,255.0,0.4963,0.175,False,False,False
+DEV045,S0784,2025-08-14,09:05:00,13:25:00,Senior,Testing,High,205.0,172.3,1,3,25.0,Medium,66.3,5,1,30.0,Hybrid,85.5,260.0,0.8405,0.3848,False,False,False
+DEV030,S0785,2025-08-14,10:45:00,13:55:00,Senior,Code Review,Low,135.0,97.0,3,5,25.0,High,29.7,5,0,30.0,Office,69.6,190.0,0.7185,0.3062,False,False,False
+DEV002,S0786,2025-08-14,11:30:00,13:25:00,Mid,Documentation,High,100.0,76.1,1,1,15.0,High,31.1,2,0,0.0,Remote,71.2,115.0,0.761,0.4087,False,False,False
+DEV017,S0787,2025-08-14,12:35:00,14:15:00,Mid,Feature Development,High,50.0,10.1,4,4,10.0,High,0.7,0,0,40.0,Office,20.5,100.0,0.202,0.0693,False,False,False
+DEV024,S0788,2025-08-14,12:45:00,16:55:00,Senior,Refactoring,Low,230.0,169.5,6,6,20.0,High,37.2,6,2,0.0,Remote,60.7,250.0,0.737,0.2195,False,False,False
+DEV029,S0789,2025-08-15,11:25:00,16:20:00,Junior,Code Review,Low,240.0,165.3,2,5,40.0,High,44.2,7,2,15.0,Office,57.9,295.0,0.6888,0.2674,False,False,False
+DEV005,S0790,2025-08-15,11:25:00,14:20:00,Junior,Feature Development,Low,120.0,76.8,3,3,25.0,High,2.2,1,1,30.0,Hybrid,42.4,175.0,0.64,0.0286,False,False,False
+DEV039,S0791,2025-08-18,07:50:00,09:35:00,Junior,Feature Development,Low,80.0,5.0,6,9,10.0,High,0.0,1,1,15.0,Remote,20.6,105.0,0.0625,0.0,False,True,True
+DEV034,S0792,2025-08-18,11:15:00,14:45:00,Mid,Bug Fixing,Medium,160.0,120.5,3,4,20.0,High,34.1,4,7,30.0,Hybrid,56.0,210.0,0.7531,0.283,False,False,False
+DEV047,S0793,2025-08-18,11:15:00,15:40:00,Mid,Bug Fixing,Medium,180.0,129.6,2,5,40.0,High,43.5,4,2,45.0,Hybrid,55.0,265.0,0.72,0.3356,False,False,False
+DEV008,S0794,2025-08-18,13:40:00,15:30:00,Senior,Refactoring,High,51.0,25.9,4,3,15.0,High,0.6,1,1,44.0,Office,32.7,110.0,0.5078,0.0232,False,False,False
+DEV012,S0795,2025-08-19,07:45:00,11:55:00,Lead,Feature Development,Low,220.0,155.3,5,8,30.0,High,37.2,3,1,0.0,Office,45.9,250.0,0.7059,0.2395,False,False,False
+DEV019,S0796,2025-08-19,08:50:00,11:20:00,Senior,Feature Development,Medium,135.0,101.7,2,4,15.0,High,43.7,1,0,0.0,Remote,63.4,150.0,0.7533,0.4297,False,False,False
+DEV034,S0797,2025-08-19,09:00:00,11:00:00,Mid,Feature Development,Low,85.0,36.8,3,5,20.0,High,1.2,1,2,15.0,Remote,27.7,120.0,0.4329,0.0326,False,False,False
+DEV014,S0798,2025-08-19,09:50:00,14:45:00,Senior,Documentation,Low,165.0,117.4,5,7,40.0,High,32.2,5,1,90.0,Hybrid,64.8,295.0,0.7115,0.2743,False,False,False
+DEV030,S0799,2025-08-19,11:30:00,13:00:00,Senior,Feature Development,Medium,80.0,43.7,4,7,10.0,High,0.2,0,2,0.0,Hybrid,25.3,90.0,0.5462,0.0046,False,False,False
+DEV004,S0800,2025-08-19,11:55:00,16:40:00,Senior,DevOps/Deployment,Medium,250.0,191.1,4,5,35.0,High,51.9,7,2,0.0,Hybrid,73.5,285.0,0.7644,0.2716,False,False,False
+DEV038,S0801,2025-08-19,12:25:00,16:00:00,Mid,Documentation,Low,160.0,126.4,3,2,25.0,Medium,41.0,5,0,30.0,Office,77.4,215.0,0.79,0.3244,False,False,False
+DEV044,S0802,2025-08-20,08:50:00,10:25:00,Mid,Refactoring,High,42.0,24.1,2,3,15.0,High,1.7,0,4,38.0,Remote,24.3,95.0,0.5738,0.0705,False,False,False
+DEV004,S0803,2025-08-20,09:10:00,12:25:00,Senior,Feature Development,Medium,160.0,115.1,3,5,20.0,Medium,43.6,4,1,15.0,Hybrid,61.1,195.0,0.7194,0.3788,False,False,False
+DEV017,S0804,2025-08-20,10:00:00,12:55:00,Mid,Testing,Medium,95.0,48.1,4,5,20.0,High,0.2,2,1,60.0,Office,33.3,175.0,0.5063,0.0042,False,False,False
+DEV042,S0805,2025-08-20,10:05:00,14:55:00,Senior,Code Review,Low,230.0,175.7,5,7,30.0,Medium,40.5,7,0,30.0,Hybrid,69.1,290.0,0.7639,0.2305,False,False,False
+DEV048,S0806,2025-08-20,10:55:00,13:00:00,Mid,Feature Development,Medium,110.0,63.5,4,4,15.0,High,17.3,0,1,0.0,Remote,39.5,125.0,0.5773,0.2724,False,False,False
+DEV020,S0807,2025-08-20,11:35:00,14:30:00,Senior,DevOps/Deployment,Medium,95.0,27.0,7,11,20.0,High,1.3,2,0,60.0,Office,23.7,175.0,0.2842,0.0481,False,False,False
+DEV016,S0808,2025-08-20,11:50:00,14:25:00,Junior,Feature Development,Low,73.0,19.3,6,6,20.0,High,1.1,0,4,62.0,Office,5.1,155.0,0.2644,0.057,False,False,False
+DEV029,S0809,2025-08-20,12:35:00,16:05:00,Junior,Bug Fixing,Low,155.0,96.8,5,6,40.0,High,24.0,4,1,15.0,Office,57.4,210.0,0.6245,0.2479,False,False,False
+DEV016,S0810,2025-08-21,08:35:00,13:20:00,Junior,Feature Development,Low,250.0,165.3,4,8,35.0,High,30.4,2,4,0.0,Remote,37.7,285.0,0.6612,0.1839,False,False,False
+DEV038,S0811,2025-08-21,09:35:00,11:50:00,Mid,Feature Development,Medium,100.0,40.7,5,6,20.0,High,1.1,1,0,15.0,Hybrid,23.4,135.0,0.407,0.027,False,False,False
+DEV039,S0812,2025-08-21,10:05:00,12:50:00,Junior,Feature Development,High,79.0,38.8,4,5,20.0,High,2.8,1,4,66.0,Remote,30.8,165.0,0.4911,0.0722,False,False,False
+DEV048,S0813,2025-08-21,10:25:00,15:00:00,Mid,Refactoring,Low,230.0,169.3,4,4,30.0,Medium,38.1,7,0,15.0,Office,61.5,275.0,0.7361,0.225,False,False,False
+DEV003,S0814,2025-08-21,11:40:00,15:55:00,Senior,DevOps/Deployment,Medium,185.0,129.0,4,4,25.0,High,33.4,4,0,45.0,Hybrid,67.9,255.0,0.6973,0.2589,False,False,False
+DEV010,S0815,2025-08-21,13:55:00,18:10:00,Mid,Code Review,Medium,165.0,89.5,5,7,30.0,High,30.5,3,0,60.0,Remote,49.8,255.0,0.5424,0.3408,False,False,False
+DEV026,S0816,2025-08-22,11:30:00,14:50:00,Junior,Bug Fixing,Low,110.0,37.4,6,8,10.0,High,1.5,2,1,80.0,Remote,25.6,200.0,0.34,0.0401,False,False,False
+DEV025,S0817,2025-08-25,08:25:00,10:05:00,Senior,Feature Development,Medium,50.0,10.1,4,4,10.0,Medium,1.7,1,0,40.0,Remote,23.8,100.0,0.202,0.1683,False,False,False
+DEV040,S0818,2025-08-25,10:25:00,12:35:00,Senior,Feature Development,Medium,70.0,30.8,4,8,15.0,High,2.1,2,2,45.0,Office,36.1,130.0,0.44,0.0682,False,False,False
+DEV048,S0819,2025-08-25,10:50:00,13:25:00,Mid,Feature Development,Medium,78.0,61.3,1,1,15.0,Medium,24.3,3,1,62.0,Remote,67.2,155.0,0.7859,0.3964,True,False,False
+DEV033,S0820,2025-08-25,12:00:00,16:50:00,Mid,Code Review,High,195.0,155.4,2,3,35.0,High,36.5,3,1,60.0,Hybrid,61.5,290.0,0.7969,0.2349,False,False,False
+DEV027,S0821,2025-08-25,12:10:00,14:40:00,Mid,Bug Fixing,Medium,100.0,56.8,2,6,20.0,High,21.9,2,1,30.0,Remote,46.0,150.0,0.568,0.3856,False,False,False
+DEV048,S0822,2025-08-25,12:25:00,16:50:00,Mid,Documentation,Low,135.0,55.1,9,9,40.0,High,1.4,2,1,90.0,Remote,19.9,265.0,0.4081,0.0254,True,False,False
+DEV006,S0823,2025-08-25,13:10:00,16:50:00,Lead,Documentation,Medium,160.0,118.9,2,4,30.0,Medium,44.3,3,0,30.0,Hybrid,73.9,220.0,0.7431,0.3726,False,False,False
+DEV050,S0824,2025-08-26,08:05:00,11:25:00,Junior,Code Review,Medium,160.0,93.1,4,6,25.0,High,21.1,3,0,15.0,Hybrid,58.4,200.0,0.5819,0.2266,False,False,False
+DEV001,S0825,2025-08-26,08:05:00,11:30:00,Senior,Feature Development,Medium,175.0,138.8,2,3,30.0,Medium,57.6,4,0,0.0,Remote,76.1,205.0,0.7931,0.415,False,False,False
+DEV018,S0826,2025-08-26,09:20:00,12:25:00,Junior,Refactoring,Low,165.0,80.4,6,5,5.0,High,15.0,4,1,15.0,Remote,42.0,185.0,0.4873,0.1866,False,False,False
+DEV039,S0827,2025-08-26,10:10:00,13:25:00,Junior,Feature Development,Low,115.0,55.5,4,5,20.0,High,4.5,1,1,60.0,Remote,35.1,195.0,0.4826,0.0811,False,False,False
+DEV024,S0828,2025-08-26,10:40:00,14:30:00,Senior,Documentation,Medium,115.0,76.8,2,2,25.0,Low,28.2,2,0,90.0,Remote,48.3,230.0,0.6678,0.3672,False,False,False
+DEV050,S0829,2025-08-26,12:20:00,14:40:00,Junior,Bug Fixing,Low,110.0,79.8,1,2,0.0,Medium,23.3,2,0,30.0,Hybrid,60.0,140.0,0.7255,0.292,False,False,False
+DEV030,S0830,2025-08-27,07:30:00,10:25:00,Senior,Code Review,Medium,145.0,126.2,0,3,15.0,Medium,58.1,5,0,15.0,Hybrid,87.6,175.0,0.8703,0.4604,False,False,False
+DEV029,S0831,2025-08-27,08:55:00,13:20:00,Junior,Code Review,Low,205.0,145.4,3,6,30.0,Medium,29.1,4,0,30.0,Office,63.6,265.0,0.7093,0.2001,True,False,False
+DEV020,S0832,2025-08-27,09:50:00,12:55:00,Senior,Testing,Medium,105.0,70.9,3,3,20.0,High,22.0,3,0,60.0,Office,55.8,185.0,0.6752,0.3103,False,False,False
+DEV036,S0833,2025-08-27,10:15:00,15:10:00,Junior,Bug Fixing,Medium,230.0,174.2,1,2,35.0,High,64.4,4,0,30.0,Remote,74.9,295.0,0.7574,0.3697,False,False,False
+DEV041,S0834,2025-08-27,10:45:00,14:20:00,Mid,Documentation,High,190.0,141.2,3,2,25.0,High,32.0,2,0,0.0,Remote,63.1,215.0,0.7432,0.2266,False,False,False
+DEV049,S0835,2025-08-27,10:50:00,12:45:00,Senior,Bug Fixing,High,95.0,57.3,3,4,20.0,High,15.4,2,0,0.0,Remote,51.2,115.0,0.6032,0.2688,False,False,False
+DEV035,S0836,2025-08-27,11:30:00,15:45:00,Mid,Feature Development,Medium,130.0,43.4,8,10,35.0,High,0.3,1,3,90.0,Remote,8.8,255.0,0.3338,0.0069,False,False,False
+DEV029,S0837,2025-08-27,13:05:00,15:45:00,Junior,Bug Fixing,Low,120.0,59.0,4,6,25.0,High,1.9,2,3,15.0,Office,33.6,160.0,0.4917,0.0322,True,False,False
+DEV038,S0838,2025-08-28,07:50:00,09:40:00,Mid,Feature Development,High,80.0,31.6,4,5,15.0,High,3.9,1,2,15.0,Office,23.3,110.0,0.395,0.1234,False,False,False
+DEV022,S0839,2025-08-28,10:00:00,12:05:00,Mid,Documentation,Medium,95.0,43.4,4,3,15.0,High,16.7,2,1,15.0,Office,40.1,125.0,0.4568,0.3848,False,False,False
+DEV042,S0840,2025-08-28,11:10:00,12:45:00,Senior,Feature Development,Medium,47.0,6.9,4,6,10.0,High,2.3,1,4,38.0,Hybrid,10.2,95.0,0.1468,0.3333,False,True,False
+DEV025,S0841,2025-08-28,11:20:00,15:00:00,Senior,Code Review,Low,195.0,140.8,2,5,25.0,Medium,48.6,4,0,0.0,Remote,69.0,220.0,0.7221,0.3452,False,False,False
+DEV048,S0842,2025-08-28,13:55:00,15:55:00,Mid,Code Review,Medium,90.0,70.5,2,3,15.0,Medium,21.6,3,0,15.0,Remote,68.0,120.0,0.7833,0.3064,False,False,False
+DEV001,S0843,2025-08-29,08:35:00,10:25:00,Senior,Refactoring,Medium,80.0,44.6,3,5,15.0,High,20.9,3,3,15.0,Remote,52.1,110.0,0.5575,0.4686,False,False,False
+DEV038,S0844,2025-08-29,08:35:00,12:50:00,Mid,Code Review,High,125.0,87.7,3,6,40.0,High,19.5,1,1,90.0,Office,43.9,255.0,0.7016,0.2223,False,False,False
+DEV018,S0845,2025-08-29,10:30:00,13:25:00,Junior,Testing,High,90.0,32.4,4,4,25.0,High,2.7,1,1,60.0,Remote,31.2,175.0,0.36,0.0833,False,False,False
+DEV032,S0846,2025-08-29,11:10:00,15:40:00,Lead,Testing,Medium,155.0,92.4,7,8,40.0,High,18.5,4,2,75.0,Office,47.0,270.0,0.5961,0.2002,False,False,False
+DEV011,S0847,2025-08-29,11:25:00,16:25:00,Mid,Feature Development,High,240.0,186.5,4,4,45.0,High,35.1,2,0,15.0,Hybrid,60.8,300.0,0.7771,0.1882,True,False,False
+DEV036,S0848,2025-08-29,11:40:00,14:20:00,Junior,Refactoring,Medium,115.0,54.9,3,4,15.0,High,2.9,2,0,30.0,Remote,37.6,160.0,0.4774,0.0528,False,False,False
+DEV028,S0849,2025-08-29,12:00:00,13:40:00,Junior,Code Review,Low,60.0,22.3,3,4,10.0,High,4.7,1,2,30.0,Hybrid,28.1,100.0,0.3717,0.2108,False,False,False
+DEV003,S0850,2025-08-29,13:20:00,15:45:00,Senior,Bug Fixing,Medium,67.0,41.8,3,4,20.0,High,19.2,2,1,58.0,Hybrid,54.6,145.0,0.6239,0.4593,False,False,False
+DEV011,S0851,2025-08-29,13:25:00,15:40:00,Mid,Bug Fixing,Low,71.0,20.0,7,12,10.0,High,0.0,2,2,54.0,Hybrid,20.9,135.0,0.2817,0.0,True,False,True
+DEV005,S0852,2025-09-01,11:00:00,15:45:00,Junior,Documentation,Low,195.0,129.2,4,4,30.0,High,27.0,3,1,60.0,Hybrid,53.0,285.0,0.6626,0.209,False,False,False
+DEV001,S0853,2025-09-01,13:10:00,14:55:00,Senior,Documentation,Medium,70.0,46.1,2,4,5.0,Low,20.0,3,1,30.0,Remote,57.9,105.0,0.6586,0.4338,False,False,False
+DEV031,S0854,2025-09-01,13:25:00,15:05:00,Senior,Feature Development,Low,60.0,32.0,2,6,10.0,Medium,0.2,0,0,30.0,Hybrid,22.5,100.0,0.5333,0.0062,False,False,False
+DEV045,S0855,2025-09-01,13:30:00,18:00:00,Senior,Feature Development,High,240.0,195.6,1,4,30.0,Medium,75.7,2,1,0.0,Remote,67.2,270.0,0.815,0.387,False,False,False
+DEV047,S0856,2025-09-02,07:55:00,10:30:00,Mid,Feature Development,High,115.0,55.1,4,5,25.0,High,0.9,0,1,15.0,Remote,20.7,155.0,0.4791,0.0163,False,False,False
+DEV048,S0857,2025-09-02,09:00:00,13:00:00,Mid,Feature Development,High,165.0,114.1,3,5,30.0,High,30.4,2,5,45.0,Remote,37.8,240.0,0.6915,0.2664,False,False,False
+DEV049,S0858,2025-09-02,13:30:00,15:50:00,Senior,Bug Fixing,Medium,115.0,50.0,7,10,10.0,High,16.8,2,1,15.0,Remote,36.9,140.0,0.4348,0.336,False,False,False
+DEV039,S0859,2025-09-03,07:50:00,09:55:00,Junior,Feature Development,Medium,60.0,19.5,3,5,15.0,High,0.7,1,2,50.0,Remote,25.9,125.0,0.325,0.0359,False,False,False
+DEV024,S0860,2025-09-03,10:40:00,12:35:00,Senior,Code Review,High,54.0,9.9,4,7,15.0,High,3.5,1,0,46.0,Remote,24.2,115.0,0.1833,0.3535,False,True,False
+DEV028,S0861,2025-09-03,11:15:00,14:40:00,Junior,Feature Development,Medium,165.0,85.8,6,7,25.0,High,19.2,1,0,15.0,Hybrid,44.7,205.0,0.52,0.2238,False,False,False
+DEV008,S0862,2025-09-03,11:25:00,13:00:00,Senior,Feature Development,Low,80.0,49.1,3,9,15.0,High,2.2,2,1,0.0,Office,53.5,95.0,0.6138,0.0448,True,False,False
+DEV030,S0863,2025-09-03,11:55:00,15:05:00,Senior,Bug Fixing,High,175.0,142.6,2,3,15.0,Medium,49.4,2,0,0.0,Hybrid,73.5,190.0,0.8149,0.3464,False,False,False
+DEV008,S0864,2025-09-03,12:45:00,15:20:00,Senior,Refactoring,Medium,85.0,42.3,6,7,25.0,High,2.9,2,0,45.0,Office,42.0,155.0,0.4976,0.0686,True,False,False
+DEV011,S0865,2025-09-03,12:55:00,15:55:00,Mid,Testing,Medium,150.0,104.9,3,6,30.0,High,39.4,2,1,0.0,Hybrid,57.7,180.0,0.6993,0.3756,False,False,False
+DEV020,S0866,2025-09-04,08:25:00,10:05:00,Senior,Feature Development,Medium,60.0,19.0,5,6,10.0,High,1.0,1,0,30.0,Office,24.0,100.0,0.3167,0.0526,False,False,False
+DEV025,S0867,2025-09-04,11:45:00,16:05:00,Senior,Refactoring,Medium,175.0,144.4,2,1,25.0,Medium,56.8,5,0,60.0,Remote,83.6,260.0,0.8251,0.3934,False,False,False
+DEV001,S0868,2025-09-04,12:55:00,15:40:00,Senior,Testing,Low,120.0,89.1,3,3,30.0,Medium,24.9,2,0,15.0,Remote,58.1,165.0,0.7425,0.2795,False,False,False
+DEV031,S0869,2025-09-05,08:30:00,12:25:00,Senior,Refactoring,Medium,160.0,98.9,5,4,30.0,Medium,26.7,4,0,45.0,Hybrid,58.4,235.0,0.6181,0.27,False,False,False
+DEV032,S0870,2025-09-05,11:25:00,15:05:00,Lead,Feature Development,High,140.0,103.8,3,3,20.0,High,26.2,3,1,60.0,Office,60.5,220.0,0.7414,0.2524,True,False,False
+DEV050,S0871,2025-09-05,12:45:00,17:35:00,Junior,Refactoring,Medium,200.0,145.3,2,2,30.0,High,36.4,4,2,60.0,Hybrid,60.9,290.0,0.7265,0.2505,False,False,False
+DEV032,S0872,2025-09-05,12:45:00,16:30:00,Lead,Code Review,High,160.0,97.9,4,6,20.0,High,23.6,5,2,45.0,Office,58.5,225.0,0.6119,0.2411,True,False,False
+DEV018,S0873,2025-09-05,13:00:00,15:15:00,Junior,Feature Development,Low,110.0,69.7,3,7,10.0,High,18.9,1,2,15.0,Remote,39.9,135.0,0.6336,0.2712,False,False,False
+DEV043,S0874,2025-09-08,08:45:00,10:55:00,Senior,Testing,High,110.0,71.3,4,5,20.0,High,22.3,2,1,0.0,Office,58.5,130.0,0.6482,0.3128,False,False,False
+DEV050,S0875,2025-09-08,09:10:00,13:20:00,Junior,Feature Development,Medium,225.0,164.4,3,5,25.0,High,42.3,2,3,0.0,Hybrid,57.8,250.0,0.7307,0.2573,False,False,False
+DEV036,S0876,2025-09-08,10:25:00,13:20:00,Junior,Testing,Medium,115.0,68.0,4,5,15.0,High,16.2,1,1,45.0,Remote,33.9,175.0,0.5913,0.2382,False,False,False
+DEV002,S0877,2025-09-08,11:25:00,14:25:00,Mid,Refactoring,Medium,155.0,118.9,2,1,25.0,Medium,31.1,4,1,0.0,Remote,67.8,180.0,0.7671,0.2616,False,False,False
+DEV013,S0878,2025-09-08,12:10:00,16:25:00,Senior,Feature Development,Medium,205.0,157.0,3,4,20.0,Medium,58.1,2,1,30.0,Office,54.6,255.0,0.7659,0.3701,False,False,False
+DEV033,S0879,2025-09-08,13:00:00,15:35:00,Mid,Bug Fixing,High,125.0,72.5,4,8,30.0,High,17.5,3,0,0.0,Office,56.1,155.0,0.58,0.2414,False,False,False
+DEV026,S0880,2025-09-09,09:40:00,14:20:00,Junior,Feature Development,High,190.0,114.7,5,7,30.0,High,19.3,1,3,60.0,Remote,30.3,280.0,0.6037,0.1683,False,False,False
+DEV009,S0881,2025-09-09,12:10:00,16:45:00,Junior,Feature Development,Low,240.0,178.6,3,4,35.0,High,33.6,4,1,0.0,Hybrid,65.9,275.0,0.7442,0.1881,False,False,False
+DEV048,S0882,2025-09-09,12:55:00,15:55:00,Mid,Bug Fixing,Low,140.0,100.3,2,4,10.0,High,27.2,4,1,30.0,Hybrid,64.5,180.0,0.7164,0.2712,False,False,False
+DEV011,S0883,2025-09-10,07:40:00,10:55:00,Mid,Feature Development,Medium,145.0,126.2,1,3,20.0,Low,47.6,2,0,30.0,Hybrid,69.4,195.0,0.8703,0.3772,False,False,False
+DEV016,S0884,2025-09-10,09:10:00,12:55:00,Junior,Bug Fixing,Medium,165.0,113.3,4,6,30.0,High,26.3,4,5,30.0,Office,51.7,225.0,0.6867,0.2321,False,False,False
+DEV014,S0885,2025-09-10,11:45:00,14:50:00,Senior,Feature Development,Low,170.0,121.2,3,3,15.0,Medium,34.7,3,1,0.0,Remote,64.6,185.0,0.7129,0.2863,False,False,False
+DEV024,S0886,2025-09-10,13:50:00,18:25:00,Senior,Feature Development,Low,200.0,153.1,3,4,30.0,High,41.8,4,0,45.0,Remote,75.6,275.0,0.7655,0.273,False,False,False
+DEV050,S0887,2025-09-11,08:45:00,11:10:00,Junior,Refactoring,Medium,130.0,66.2,3,5,15.0,High,0.2,1,2,0.0,Hybrid,35.5,145.0,0.5092,0.003,False,False,False
+DEV049,S0888,2025-09-11,09:15:00,12:05:00,Senior,Code Review,Medium,90.0,63.2,1,4,20.0,High,25.7,1,2,60.0,Remote,56.3,170.0,0.7022,0.4066,False,False,False
+DEV010,S0889,2025-09-11,10:25:00,13:35:00,Mid,Feature Development,Medium,170.0,117.5,3,4,20.0,High,36.9,3,1,0.0,Office,60.5,190.0,0.6912,0.314,False,False,False
+DEV032,S0890,2025-09-11,12:15:00,17:00:00,Lead,Feature Development,Medium,215.0,155.9,5,5,40.0,High,35.7,3,2,30.0,Office,44.3,285.0,0.7251,0.229,False,False,False
+DEV038,S0891,2025-09-12,09:10:00,12:50:00,Mid,Code Review,Medium,175.0,70.3,8,9,30.0,High,5.3,2,1,15.0,Office,34.6,220.0,0.4017,0.0754,False,False,False
+DEV022,S0892,2025-09-12,09:10:00,13:40:00,Mid,Bug Fixing,Low,220.0,156.2,4,5,35.0,High,43.7,6,2,15.0,Office,64.5,270.0,0.71,0.2798,False,False,False
+DEV024,S0893,2025-09-12,12:25:00,16:35:00,Senior,Feature Development,Medium,215.0,170.4,2,3,35.0,High,70.5,3,0,0.0,Remote,71.7,250.0,0.7926,0.4137,False,False,False
+DEV002,S0894,2025-09-12,12:30:00,15:50:00,Mid,Bug Fixing,High,135.0,66.8,5,8,20.0,High,4.9,2,1,45.0,Remote,42.5,200.0,0.4948,0.0734,False,False,False
+DEV030,S0895,2025-09-15,07:50:00,12:15:00,Senior,Testing,Low,230.0,176.3,3,5,35.0,Medium,54.9,8,0,0.0,Office,72.3,265.0,0.7665,0.3114,False,False,False
+DEV045,S0896,2025-09-15,09:35:00,11:40:00,Senior,Bug Fixing,Medium,70.0,54.4,0,2,25.0,Medium,25.2,2,0,30.0,Remote,71.7,125.0,0.7771,0.4632,False,False,False
+DEV017,S0897,2025-09-15,09:50:00,11:45:00,Mid,Feature Development,Medium,60.0,5.0,6,8,10.0,High,0.2,1,1,45.0,Office,12.5,115.0,0.0833,0.04,False,True,False
+DEV048,S0898,2025-09-15,11:00:00,15:30:00,Mid,Feature Development,High,200.0,171.3,1,1,25.0,High,55.6,3,1,45.0,Remote,70.4,270.0,0.8565,0.3246,True,False,False
+DEV048,S0899,2025-09-15,13:20:00,15:15:00,Mid,Documentation,Medium,100.0,80.1,1,2,15.0,Medium,30.4,2,0,0.0,Remote,67.8,115.0,0.801,0.3795,True,False,False
+DEV040,S0900,2025-09-15,13:45:00,17:05:00,Senior,Code Review,Low,140.0,66.9,7,8,30.0,High,1.1,3,0,30.0,Office,30.1,200.0,0.4779,0.0164,False,False,False
+DEV017,S0901,2025-09-16,08:40:00,13:20:00,Mid,Feature Development,Medium,235.0,153.7,5,6,30.0,High,40.4,2,3,15.0,Office,45.7,280.0,0.654,0.2628,False,False,False
+DEV030,S0902,2025-09-16,09:20:00,14:00:00,Senior,Feature Development,High,220.0,187.8,1,3,45.0,Medium,73.5,4,0,15.0,Hybrid,83.0,280.0,0.8536,0.3914,False,False,False
+DEV005,S0903,2025-09-16,09:30:00,13:50:00,Junior,Feature Development,Low,240.0,179.3,2,3,20.0,High,46.9,3,0,0.0,Hybrid,69.7,260.0,0.7471,0.2616,False,False,False
+DEV028,S0904,2025-09-16,09:30:00,11:25:00,Junior,Feature Development,Medium,95.0,64.6,2,2,20.0,High,17.7,1,2,0.0,Hybrid,49.4,115.0,0.68,0.274,False,False,False
+DEV033,S0905,2025-09-16,11:05:00,13:20:00,Mid,Code Review,High,66.0,7.6,5,7,15.0,High,2.9,1,0,54.0,Hybrid,15.1,135.0,0.1152,0.3816,True,True,False
+DEV033,S0906,2025-09-16,11:10:00,16:10:00,Mid,Refactoring,Medium,220.0,165.0,3,2,35.0,High,47.4,4,1,45.0,Hybrid,68.3,300.0,0.75,0.2873,True,False,False
+DEV042,S0907,2025-09-17,10:35:00,12:40:00,Senior,Bug Fixing,High,100.0,69.7,1,4,10.0,Medium,20.8,2,0,15.0,Hybrid,57.7,125.0,0.697,0.2984,False,False,False
+DEV021,S0908,2025-09-17,13:50:00,15:30:00,Senior,Bug Fixing,Medium,70.0,15.5,4,7,0.0,High,4.4,1,2,30.0,Remote,18.6,100.0,0.2214,0.2839,False,False,False
+DEV042,S0909,2025-09-18,08:10:00,11:05:00,Senior,Feature Development,Medium,115.0,83.2,3,3,15.0,Medium,15.7,2,2,45.0,Hybrid,48.4,175.0,0.7235,0.1887,False,False,False
+DEV019,S0910,2025-09-18,09:15:00,12:40:00,Senior,Bug Fixing,Low,145.0,79.4,5,6,30.0,High,24.6,2,1,30.0,Remote,46.8,205.0,0.5476,0.3098,False,False,False
+DEV001,S0911,2025-09-18,09:25:00,12:15:00,Senior,Refactoring,Medium,72.0,13.6,6,7,30.0,High,2.3,3,0,68.0,Remote,30.2,170.0,0.1889,0.1691,False,True,False
+DEV016,S0912,2025-09-18,11:55:00,13:45:00,Junior,Feature Development,High,36.0,5.0,8,8,30.0,High,1.0,0,3,44.0,Office,5.8,110.0,0.1389,0.2,False,True,False
+DEV007,S0913,2025-09-19,10:35:00,14:40:00,Senior,Bug Fixing,Medium,205.0,170.9,1,3,25.0,Medium,71.8,4,2,15.0,Office,75.8,245.0,0.8337,0.4201,False,False,False
+DEV032,S0914,2025-09-19,11:15:00,12:50:00,Lead,Refactoring,High,90.0,58.5,4,5,5.0,High,5.5,2,3,0.0,Office,34.4,95.0,0.65,0.094,False,False,False
+DEV030,S0915,2025-09-19,12:10:00,14:35:00,Senior,Bug Fixing,Low,90.0,35.4,4,8,25.0,High,17.1,3,1,30.0,Hybrid,40.6,145.0,0.3933,0.4831,False,False,False
+DEV024,S0916,2025-09-19,12:15:00,14:15:00,Senior,Bug Fixing,Medium,90.0,43.2,6,8,15.0,High,2.0,3,2,15.0,Office,33.0,120.0,0.48,0.0463,False,False,False
+DEV044,S0917,2025-09-19,13:05:00,17:05:00,Mid,DevOps/Deployment,High,175.0,135.6,2,5,35.0,High,45.8,4,3,30.0,Remote,58.5,240.0,0.7749,0.3378,False,False,False
+DEV042,S0918,2025-09-19,13:15:00,16:45:00,Senior,Refactoring,Medium,185.0,139.3,4,4,25.0,High,44.9,3,0,0.0,Hybrid,64.1,210.0,0.753,0.3223,False,False,False
+DEV027,S0919,2025-09-19,13:15:00,15:05:00,Mid,Feature Development,Medium,85.0,67.2,2,3,25.0,Medium,16.8,1,2,0.0,Remote,46.7,110.0,0.7906,0.25,False,False,False
+DEV030,S0920,2025-09-22,07:35:00,12:35:00,Senior,Bug Fixing,Low,240.0,152.4,6,9,30.0,High,34.7,8,0,30.0,Hybrid,59.5,300.0,0.635,0.2277,False,False,False
+DEV039,S0921,2025-09-22,08:15:00,11:45:00,Junior,Refactoring,Medium,175.0,128.9,3,4,35.0,High,34.9,3,2,0.0,Remote,59.2,210.0,0.7366,0.2708,False,False,False
+DEV011,S0922,2025-09-22,08:25:00,13:15:00,Mid,Documentation,Medium,255.0,182.3,5,5,35.0,High,40.0,5,0,0.0,Hybrid,67.1,290.0,0.7149,0.2194,False,False,False
+DEV005,S0923,2025-09-22,08:25:00,13:10:00,Junior,Testing,Low,255.0,189.0,2,5,30.0,High,51.8,6,4,0.0,Hybrid,55.7,285.0,0.7412,0.2741,False,False,False
+DEV041,S0924,2025-09-22,08:45:00,10:35:00,Mid,Documentation,Low,65.0,30.3,3,3,15.0,Medium,15.8,3,1,30.0,Remote,56.4,110.0,0.4662,0.5215,False,False,False
+DEV018,S0925,2025-09-22,09:20:00,11:40:00,Junior,Feature Development,Medium,80.0,37.2,4,6,15.0,High,0.7,2,4,45.0,Office,25.0,140.0,0.465,0.0188,False,False,False
+DEV049,S0926,2025-09-22,09:30:00,13:00:00,Senior,Feature Development,Low,96.0,73.3,1,2,30.0,Low,28.4,1,1,84.0,Remote,55.7,210.0,0.7635,0.3874,False,False,False
+DEV026,S0927,2025-09-22,10:45:00,13:45:00,Junior,Feature Development,Medium,125.0,76.8,4,6,25.0,High,21.4,0,0,30.0,Remote,37.0,180.0,0.6144,0.2786,False,False,False
+DEV041,S0928,2025-09-22,11:55:00,15:20:00,Mid,Bug Fixing,High,120.0,57.8,5,8,25.0,High,21.1,2,1,60.0,Remote,37.6,205.0,0.4817,0.3651,False,False,False
+DEV013,S0929,2025-09-22,13:05:00,16:20:00,Senior,Feature Development,Medium,160.0,121.5,4,4,20.0,High,42.7,2,0,15.0,Office,59.7,195.0,0.7594,0.3514,False,False,False
+DEV008,S0930,2025-09-23,08:45:00,12:25:00,Senior,Feature Development,High,170.0,104.7,6,7,20.0,High,27.4,1,2,30.0,Office,46.9,220.0,0.6159,0.2617,False,False,False
+DEV006,S0931,2025-09-23,11:00:00,14:10:00,Lead,Code Review,Medium,160.0,116.6,2,5,30.0,Medium,49.0,3,1,0.0,Office,67.5,190.0,0.7288,0.4202,False,False,False
+DEV045,S0932,2025-09-23,12:25:00,15:15:00,Senior,DevOps/Deployment,Low,135.0,111.8,2,3,20.0,Medium,20.7,5,1,15.0,Hybrid,59.4,170.0,0.8281,0.1852,False,False,False
+DEV013,S0933,2025-09-24,07:50:00,10:15:00,Senior,Bug Fixing,Medium,85.0,41.1,5,8,15.0,High,6.0,3,1,45.0,Remote,34.6,145.0,0.4835,0.146,False,False,False
+DEV048,S0934,2025-09-24,10:25:00,13:20:00,Mid,Feature Development,Medium,105.0,52.1,5,5,25.0,High,3.0,0,2,45.0,Remote,24.3,175.0,0.4962,0.0576,False,False,False
+DEV002,S0935,2025-09-24,10:45:00,15:35:00,Mid,Bug Fixing,High,255.0,182.8,4,6,35.0,High,42.9,6,1,0.0,Remote,71.7,290.0,0.7169,0.2347,False,False,False
+DEV038,S0936,2025-09-24,10:50:00,14:35:00,Mid,Refactoring,Low,175.0,110.2,5,4,35.0,High,24.2,6,3,15.0,Office,56.5,225.0,0.6297,0.2196,False,False,False
+DEV048,S0937,2025-09-25,09:45:00,14:45:00,Mid,Feature Development,Medium,230.0,175.9,2,3,40.0,Medium,51.1,3,0,30.0,Remote,65.4,300.0,0.7648,0.2905,False,False,False
+DEV028,S0938,2025-09-25,11:35:00,14:50:00,Junior,Testing,Low,170.0,75.4,7,11,25.0,High,0.0,3,1,0.0,Hybrid,35.5,195.0,0.4435,0.0,False,False,True
+DEV009,S0939,2025-09-26,08:00:00,11:35:00,Junior,Feature Development,Medium,190.0,135.5,3,4,25.0,High,37.3,3,0,0.0,Remote,62.2,215.0,0.7132,0.2753,True,False,False
+DEV037,S0940,2025-09-26,09:30:00,11:20:00,Junior,Documentation,High,70.0,33.1,3,2,10.0,High,0.0,1,0,30.0,Hybrid,43.2,110.0,0.4729,0.0,False,False,True
+DEV009,S0941,2025-09-26,10:05:00,12:35:00,Junior,Feature Development,Medium,130.0,87.3,2,2,20.0,Medium,25.2,2,3,0.0,Remote,49.3,150.0,0.6715,0.2887,True,False,False
+DEV009,S0942,2025-09-26,10:05:00,11:35:00,Junior,Code Review,Medium,60.0,13.2,4,5,15.0,High,0.6,1,1,15.0,Remote,26.1,90.0,0.22,0.0455,True,False,False
+DEV021,S0943,2025-09-26,10:50:00,15:25:00,Senior,Refactoring,Medium,240.0,195.1,3,2,35.0,Low,66.1,6,0,0.0,Remote,77.7,275.0,0.8129,0.3388,False,False,False
+DEV049,S0944,2025-09-26,11:50:00,13:35:00,Senior,Feature Development,High,53.0,5.0,4,5,10.0,High,1.5,1,2,42.0,Remote,19.0,105.0,0.0943,0.3,False,True,False
+DEV015,S0945,2025-09-26,13:30:00,18:20:00,Mid,Code Review,Medium,220.0,161.7,3,6,25.0,High,42.1,4,0,45.0,Office,65.9,290.0,0.735,0.2604,False,False,False
+DEV003,S0946,2025-09-29,09:35:00,12:20:00,Senior,Bug Fixing,Low,85.0,54.9,2,4,20.0,Medium,22.7,2,0,60.0,Hybrid,54.6,165.0,0.6459,0.4135,False,False,False
+DEV004,S0947,2025-09-29,09:40:00,13:55:00,Senior,Feature Development,Medium,205.0,162.8,2,4,20.0,Medium,60.8,4,0,30.0,Office,73.5,255.0,0.7941,0.3735,False,False,False
+DEV006,S0948,2025-09-30,07:50:00,12:15:00,Lead,Bug Fixing,Low,240.0,208.1,0,2,25.0,Low,95.9,7,0,0.0,Hybrid,98.0,265.0,0.8671,0.4608,False,False,False
+DEV038,S0949,2025-09-30,08:05:00,09:50:00,Mid,Feature Development,Medium,50.0,16.7,3,4,25.0,High,2.0,0,1,30.0,Office,24.3,105.0,0.334,0.1198,False,False,False
+DEV039,S0950,2025-09-30,08:30:00,10:55:00,Junior,DevOps/Deployment,Medium,115.0,66.9,5,5,15.0,High,3.3,2,0,15.0,Remote,33.6,145.0,0.5817,0.0493,False,False,False
+DEV007,S0951,2025-09-30,13:55:00,17:10:00,Senior,Bug Fixing,Medium,95.0,5.0,10,12,25.0,High,2.0,0,2,75.0,Office,5.0,195.0,0.0526,0.4,False,True,False
+DEV047,S0952,2025-10-01,07:55:00,11:15:00,Mid,Bug Fixing,Low,95.0,19.9,7,9,25.0,High,0.2,2,4,80.0,Remote,15.4,200.0,0.2095,0.0101,False,False,False
+DEV004,S0953,2025-10-01,08:25:00,09:55:00,Senior,Bug Fixing,Medium,65.0,12.3,4,7,10.0,High,1.3,1,2,15.0,Hybrid,16.8,90.0,0.1892,0.1057,False,True,False
+DEV032,S0954,2025-10-01,09:45:00,11:15:00,Lead,Feature Development,Medium,49.0,39.1,0,1,5.0,Low,16.2,1,0,36.0,Office,59.7,90.0,0.798,0.4143,False,False,False
+DEV044,S0955,2025-10-01,10:45:00,13:00:00,Mid,Feature Development,Medium,80.0,32.0,4,5,10.0,High,3.4,2,3,45.0,Remote,26.6,135.0,0.4,0.1062,False,False,False
+DEV042,S0956,2025-10-01,11:45:00,14:00:00,Senior,Feature Development,High,85.0,38.0,4,6,20.0,High,6.5,1,0,30.0,Hybrid,37.1,135.0,0.4471,0.1711,False,False,False
+DEV034,S0957,2025-10-01,12:35:00,16:45:00,Mid,Testing,Low,175.0,122.9,2,3,30.0,Low,33.0,5,1,45.0,Remote,68.4,250.0,0.7023,0.2685,False,False,False
+DEV011,S0958,2025-10-01,13:20:00,17:45:00,Mid,DevOps/Deployment,High,230.0,146.6,6,6,35.0,High,31.7,5,3,0.0,Hybrid,53.9,265.0,0.6374,0.2162,False,False,False
+DEV019,S0959,2025-10-01,13:40:00,16:00:00,Senior,Documentation,Low,85.0,42.9,4,3,25.0,Low,16.2,1,0,30.0,Hybrid,50.0,140.0,0.5047,0.3776,False,False,False
+DEV016,S0960,2025-10-02,10:40:00,13:45:00,Junior,Refactoring,Medium,91.0,24.5,4,8,20.0,High,0.2,2,2,74.0,Office,21.0,185.0,0.2692,0.0082,False,False,False
+DEV035,S0961,2025-10-02,11:45:00,14:55:00,Mid,Bug Fixing,High,140.0,106.0,2,4,20.0,High,25.8,3,0,30.0,Remote,66.2,190.0,0.7571,0.2434,False,False,False
+DEV034,S0962,2025-10-02,13:00:00,14:50:00,Mid,Feature Development,Low,95.0,60.1,1,2,15.0,Medium,19.9,1,0,0.0,Remote,52.7,110.0,0.6326,0.3311,False,False,False
+DEV024,S0963,2025-10-03,07:40:00,09:45:00,Senior,Testing,Medium,65.0,5.1,6,8,10.0,High,1.8,3,3,50.0,Remote,19.4,125.0,0.0785,0.3529,False,True,False
+DEV027,S0964,2025-10-03,08:05:00,13:00:00,Mid,Bug Fixing,High,165.0,130.6,1,3,40.0,High,42.6,2,1,90.0,Remote,61.9,295.0,0.7915,0.3262,False,False,False
+DEV039,S0965,2025-10-03,10:45:00,13:10:00,Junior,Feature Development,Medium,90.0,57.7,2,3,25.0,Medium,18.1,1,2,30.0,Remote,41.6,145.0,0.6411,0.3137,False,False,False
+DEV035,S0966,2025-10-03,11:25:00,13:35:00,Mid,Code Review,Low,90.0,50.8,3,6,10.0,High,0.2,2,0,30.0,Remote,35.3,130.0,0.5644,0.0039,False,False,False
+DEV020,S0967,2025-10-03,11:45:00,16:35:00,Senior,Feature Development,High,190.0,152.1,3,4,40.0,High,38.4,2,0,60.0,Office,62.2,290.0,0.8005,0.2525,False,False,False
+DEV017,S0968,2025-10-03,13:00:00,16:00:00,Mid,Feature Development,Medium,105.0,55.3,5,7,15.0,High,15.9,0,2,60.0,Office,30.3,180.0,0.5267,0.2875,False,False,False
+DEV001,S0969,2025-10-06,08:25:00,11:40:00,Senior,Refactoring,Low,165.0,140.2,1,1,15.0,Medium,52.2,5,1,15.0,Remote,87.6,195.0,0.8497,0.3723,False,False,False
+DEV028,S0970,2025-10-06,09:05:00,13:15:00,Junior,Bug Fixing,High,130.0,67.9,4,5,30.0,High,18.5,2,1,90.0,Hybrid,41.9,250.0,0.5223,0.2725,False,False,False
+DEV019,S0971,2025-10-06,09:35:00,12:50:00,Senior,Code Review,High,115.0,77.9,3,4,20.0,High,16.9,2,0,60.0,Remote,46.9,195.0,0.6774,0.2169,False,False,False
+DEV026,S0972,2025-10-06,10:10:00,15:05:00,Junior,Bug Fixing,Low,230.0,159.0,4,6,35.0,High,40.6,5,3,30.0,Remote,58.9,295.0,0.6913,0.2553,False,False,False
+DEV013,S0973,2025-10-06,10:10:00,13:05:00,Senior,Bug Fixing,Low,105.0,67.7,4,5,25.0,Medium,16.9,3,0,45.0,Office,52.8,175.0,0.6448,0.2496,False,False,False
+DEV043,S0974,2025-10-06,11:25:00,15:10:00,Senior,Feature Development,Medium,195.0,156.3,2,5,15.0,Medium,59.6,3,1,15.0,Hybrid,69.0,225.0,0.8015,0.3813,False,False,False
+DEV010,S0975,2025-10-07,07:35:00,09:55:00,Mid,Bug Fixing,High,69.0,50.3,1,3,15.0,High,15.1,2,2,56.0,Remote,52.9,140.0,0.729,0.3002,False,False,False
+DEV046,S0976,2025-10-07,09:10:00,14:05:00,Senior,Feature Development,Low,235.0,174.8,5,5,30.0,Medium,49.5,5,0,30.0,Office,65.3,295.0,0.7438,0.2832,False,False,False
+DEV042,S0977,2025-10-07,09:55:00,14:40:00,Senior,Bug Fixing,High,255.0,198.4,3,8,30.0,High,57.6,4,0,0.0,Hybrid,68.3,285.0,0.778,0.2903,False,False,False
+DEV040,S0978,2025-10-07,10:50:00,15:50:00,Senior,Feature Development,Low,210.0,160.2,3,4,30.0,Medium,51.6,6,0,60.0,Office,77.0,300.0,0.7629,0.3221,False,False,False
+DEV026,S0979,2025-10-07,13:10:00,14:50:00,Junior,Feature Development,Medium,60.0,47.0,1,1,10.0,Medium,2.0,1,1,30.0,Remote,43.3,100.0,0.7833,0.0426,False,False,False
+DEV044,S0980,2025-10-07,13:40:00,17:15:00,Mid,Feature Development,Low,104.0,45.5,6,8,25.0,High,2.7,1,2,86.0,Hybrid,31.0,215.0,0.4375,0.0593,False,False,False
+DEV017,S0981,2025-10-07,13:40:00,18:10:00,Mid,Bug Fixing,Low,215.0,168.6,1,4,25.0,Low,56.5,5,0,30.0,Office,79.4,270.0,0.7842,0.3351,False,False,False
+DEV014,S0982,2025-10-08,09:10:00,12:15:00,Senior,Bug Fixing,Medium,105.0,69.5,4,6,20.0,High,18.1,3,3,60.0,Office,47.9,185.0,0.6619,0.2604,False,False,False
+DEV039,S0983,2025-10-08,11:15:00,12:45:00,Junior,Bug Fixing,High,34.0,11.2,2,4,20.0,High,1.7,1,4,36.0,Remote,21.1,90.0,0.3294,0.1518,False,False,False
+DEV023,S0984,2025-10-08,12:10:00,14:05:00,Lead,Code Review,High,54.0,40.0,0,3,15.0,Medium,19.3,0,1,46.0,Remote,54.0,115.0,0.7407,0.4825,False,False,False
+DEV026,S0985,2025-10-08,12:15:00,14:45:00,Junior,Testing,Medium,130.0,62.3,6,7,20.0,High,2.8,3,3,0.0,Remote,34.4,150.0,0.4792,0.0449,False,False,False
+DEV021,S0986,2025-10-08,12:50:00,16:50:00,Senior,Code Review,Medium,180.0,155.1,1,2,30.0,Medium,65.8,3,0,30.0,Remote,75.6,240.0,0.8617,0.4242,False,False,False
+DEV009,S0987,2025-10-09,07:40:00,10:55:00,Junior,Bug Fixing,Medium,180.0,117.0,3,6,15.0,High,33.0,3,1,0.0,Remote,51.6,195.0,0.65,0.2821,False,False,False
+DEV029,S0988,2025-10-09,08:45:00,10:30:00,Junior,Feature Development,Low,48.0,5.0,8,8,15.0,High,0.2,0,1,42.0,Office,12.5,105.0,0.1042,0.04,False,True,False
+DEV002,S0989,2025-10-09,12:00:00,15:55:00,Mid,Testing,Medium,215.0,182.6,0,1,20.0,Medium,82.8,5,0,0.0,Remote,91.0,235.0,0.8493,0.4535,False,False,False
+DEV044,S0990,2025-10-10,09:05:00,12:35:00,Mid,Feature Development,Low,190.0,150.3,1,2,20.0,Medium,54.5,3,0,0.0,Remote,75.7,210.0,0.7911,0.3626,True,False,False
+DEV020,S0991,2025-10-10,09:40:00,12:50:00,Senior,Feature Development,Medium,95.0,10.8,9,9,20.0,High,0.0,0,3,75.0,Office,5.0,190.0,0.1137,0.0,False,True,True
+DEV002,S0992,2025-10-10,09:55:00,14:25:00,Mid,Testing,Medium,180.0,127.8,3,6,30.0,High,37.5,5,2,60.0,Remote,64.4,270.0,0.71,0.2934,False,False,False
+DEV045,S0993,2025-10-10,10:20:00,13:55:00,Senior,Code Review,High,160.0,124.0,2,4,10.0,High,46.1,3,0,45.0,Remote,63.4,215.0,0.775,0.3718,False,False,False
+DEV032,S0994,2025-10-10,10:30:00,13:35:00,Lead,Feature Development,Medium,135.0,93.9,3,3,20.0,Medium,28.4,3,1,30.0,Office,56.4,185.0,0.6956,0.3024,False,False,False
+DEV007,S0995,2025-10-10,10:35:00,12:40:00,Senior,Feature Development,High,115.0,70.4,3,3,10.0,High,18.6,0,3,0.0,Office,38.1,125.0,0.6122,0.2642,False,False,False
+DEV011,S0996,2025-10-10,10:45:00,13:40:00,Mid,Feature Development,Medium,125.0,88.1,2,4,20.0,High,31.2,2,2,30.0,Hybrid,53.1,175.0,0.7048,0.3541,False,False,False
+DEV044,S0997,2025-10-10,11:40:00,14:45:00,Mid,Refactoring,Medium,155.0,125.9,2,2,15.0,Medium,47.3,3,0,15.0,Remote,74.1,185.0,0.8123,0.3757,True,False,False
+DEV038,S0998,2025-10-10,12:10:00,13:40:00,Mid,Feature Development,High,44.0,5.0,6,8,10.0,High,0.0,0,5,36.0,Office,5.0,90.0,0.1136,0.0,False,True,True
+DEV004,S0999,2025-10-10,12:15:00,16:15:00,Senior,Bug Fixing,High,180.0,148.1,3,6,30.0,High,42.3,4,1,30.0,Hybrid,61.8,240.0,0.8228,0.2856,False,False,False
+DEV022,S1000,2025-10-10,12:30:00,16:30:00,Mid,Documentation,Medium,175.0,83.7,6,8,20.0,High,17.9,5,1,45.0,Office,53.7,240.0,0.4783,0.2139,False,False,False
