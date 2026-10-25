@@ -1,0 +1,91 @@
+-- CogniStream DAX measures — match src/kpis.py exactly
+-- Table name assumed: DeveloperProductivity
+-- Import: powerbi/data/cleaned_developer_productivity.csv
+
+-- ========== Calculated columns ==========
+
+-- Interruption Band (matches interruption_bands bins: -1–1, 2–3, 4–5, 6+)
+Interruption Band =
+VAR n = DeveloperProductivity[interruption_count]
+RETURN
+    SWITCH(
+        TRUE(),
+        n <= 1, "0-1",
+        n <= 3, "2-3",
+        n <= 5, "4-5",
+        "6+"
+    )
+
+-- Sort order for cognitive load (Low=1, Medium=2, High=3)
+Cognitive Load Sort =
+SWITCH(
+    DeveloperProductivity[cognitive_load_level],
+    "Low", 1,
+    "Medium", 2,
+    "High", 3,
+    99
+)
+
+-- ========== Measures (same logic as kpis.overview_kpis / helpers) ==========
+
+Sessions =
+COUNTROWS ( DeveloperProductivity )
+
+Developers =
+DISTINCTCOUNT ( DeveloperProductivity[developer_id] )
+
+Avg Productivity =
+AVERAGE ( DeveloperProductivity[productivity_score] )
+
+Avg Focus Minutes =
+AVERAGE ( DeveloperProductivity[focus_duration_minutes] )
+
+Avg Flow Minutes =
+AVERAGE ( DeveloperProductivity[flow_state_duration_minutes] )
+
+Avg Interruptions =
+AVERAGE ( DeveloperProductivity[interruption_count] )
+
+Avg Context Switches =
+AVERAGE ( DeveloperProductivity[context_switch_count] )
+
+-- High Load % = High rows / total rows × 100  (matches pct_high_cognitive_load)
+High Load % =
+DIVIDE (
+    CALCULATE (
+        COUNTROWS ( DeveloperProductivity ),
+        DeveloperProductivity[cognitive_load_level] = "High"
+    ),
+    COUNTROWS ( DeveloperProductivity ),
+    0
+) * 100
+
+-- Flow Share of Focus % = SUM(flow) / SUM(focus) × 100
+Flow Share of Focus % =
+DIVIDE (
+    SUM ( DeveloperProductivity[flow_state_duration_minutes] ),
+    SUM ( DeveloperProductivity[focus_duration_minutes] ),
+    0
+) * 100
+
+-- Sessions where flow_state_duration_minutes is 0
+Sessions with Zero Flow =
+CALCULATE (
+    COUNTROWS ( DeveloperProductivity ),
+    DeveloperProductivity[flow_state_duration_minutes] = 0
+)
+
+-- Optional extras used on charts (same aggregations as summary_by / monthly_trend)
+
+Avg Coding Minutes =
+AVERAGE ( DeveloperProductivity[coding_duration_minutes] )
+
+Pct Sessions with Flow =
+DIVIDE (
+    CALCULATE (
+        COUNTROWS ( DeveloperProductivity ),
+        DeveloperProductivity[flow_state_duration_minutes] > 0
+    ),
+    COUNTROWS ( DeveloperProductivity ),
+    0
+) * 100

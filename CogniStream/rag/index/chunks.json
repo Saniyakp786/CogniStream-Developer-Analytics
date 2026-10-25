@@ -1,0 +1,218 @@
+[
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Data Dictionary",
+  "text": "These descriptions come from the column names and the observed values. The dataset has no official data dictionary, so exact measurement methods are not known.",
+  "id": 0
+ },
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Identifiers and time",
+  "text": "- developer_id: identifier of the developer. There are 50 distinct developers.\n- session_id: identifier of the work session. All 1000 values are unique.\n- session_date: date of the session, from 2025-01-06 to 2025-10-10, weekdays only.\n- start_time and end_time: session start and end time in HH:MM:SS format. end_time is after start_time in every row.",
+  "id": 1
+ },
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Categories",
+  "text": "- experience_level: Junior, Mid, Senior, or Lead.\n- task_type: Feature Development, Bug Fixing, Code Review, Refactoring, Testing, DevOps/Deployment, or Documentation.\n- task_complexity: Low, Medium, or High.\n- cognitive_load_level: Low, Medium, or High. The rule that assigns this label is not provided.\n- work_mode: Remote, Office, or Hybrid.",
+  "id": 2
+ },
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Durations in minutes",
+  "text": "- coding_duration_minutes: minutes spent coding in the session.\n- focus_duration_minutes: minutes of focused work in the session.\n- flow_state_duration_minutes: minutes spent in a flow state in the session.\n- break_duration_minutes: minutes of breaks.\n- meeting_minutes: minutes spent in meetings.",
+  "id": 3
+ },
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Counts and scores",
+  "text": "- interruption_count: number of interruptions in the session.\n- context_switch_count: number of context switches in the session.\n- tasks_completed: number of tasks completed.\n- bug_count: number of bugs recorded.\n- productivity_score: a score from 5 to 98 in this data. Its formula is not provided.",
+  "id": 4
+ },
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Relationships that hold in every row",
+  "text": "- flow_state_duration_minutes is never greater than focus_duration_minutes.\n- focus_duration_minutes is never greater than coding_duration_minutes.\n- coding_duration_minutes plus break_duration_minutes plus meeting_minutes equals the session length from start_time to end_time.",
+  "id": 5
+ },
+ {
+  "source": "docs/data_dictionary.md",
+  "heading": "Columns added by the cleaning step",
+  "text": "- session_duration_minutes: end_time minus start_time, in minutes.\n- focus_ratio: focus_duration_minutes divided by coding_duration_minutes.\n- flow_ratio: flow_state_duration_minutes divided by focus_duration_minutes.\n- flag_overlapping_session: true when the same developer has another session on the same day that overlaps in time.\n- flag_low_focus_ratio: true when focus_ratio is below 0.2.\n- flag_zero_flow: true when flow_state_duration_minutes is 0.",
+  "id": 6
+ },
+ {
+  "source": "docs/data_quality_summary.md",
+  "heading": "Data Quality Summary",
+  "text": "These are the results of the Phase 1 validation on the full dataset of 1000 rows and 20 columns. No rows were deleted and no values were overwritten.",
+  "id": 7
+ },
+ {
+  "source": "docs/data_quality_summary.md",
+  "heading": "Checks that passed",
+  "text": "There are no missing values, no duplicate rows, and no duplicate session_id values. All dates and times parse correctly, and end_time is after start_time in every row. There are no negative values and productivity_score stays within 0 to 100. In every row focus is at most coding, flow is at most focus, and coding plus break plus meeting equals the session length. Category labels are consistent.",
+  "id": 8
+ },
+ {
+  "source": "docs/data_quality_summary.md",
+  "heading": "Issues flagged for review",
+  "text": "These rows are unusual but are not confirmed errors, so they were kept and only flagged.\n- Overlapping sessions: there are 35 pairs where the same developer has overlapping sessions on the same day, so 69 rows are flagged. This could be a data-entry issue or parallel logging.\n- Low focus ratio: 59 sessions have focus time below 20 percent of coding time.\n- Zero flow: 36 sessions have no flow time. This looks plausible for sessions with many interruptions.\n- Outliers: a few sessions are outliers by the IQR rule in interruptions, context switches, flow minutes, tasks completed, bug count, and meeting minutes. They were kept as valid observations.\n- Class imbalance: cognitive load has 675 High, 271 Medium, and only 54 Low sessions.",
+  "id": 9
+ },
+ {
+  "source": "docs/data_quality_summary.md",
+  "heading": "Known limitations",
+  "text": "The formulas for productivity_score and cognitive_load_level are not provided. The origin of the dataset is not stated, so it should not be presented as real-world evidence until the source is confirmed.",
+  "id": 10
+ },
+ {
+  "source": "docs/metric_definitions.md",
+  "heading": "Flow-state duration",
+  "text": "In this project flow-state duration means the value of the column flow_state_duration_minutes: the minutes in a session that the dataset records as flow state. The dataset does not say how flow was detected or measured, so no further definition can be given. In every row the flow minutes are at most the focus minutes.",
+  "id": 11
+ },
+ {
+  "source": "docs/metric_definitions.md",
+  "heading": "Productivity score",
+  "text": "Productivity is measured by the column productivity_score, which ranges from 5 to 98. The dataset does not provide the formula or source of this score. A linear fit using the other numeric columns explains about 89 percent of its variation (R squared 0.89), so the score is related to those columns, but the exact formula is unknown and must not be invented.",
+  "id": 12
+ },
+ {
+  "source": "docs/metric_definitions.md",
+  "heading": "Cognitive load level",
+  "text": "cognitive_load_level has three labels: Low, Medium, and High. The rule that assigns them is not provided. Their ranges of interruptions and context switches overlap, so the label is not a simple threshold on one column. It is treated as a given label. In the full dataset 675 sessions are High, 271 Medium, and 54 Low, so Low is a small group and its averages are less reliable.",
+  "id": 13
+ },
+ {
+  "source": "docs/metric_definitions.md",
+  "heading": "KPIs shown in the dashboard",
+  "text": "All KPIs are calculated by the Python file src/kpis.py.\n- Average productivity score: mean of productivity_score.\n- Average focus, coding, and flow minutes: means of the matching duration columns.\n- Average interruptions and context switches: means of interruption_count and context_switch_count.\n- High cognitive load percent: share of sessions with cognitive_load_level equal to High.\n- Flow share of focus: total flow minutes divided by total focus minutes.\n- Spearman correlation: a rank-based association between two numeric columns, from minus 1 to plus 1. It describes association only and does not show cause and effect.",
+  "id": 14
+ },
+ {
+  "source": "docs/project_overview.md",
+  "heading": "Purpose",
+  "text": "CogniStream: Developer Flow-State & Cognitive Load Analytics is a data analytics internship project at Infotact Solutions. It analyses developer work sessions to understand focus, flow-state duration, interruptions, and cognitive load, and presents the results in an interactive dashboard with an AI assistant.",
+  "id": 15
+ },
+ {
+  "source": "docs/project_overview.md",
+  "heading": "Dataset",
+  "text": "The project uses one file, developer_productivity_dataset.csv. It has 1000 work sessions from 50 developers and 20 original columns. Sessions fall between 2025-01-06 and 2025-10-10 and only on weekdays.",
+  "id": 16
+ },
+ {
+  "source": "docs/project_overview.md",
+  "heading": "Important limitations",
+  "text": "The dataset comes without official documentation. The source of the data, and whether it is real or synthetic, is not stated. The formulas behind productivity_score and cognitive_load_level are not provided. Results describe associations inside this dataset and must not be read as proof of cause and effect.",
+  "id": 17
+ },
+ {
+  "source": "docs/project_overview.md",
+  "heading": "Pipeline",
+  "text": "Phase 1 cleans and validates the data without deleting rows. Phase 2 calculates KPIs and charts. Phase 3 is the Streamlit dashboard. Phase 4 is this retrieval-augmented assistant, which answers from project documents and from numbers calculated with Pandas.",
+  "id": 18
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "CogniStream - EDA Findings (auto-generated from the data)",
+  "text": "Important: these are ASSOCIATIONS in this dataset. They do not prove cause and effect. The origin of the dataset (real or synthetic) is not confirmed, and the formulas for productivity_score and cognitive_load_level are unknown.",
+  "id": 19
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Headline KPIs",
+  "text": "- sessions: 1000\n- developers: 50\n- avg productivity score: 49.1\n- avg coding minutes: 138.2\n- avg focus minutes: 90.1\n- avg flow minutes: 24.3\n- avg interruptions: 3.7\n- avg context switches: 5.07\n- pct high cognitive load: 67.5\n- pct sessions with flow: 96.4\n- flow share of focus pct: 27.0",
+  "id": 20
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Cognitive load",
+  "text": "| cognitive_load_level   |   sessions |   percent |\n|:-----------------------|-----------:|----------:|\n| Low                    |         54 |       5.4 |\n| Medium                 |        271 |      27.1 |\n| High                   |        675 |      67.5 |\nAverages by load level:",
+  "id": 21
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Cognitive load",
+  "text": "| cognitive_load_level   |   sessions |   avg_productivity |   avg_focus |   avg_flow |   avg_interruptions |   avg_context_switches |\n|:-----------------------|-----------:|-------------------:|------------:|-----------:|--------------------:|-----------------------:|\n| Low                    |         54 |              69.67 |      117.38 |      44.29 |                1.17 |                   2.06 |\n| Medium                 |        271 |              59.92 |      104.37 |      33.93 |                2.4  |                   3.55 |\n| High                   |        675 |              43.1  |       82.19 |      18.82 |                4.43 |                   5.91 |\n- High-load sessions average productivity 43.1 vs 69.67 for Low-load sessions (Low has only 54 sessions, so treat with care).",
+  "id": 22
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Interruptions",
+  "text": "| interruption_count   |   sessions |   avg_productivity |   avg_flow |\n|:---------------------|-----------:|-------------------:|-----------:|\n| 0-1                  |        133 |              69.94 |      46.04 |\n| 2-3                  |        369 |              55.44 |      29.7  |\n| 4-5                  |        325 |              42.23 |      16.81 |\n| 6+                   |        173 |              32.41 |      10.06 |\n- Sessions with 0-1 interruptions average 69.94 productivity; sessions with 6+ interruptions average 32.41.",
+  "id": 23
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Spearman correlation with productivity_score",
+  "text": "|                             |   rho |\n|:----------------------------|------:|\n| interruption_count          | -0.61 |\n| context_switch_count        | -0.57 |\n| bug_count                   | -0.4  |\n| meeting_minutes             | -0.35 |\n| break_duration_minutes      |  0.35 |\n| coding_duration_minutes     |  0.66 |\n| tasks_completed             |  0.68 |\n| focus_duration_minutes      |  0.81 |\n| flow_state_duration_minutes |  0.9  |",
+  "id": 24
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "By experience level",
+  "text": "| experience_level   |   sessions |   avg_productivity |   avg_focus |   avg_flow |   avg_interruptions |   avg_context_switches |\n|:-------------------|-----------:|-------------------:|------------:|-----------:|--------------------:|-----------------------:|\n| Junior             |        218 |              43.57 |       86.37 |      18.27 |                3.52 |                   4.95 |\n| Lead               |         67 |              47.65 |       83.68 |      24    |                4.21 |                   5.51 |\n| Mid                |        307 |              49.77 |       89.56 |      23.61 |                3.54 |                   4.84 |\n| Senior             |        408 |              51.78 |       93.56 |      28.06 |                3.84 |                   5.22 |",
+  "id": 25
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "By work mode",
+  "text": "| work_mode   |   sessions |   avg_productivity |   avg_focus |   avg_flow |   avg_interruptions |   avg_context_switches |\n|:------------|-----------:|-------------------:|------------:|-----------:|--------------------:|-----------------------:|\n| Hybrid      |        268 |              49.97 |       95.9  |      25.15 |                3.62 |                   5.04 |\n| Office      |        302 |              43.52 |       81.03 |      19.57 |                4.83 |                   6.15 |\n| Remote      |        430 |              52.46 |       92.86 |      27.06 |                2.96 |                   4.32 |",
+  "id": 26
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "By task type",
+  "text": "| task_type           |   sessions |   avg_productivity |   avg_focus |   avg_flow |   avg_interruptions |   avg_context_switches |\n|:--------------------|-----------:|-------------------:|------------:|-----------:|--------------------:|-----------------------:|\n| Bug Fixing          |        221 |              46.74 |       84.99 |      22.88 |                3.84 |                   5.95 |\n| Code Review         |        134 |              52.71 |       92.63 |      26.12 |                3.62 |                   5.82 |\n| DevOps/Deployment   |         89 |              50.05 |       92.65 |      23.58 |                3.84 |                   4.88 |\n| Documentation       |         67 |              54.43 |       88.31 |      24.57 |                3.52 |                   3.73 |",
+  "id": 27
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "By task type",
+  "text": "| Feature Development |        302 |              45.82 |       88.3  |      23.65 |                3.64 |                   4.86 |\n| Refactoring         |         96 |              54.24 |      102.87 |      28.31 |                3.81 |                   3.94 |\n| Testing             |         91 |              50.03 |       90.14 |      23.34 |                3.58 |                   4.82 |",
+  "id": 28
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "By task complexity",
+  "text": "| task_complexity   |   sessions |   avg_productivity |   avg_focus |   avg_flow |   avg_interruptions |   avg_context_switches |\n|:------------------|-----------:|-------------------:|------------:|-----------:|--------------------:|-----------------------:|\n| High              |        229 |              47.07 |       91.35 |      22.84 |                3.58 |                   4.91 |\n| Low               |        290 |              49.49 |       89.64 |      22.41 |                3.69 |                   5.06 |\n| Medium            |        481 |              49.82 |       89.79 |      26.11 |                3.77 |                   5.14 |",
+  "id": 29
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Monthly trend",
+  "text": "- First month (2025-01) average productivity 51.14, last month (2025-10) 49.62.\n| session_date   |   sessions |   avg_productivity |   avg_flow |   avg_interruptions |\n|:---------------|-----------:|-------------------:|-----------:|--------------------:|\n| 2025-01        |         87 |              51.14 |      26.59 |                3.47 |\n| 2025-02        |        107 |              49.29 |      25.07 |                3.72 |\n| 2025-03        |        104 |              49.39 |      25.3  |                3.83 |\n| 2025-04        |         94 |              49.16 |      23.65 |                3.65 |\n| 2025-05        |        113 |              49.17 |      24.17 |                3.79 |\n| 2025-06        |         98 |              46.77 |      21.42 |                3.94 |\n| 2025-07        |        134 |              48.43 |      23.43 |                3.72 |",
+  "id": 30
+ },
+ {
+  "source": "reports/eda_findings.md",
+  "heading": "Monthly trend",
+  "text": "| 2025-08        |        114 |              48.3  |      22.09 |                3.82 |\n| 2025-09        |        100 |              50.46 |      26.88 |                3.54 |\n| 2025-10        |         49 |              49.62 |      25.69 |                3.27 |",
+  "id": 31
+ },
+ {
+  "source": "reports/data_quality_report.md",
+  "heading": "CogniStream - Data Quality Report",
+  "text": "Raw rows: 1000 | Cleaned rows: 1000 | Rows deleted: 0\nCleaning rules: (1) strip whitespace in text columns, (2) parse dates/times, (3) add derived columns (session_duration_minutes, focus_ratio, flow_ratio), (4) add flag_* columns. No row was deleted and no value was overwritten.\n| Status | Check | Result |\n|---|---|---|\n| INFO | Shape | 1000 rows x 20 columns |\n| PASS | Unexpected extra columns | none |\n| PASS | Missing values | none in any column |\n| PASS | Duplicate rows | 0 |\n| PASS | Duplicate session_id | 0 |\n| INFO | Unique developers | 50 |\n| PASS | Whitespace cleanup | 0 values changed |\n| INFO | Categories: experience_level | {'Senior': 408, 'Mid': 307, 'Junior': 218, 'Lead': 67} |\n| INFO | Categories: task_type | {'Feature Development': 302, 'Bug Fixing': 221, 'Code Review': 134, 'Refactoring': 96, 'Testing': 91, 'DevOps/Deployment': 89, 'Documentation': 67} |",
+  "id": 32
+ },
+ {
+  "source": "reports/data_quality_report.md",
+  "heading": "CogniStream - Data Quality Report",
+  "text": "| INFO | Categories: task_complexity | {'Medium': 481, 'Low': 290, 'High': 229} |\n| INFO | Categories: cognitive_load_level | {'High': 675, 'Medium': 271, 'Low': 54} |\n| INFO | Categories: work_mode | {'Remote': 430, 'Office': 302, 'Hybrid': 268} |\n| PASS | Date parsing | 0 invalid dates; range 2025-01-06 to 2025-10-10 |\n| INFO | Weekend sessions | 0 |\n| PASS | Time parsing | 0 invalid time values |\n| PASS | end_time after start_time | 0 rows violate this |\n| PASS | Negative values | none |\n| PASS | productivity_score within 0-100 | 0 rows outside |\n| PASS | Logic: focus <= coding | 0 violations |\n| PASS | Logic: flow <= focus | 0 violations |\n| PASS | Logic: coding <= session length | 0 violations |\n| PASS | Logic: coding + break + meeting = session length | 0 rows differ |",
+  "id": 33
+ },
+ {
+  "source": "reports/data_quality_report.md",
+  "heading": "CogniStream - Data Quality Report",
+  "text": "| INFO | IQR outliers (kept, not removed) | {'interruption_count': 13, 'context_switch_count': 24, 'flow_state_duration_minutes': 6, 'tasks_completed': 2, 'bug_count': 6, 'meeting_minutes': 1} |\n| FLAG | Flag: overlapping sessions (same developer, same day) | 35 overlapping pairs; 69 rows flagged (kept) |\n| FLAG | Flag: focus/coding ratio < 0.2 | 59 rows (kept) |\n| INFO | Flag: flow-state = 0 minutes | 36 rows (kept; plausible with many interruptions) |\n| FLAG | Class balance: cognitive_load_level | {'High': 675, 'Medium': 271, 'Low': 54} - Low is small, interpret with care |\n| FLAG | productivity_score definition | Formula/source NOT provided. A linear fit on other numeric columns gives R2=0.89, so it is related to them but the exact formula is unknown. Do not invent one. |",
+  "id": 34
+ },
+ {
+  "source": "reports/data_quality_report.md",
+  "heading": "CogniStream - Data Quality Report",
+  "text": "| FLAG | cognitive_load_level definition | Rule/source NOT provided. Levels overlap in interruptions and context switches, so it is not a simple threshold. Treat it as a given label. |\n| FLAG | Data origin | Source of dataset (real or synthetic) is not stated. Confirm with mentor before calling results real-world evidence. |\n**Legend:** PASS = no problem found; FLAG = needs review or caution; INFO = descriptive only.\nFlagged rows are unusual but NOT confirmed errors.",
+  "id": 35
+ }
+]
