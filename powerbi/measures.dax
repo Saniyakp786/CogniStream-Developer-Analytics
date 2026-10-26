@@ -1,0 +1,186 @@
+-- CogniStream DAX measures — match src/kpis.py exactly
+-- Table name assumed: DeveloperProductivity
+-- Import: powerbi/data/cleaned_developer_productivity.csv
+
+-- ========== Calculated columns ==========
+
+-- Interruption Band (matches interruption_bands bins: -1–1, 2–3, 4–5, 6+)
+Interruption Band =
+VAR n = DeveloperProductivity[interruption_count]
+RETURN
+    SWITCH(
+        TRUE(),
+        n <= 1, "0-1",
+        n <= 3, "2-3",
+        n <= 5, "4-5",
+        "6+"
+    )
+
+-- Sort order for cognitive load (Low=1, Medium=2, High=3)
+Cognitive Load Sort =
+SWITCH(
+    DeveloperProductivity[cognitive_load_level],
+    "Low", 1,
+    "Medium", 2,
+    "High", 3,
+    99
+)
+
+-- ========== Measures (same logic as kpis.overview_kpis / helpers) ==========
+
+Sessions =
+COUNTROWS ( DeveloperProductivity )
+
+Developers =
+DISTINCTCOUNT ( DeveloperProductivity[developer_id] )
+
+Avg Productivity =
+AVERAGE ( DeveloperProductivity[productivity_score] )
+
+Avg Focus Minutes =
+AVERAGE ( DeveloperProductivity[focus_duration_minutes] )
+
+Avg Flow Minutes =
+AVERAGE ( DeveloperProductivity[flow_state_duration_minutes] )
+
+Avg Interruptions =
+AVERAGE ( DeveloperProductivity[interruption_count] )
+
+Avg Context Switches =
+AVERAGE ( DeveloperProductivity[context_switch_count] )
+
+-- High Load % = High rows / total rows × 100  (matches pct_high_cognitive_load)
+High Load % =
+DIVIDE (
+    CALCULATE (
+        COUNTROWS ( DeveloperProductivity ),
+        DeveloperProductivity[cognitive_load_level] = "High"
+    ),
+    COUNTROWS ( DeveloperProductivity ),
+    0
+) * 100
+
+-- Flow Share of Focus % = SUM(flow) / SUM(focus) × 100
+Flow Share of Focus % =
+DIVIDE (
+    SUM ( DeveloperProductivity[flow_state_duration_minutes] ),
+    SUM ( DeveloperProductivity[focus_duration_minutes] ),
+    0
+) * 100
+
+-- Sessions where flow_state_duration_minutes is 0
+Sessions with Zero Flow =
+CALCULATE (
+    COUNTROWS ( DeveloperProductivity ),
+    DeveloperProductivity[flow_state_duration_minutes] = 0
+)
+
+-- Optional extras used on charts (same aggregations as summary_by / monthly_trend)
+
+Avg Coding Minutes =
+AVERAGE ( DeveloperProductivity[coding_duration_minutes] )
+
+Pct Sessions with Flow =
+DIVIDE (
+    CALCULATE (
+        COUNTROWS ( DeveloperProductivity ),
+        DeveloperProductivity[flow_state_duration_minutes] > 0
+    ),
+    COUNTROWS ( DeveloperProductivity ),
+    0
+) * 100
+
+
+-- ======================================================================
+-- Added for the Power BI-style chart upgrade.
+-- Existing measures above are unchanged. Thresholds match src/kpis.py:
+--   small sample < 30 sessions (kpis.SMALL_N), developer ranking needs >= 5 sessions.
+-- ======================================================================
+
+-- ========== More calculated columns (sorting + bins) ==========
+
+-- Month start date: use as the X axis of the monthly trend (continuous date axis, sorts correctly)
+Month Start =
+DATE ( YEAR ( DeveloperProductivity[session_date] ), MONTH ( DeveloperProductivity[session_date] ), 1 )
+
+-- Interruption Band Sort: set "Sort by column" of [Interruption Band] to this
+Interruption Band Sort =
+SWITCH (
+    TRUE (),
+    DeveloperProductivity[interruption_count] <= 1, 1,
+    DeveloperProductivity[interruption_count] <= 3, 2,
+    DeveloperProductivity[interruption_count] <= 5, 3,
+    4
+)
+
+-- Sort columns for the other ordinal fields (Sort by column on the matching text column)
+Experience Sort =
+SWITCH ( DeveloperProductivity[experience_level], "Junior", 1, "Mid", 2, "Senior", 3, "Lead", 4, 99 )
+
+Work Mode Sort =
+SWITCH ( DeveloperProductivity[work_mode], "Remote", 1, "Hybrid", 2, "Office", 3, 99 )
+
+Complexity Sort =
+SWITCH ( DeveloperProductivity[task_complexity], "Low", 1, "Medium", 2, "High", 3, 99 )
+
+-- 5-minute flow bins for the flow-duration histogram (X axis = Flow Bin, Y = Sessions)
+Flow Bin =
+FLOOR ( DeveloperProductivity[flow_state_duration_minutes], 5 )
+
+-- ========== Context / comparison measures ==========
+
+-- Average productivity of ALL sessions (ignores every slicer) = reference for cards and lines
+Avg Productivity (All Sessions) =
+CALCULATE ( [Avg Productivity], REMOVEFILTERS ( DeveloperProductivity ) )
+
+Avg Productivity vs All =
+[Avg Productivity] - [Avg Productivity (All Sessions)]
+
+Sessions (All) =
+CALCULATE ( [Sessions], REMOVEFILTERS ( DeveloperProductivity ) )
+
+Sessions % of All =
+DIVIDE ( [Sessions], [Sessions (All)], 0 )
+
+-- Text for card sub-labels / tooltips
+Avg Productivity Context =
+VAR d = [Avg Productivity vs All]
+RETURN
+    IF ( ISBLANK ( d ), "", IF ( d >= 0, "▲ ", "▼ " ) & FORMAT ( ABS ( d ), "0.0" ) & " vs all sessions" )
+
+-- ========== Cognitive load measures ==========
+
+-- Share of sessions per cognitive-load level among the sessions that pass the slicers
+Load Share % =
+DIVIDE (
+    [Sessions],
+    CALCULATE ( [Sessions], REMOVEFILTERS ( DeveloperProductivity[cognitive_load_level] ) ),
+    0
+)
+
+-- % of the row for the complexity x load matrix (put Load Share % on a matrix with
+-- Rows = task_complexity, Columns = cognitive_load_level)
+-- (same definition as above: it removes only the load filter, so each row adds up to 100 %)
+
+-- Semantic colour for conditional formatting ("Field value")
+Load Color =
+SWITCH (
+    SELECTEDVALUE ( DeveloperProductivity[cognitive_load_level] ),
+    "Low", "#2BA84A",
+    "Medium", "#F2C811",
+    "High", "#D64550",
+    "#118DFF"
+)
+
+-- ========== Small samples and rankings ==========
+
+Small Sample Flag =
+IF ( [Sessions] < 30, "⚠ Small sample (< 30 sessions)", "" )
+
+-- Developer ranking with the minimum-session rule (kpis.developer_ranking):
+-- use as the value of the ranking bar chart and add a visual-level Top N filter on developer_id.
+Eligible Avg Productivity =
+IF ( [Sessions] >= 5, [Avg Productivity], BLANK () )
+
+Zero Flow % =
+DIVIDE ( [Sessions with Zero Flow], [Sessions], 0 ) * 100
