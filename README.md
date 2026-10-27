@@ -90,3 +90,28 @@ Optional Gemini-backed responses: copy `.env.example` to `.env` and add your own
 python -m unittest discover -s tests -v
 python -m compileall -q app.py dashboard rag src tests
 ```
+## Project Overview
+
+CogniStream is a RAG-based application designed to retrieve relevant information from available data and generate context-aware responses.
+
+## Key Features
+
+- Retrieval-Augmented Generation (RAG) workflow
+- Interactive dashboard and data visualizations
+- Document-based information retrieval
+- AI-generated responses using the configured language model
+- Project setup and testing documentation
+
+## Installation and Setup
+
+1. Clone or download the project repository.
+2. Open the project folder in VS Code.
+3. Create and activate a Python virtual environment.
+4. Install the required dependencies using `pip install -r requirements.txt`.
+5. Configure the required environment variables in your local `.env` file.
+6. Run the application using the command documented for the project.
+
+## Security
+
+- Never commit API keys or passwords to GitHub.
+- Keep `.env` and other secret configuration files out of version control.
