@@ -115,3 +115,13 @@ CogniStream is a RAG-based application designed to retrieve relevant information
 
 - Never commit API keys or passwords to GitHub.
 - Keep `.env` and other secret configuration files out of version control.
+
+## Running the Project
+
+1. Open the CogniStream project folder in VS Code.
+2. Create and activate a Python virtual environment.
+3. Install the dependencies using `pip install -r requirements.txt`.
+4. Configure the required environment variables using the provided `.env.example` file.
+5. Start the application using the project's documented run command.
+
+Refer to the project configuration and existing documentation for the exact environment variables and startup command.
