@@ -7,3 +7,21 @@ plotly
 scikit-learn
 google-genai
 python-dotenv
+
+## Dependency Management
+
+CogniStream uses Python packages listed in `requirements.txt`.
+
+### Install Dependencies
+
+Run the following command from the project root:
+
+`python -m pip install -r requirements.txt`
+
+### Verify Dependencies
+
+Run:
+
+`python -m pip check`
+
+Review any reported dependency conflicts before running the application.
