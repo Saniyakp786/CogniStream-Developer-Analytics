@@ -125,3 +125,18 @@ CogniStream is a RAG-based application designed to retrieve relevant information
 5. Start the application using the project's documented run command.
 
 Refer to the project configuration and existing documentation for the exact environment variables and startup command.
+
+## Project Setup
+
+1. Download or clone the project repository.
+2. Open the project folder in VS Code.
+3. Install the required dependencies.
+4. Configure the required environment variables.
+5. Run the application using the project's setup instructions.
+
+## Project Features
+
+- RAG-based document retrieval
+- Interactive analytics dashboard
+- Data visualization
+- AI-powered question answering
