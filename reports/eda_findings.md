@@ -103,3 +103,17 @@ Averages by load level:
 | 2025-08        |        114 |              48.3  |      22.09 |                3.82 |
 | 2025-09        |        100 |              50.46 |      26.88 |                3.54 |
 | 2025-10        |         49 |              49.62 |      25.69 |                3.27 |
+
+## Key Business Insights
+
+1. Focus duration has a strong positive association with productivity score.
+2. Flow-state duration also shows a strong positive association with productivity.
+3. Sessions with more interruptions tend to have lower average productivity.
+4. Remote sessions show higher average productivity than office sessions in this dataset.
+5. High cognitive-load sessions have lower average productivity than low cognitive-load sessions.
+
+## Interpretation Notes
+
+- These findings represent associations, not cause-and-effect relationships.
+- Results describe the available dataset and should not be generalized without further validation.
+- The productivity score formula and dataset origin are not confirmed.
