@@ -17,3 +17,27 @@ All KPIs are calculated by the Python file src/kpis.py.
 - High cognitive load percent: share of sessions with cognitive_load_level equal to High.
 - Flow share of focus: total flow minutes divided by total focus minutes.
 - Spearman correlation: a rank-based association between two numeric columns, from minus 1 to plus 1. It describes association only and does not show cause and effect.
+
+## Dashboard Metric Interpretation
+
+### Productivity Score
+Use the average productivity score to summarize the selected sessions. It does not independently explain why productivity changes.
+
+### Focus and Flow
+Focus duration and flow-state duration should be interpreted together. Flow-state duration cannot exceed focus duration in the dataset.
+
+### Interruptions
+Average interruption count helps compare sessions and groups. It should not be treated as proof that interruptions cause lower productivity.
+
+### Cognitive Load
+Compare Low, Medium, and High cognitive-load groups carefully. The Low group contains fewer observations than the other groups.
+
+### Correlation
+Correlation values describe statistical relationships between variables. They do not establish cause and effect.
+
+## Reporting Recommendations
+
+- Mention the selected filters when reporting KPI values.
+- Include the number of sessions used in comparisons.
+- Avoid making causal claims from descriptive analytics.
+- Mention dataset limitations when presenting findings.
