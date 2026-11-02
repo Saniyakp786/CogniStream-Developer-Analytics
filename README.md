@@ -40,3 +40,15 @@ python rag/ingest.py
 streamlit run app.py
 ```
 Optional neural embeddings: pip install -r requirements-rag-extra.txt
+
+## Day 22 - RAG Retriever Improvements and Unit Testing
+
+### Work Completed
+- Improved text chunking in the RAG retriever.
+- Fixed the long-text splitting issue.
+- Added unit tests for retriever functionality.
+- Tested document chunk creation, empty documents, long-text splitting, and chunk ID assignment.
+
+### Testing
+- Command: python -m pytest tests/test_retriever.py -v
+- Result: All 4 tests passed.
