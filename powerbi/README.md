@@ -171,3 +171,23 @@ Before considering the Power BI report complete, verify the following:
 ## Report Maintenance
 
 Update this guide whenever the Power BI report structure, measures, or visual configurations change.
+
+## Data Usage Guidelines
+
+- Use developer_id to group sessions by developer.
+- Use session_id to identify individual work sessions.
+- Use session_date for date-based analysis.
+- Use work_mode to compare Remote, Office, and Hybrid sessions.
+- Use experience_level to compare developer experience groups.
+- Use task_type and task_complexity for task-based analysis.
+
+## Derived Column Usage
+
+- session_duration_minutes represents the total session duration.
+- focus_ratio represents focus duration divided by coding duration.
+- flow_ratio represents flow-state duration divided by focus duration.
+- Flag columns identify records that need additional review.
+
+## Important Note
+
+Derived columns should be interpreted according to their documented formulas. Flagged records should not automatically be treated as incorrect data.
