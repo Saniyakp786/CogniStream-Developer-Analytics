@@ -154,3 +154,20 @@ A group with fewer than **30 sessions** is unreliable (same rule as the Streamli
 | `theme.json` | Report theme (palette, Segoe UI, page background, grid lines) |
 | `data/cleaned_developer_productivity.csv` | Created by `python src/export_powerbi.py` |
 | `data/correlation_matrix_spearman.csv` | Created by `python src/export_powerbi.py` |
+
+## Final Dashboard Validation Checklist
+
+Before considering the Power BI report complete, verify the following:
+
+- [ ] All required CSV files are loaded.
+- [ ] Column data types are correctly assigned.
+- [ ] DAX measures return valid results.
+- [ ] KPI cards match the Streamlit dashboard using identical filters.
+- [ ] Slicers filter the relevant visuals correctly.
+- [ ] Chart titles and labels are readable.
+- [ ] Cognitive-load colours are consistent across visuals.
+- [ ] The report includes the dataset limitations and interpretation caution.
+
+## Report Maintenance
+
+Update this guide whenever the Power BI report structure, measures, or visual configurations change.
