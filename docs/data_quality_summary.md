@@ -34,3 +34,19 @@ Provides descriptive information about the dataset and its characteristics.
 - Do not remove valid outliers without a justified reason.
 - Confirm unknown metric formulas before making business conclusions.
 - Preserve the original dataset for comparison with cleaned data.
+
+## Data Quality Review Checklist
+
+- Verify missing values before analysis.
+- Check duplicate records.
+- Validate numeric and date columns.
+- Review flagged observations.
+- Compare cleaned data with the original dataset.
+- Record any assumptions made during preprocessing.
+
+## Reporting Recommendations
+
+- Report the dataset size used for analysis.
+- Document the cleaning steps performed.
+- Avoid presenting unverified values.
+- Mention limitations that may affect analytical results.
