@@ -140,3 +140,24 @@ Refer to the project configuration and existing documentation for the exact envi
 - Interactive analytics dashboard
 - Data visualization
 - AI-powered question answering
+
+## Project Modules
+
+### Dashboard
+Provides interactive visualizations and developer productivity insights.
+
+### Data Processing
+Handles dataset cleaning, preprocessing, and KPI calculations.
+
+### RAG Assistant
+Supports document ingestion, information retrieval, and question answering.
+
+### Power BI
+Contains Power BI resources, measures, and dashboard configuration.
+
+### Testing
+Contains automated tests for selected project components.
+
+## Project Maintenance
+
+Keep documentation updated whenever project features, configurations, or workflows change.
