@@ -11,3 +11,19 @@ The dataset comes without official documentation. The source of the data, and wh
 
 ## Pipeline
 Phase 1 cleans and validates the data without deleting rows. Phase 2 calculates KPIs and charts. Phase 3 is the Streamlit dashboard. Phase 4 is this retrieval-augmented assistant, which answers from project documents and from numbers calculated with Pandas.
+
+## RAG Assistant Workflow
+
+The RAG assistant combines project documentation with analytical information.
+
+### Main Workflow
+
+1. Project documents are processed for ingestion.
+2. Documents are divided into smaller text chunks.
+3. The chunks are converted into vector embeddings.
+4. Relevant information is retrieved for a user query.
+5. The assistant uses the retrieved context to generate an answer.
+
+### Purpose
+
+This workflow helps users ask questions about project documentation and developer productivity analytics.
