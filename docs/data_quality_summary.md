@@ -15,3 +15,22 @@ These rows are unusual but are not confirmed errors, so they were kept and only 
 
 ## Known limitations
 The formulas for productivity_score and cognitive_load_level are not provided. The origin of the dataset is not stated, so it should not be presented as real-world evidence until the source is confirmed.
+
+## Understanding Data Quality Results
+
+### PASS
+The validation rule was checked and no issue was found.
+
+### FLAG
+The records require additional review. A flagged record is not automatically an incorrect record.
+
+### INFO
+Provides descriptive information about the dataset and its characteristics.
+
+## Data Review Recommendations
+
+- Review overlapping sessions before interpreting individual developer activity.
+- Consider the small number of Low cognitive-load sessions when comparing categories.
+- Do not remove valid outliers without a justified reason.
+- Confirm unknown metric formulas before making business conclusions.
+- Preserve the original dataset for comparison with cleaned data.
