@@ -68,3 +68,18 @@ Optional neural embeddings: pip install -r requirements-rag-extra.txt
 - Result: All 4 integration tests passed.
 - Full test suite: python -m pytest -v
 - Result: All 12 tests passed.
+
+## Day 24 - RAG Index Persistence Testing
+
+### Work Completed
+- Added tests for RAG index persistence.
+- Verified that chunks, metadata, and vector files are saved.
+- Checked saved chunks against the original chunks.
+- Validated embedding backend metadata.
+- Verified saved NumPy vectors match the original vectors.
+
+### Testing
+- Command: python -m pytest tests/test_index_persistence.py -v
+- Result: All 4 persistence tests passed.
+- Full test suite: python -m pytest -v
+- Result: All 16 tests passed.
