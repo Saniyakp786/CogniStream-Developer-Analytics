@@ -77,7 +77,6 @@ def validate_dataframe(df):
         if missing_columns else "All required columns are present"
     )
 
-    # Stop checks that require unavailable columns
     available_columns = set(df.columns)
 
     # Check 3: Missing values
@@ -170,6 +169,54 @@ def validate_dataframe(df):
             f"{invalid_times} invalid time values"
         )
 
+    # Check 10: Focus duration should not exceed coding duration
+    if {
+        "focus_duration_minutes",
+        "coding_duration_minutes"
+    }.issubset(available_columns):
+
+        focus = pd.to_numeric(
+            df["focus_duration_minutes"], errors="coerce"
+        )
+        coding = pd.to_numeric(
+            df["coding_duration_minutes"], errors="coerce"
+        )
+
+        valid_rows = focus.notna() & coding.notna()
+        invalid_focus = int(
+            (focus[valid_rows] > coding[valid_rows]).sum()
+        )
+
+        add_result(
+            "Focus duration <= Coding duration",
+            invalid_focus == 0,
+            f"{invalid_focus} inconsistent records found"
+        )
+
+    # Check 11: Flow duration should not exceed focus duration
+    if {
+        "flow_state_duration_minutes",
+        "focus_duration_minutes"
+    }.issubset(available_columns):
+
+        flow = pd.to_numeric(
+            df["flow_state_duration_minutes"], errors="coerce"
+        )
+        focus = pd.to_numeric(
+            df["focus_duration_minutes"], errors="coerce"
+        )
+
+        valid_rows = flow.notna() & focus.notna()
+        invalid_flow = int(
+            (flow[valid_rows] > focus[valid_rows]).sum()
+        )
+
+        add_result(
+            "Flow duration <= Focus duration",
+            invalid_flow == 0,
+            f"{invalid_flow} inconsistent records found"
+        )
+
     return results
 
 
@@ -190,7 +237,7 @@ def print_validation_report(results):
     """Display validation results."""
 
     print("\nCogniStream - Data Validation Report")
-    print("=" * 45)
+    print("=" * 50)
 
     for result in results:
         print(
@@ -201,7 +248,7 @@ def print_validation_report(results):
     passed = sum(r["status"] == "PASS" for r in results)
     failed = sum(r["status"] == "FAIL" for r in results)
 
-    print("=" * 45)
+    print("=" * 50)
     print(f"Total checks: {len(results)}")
     print(f"Passed: {passed}")
     print(f"Failed: {failed}")

@@ -131,3 +131,26 @@ def test_original_dataframe_not_modified():
     validate_dataframe(df)
 
     pd.testing.assert_frame_equal(df, original)
+
+def test_focus_duration_exceeds_coding_duration():
+    df = create_valid_dataframe()
+    df.loc[0, "focus_duration_minutes"] = 80
+    df.loc[0, "coding_duration_minutes"] = 60
+
+    results = validate_dataframe(df)
+
+    assert get_status(
+        results, "Focus duration <= Coding duration"
+    ) == "FAIL"
+
+
+def test_flow_duration_exceeds_focus_duration():
+    df = create_valid_dataframe()
+    df.loc[0, "flow_state_duration_minutes"] = 60
+    df.loc[0, "focus_duration_minutes"] = 50
+
+    results = validate_dataframe(df)
+
+    assert get_status(
+        results, "Flow duration <= Focus duration"
+    ) == "FAIL"
