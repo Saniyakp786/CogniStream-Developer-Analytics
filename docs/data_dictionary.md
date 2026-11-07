@@ -41,3 +41,28 @@ These descriptions come from the column names and the observed values. The datas
 - flag_overlapping_session: true when the same developer has another session on the same day that overlaps in time.
 - flag_low_focus_ratio: true when focus_ratio is below 0.2.
 - flag_zero_flow: true when flow_state_duration_minutes is 0.
+
+## Dataset Profile
+
+The CogniStream dataset contains 1,000 developer work-session records.
+
+### Dataset Summary
+
+- Total records: 1,000
+- Original dataset columns: 20
+- Cleaned dataset columns: 26
+- Unique developers: 50
+- Unique session IDs: 1,000
+- Missing values: 0
+- Duplicate rows: 0
+- Duplicate session IDs: 0
+
+### Work Mode Distribution
+
+- Remote: 430 sessions
+- Office: 302 sessions
+- Hybrid: 268 sessions
+
+### Data Interpretation
+
+These values describe the dataset included in this project. They should not be treated as general statistics about all software developers.
