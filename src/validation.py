@@ -1,9 +1,16 @@
 
 """CogniStream - Reusable dataset validation module."""
 
+
 from pathlib import Path
 
 import pandas as pd
+
+from data_quality_report import (
+    generate_data_quality_report,
+    save_data_quality_report,
+    print_data_quality_report,
+)
 
 
 REQUIRED_COLUMNS = [
@@ -253,7 +260,6 @@ def print_validation_report(results):
     print(f"Passed: {passed}")
     print(f"Failed: {failed}")
 
-
 if __name__ == "__main__":
     dataset = (
         Path(__file__).resolve().parent.parent
@@ -261,5 +267,24 @@ if __name__ == "__main__":
         / "developer_productivity_dataset.csv"
     )
 
-    report = validate_csv(dataset)
-    print_validation_report(report)
+    report_results = validate_csv(dataset)
+
+    print_validation_report(report_results)
+
+    quality_report = generate_data_quality_report(
+        report_results
+    )
+
+    print_data_quality_report(quality_report)
+
+    output_path = (
+        Path(__file__).resolve().parent.parent
+        / "reports"
+        / "data_quality_report.json"
+    )
+
+    saved_path = save_data_quality_report(
+        quality_report, output_path
+    )
+
+    print(f"\nJSON report saved successfully: {saved_path}")
