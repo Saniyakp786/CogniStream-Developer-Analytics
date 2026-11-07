@@ -41,3 +41,29 @@ Correlation values describe statistical relationships between variables. They do
 - Include the number of sessions used in comparisons.
 - Avoid making causal claims from descriptive analytics.
 - Mention dataset limitations when presenting findings.
+
+## Additional KPI Calculation Details
+
+### Average Productivity
+Calculated as the mean of productivity_score for the selected sessions.
+
+### Average Focus Duration
+Calculated as the mean of focus_duration_minutes.
+
+### Average Flow Duration
+Calculated as the mean of flow_state_duration_minutes.
+
+### High Cognitive Load Percentage
+Calculated as the percentage of selected sessions where cognitive_load_level is High.
+
+### Flow Share of Focus
+Calculated as:
+
+Total flow-state duration / Total focus duration × 100
+
+### Average Interruptions
+Calculated as the mean of interruption_count.
+
+## Filter Considerations
+
+KPI values can change when filters are applied. Always mention the selected date range, work mode, and other relevant filters when comparing dashboard results.
